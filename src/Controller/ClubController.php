@@ -5,6 +5,7 @@ namespace App\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
+use App\Repository\ClubRepository; 
 
 final class ClubController extends AbstractController
 {
@@ -16,11 +17,11 @@ final class ClubController extends AbstractController
     // Transformer en tableau simple
     $clubsArray = array_map(function($club) {
         return [
-            'name' => $club->getName(),
-            'stadium' => $club->getStadium(),
-            'latitude' => $club->getLatitude(),
-            'longitude' => $club->getLongitude(),
-            'logo' => '/images/logos/' . $club->getLogo(), // chemin relatif vers le logo
+            'name' => $club->getNomClub(),
+            'logo' => '/images/logos/' . $club->getLogoClub(),
+            'stadium' => $club->getNomStadeClub(),
+            'latitude' => $club->getLatitudeStadeClub(),
+            'longitude' => $club->getLongitudeStadeClub(),
         ];
     }, $clubs);
 
