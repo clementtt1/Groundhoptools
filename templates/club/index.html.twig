@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Carte des clubs{% endblock %}
+
+{% block body %}
+<h1>Carte des clubs de football</h1>
+
+<div id="map" style="height: 600px; width: 100%;"></div>
+
+<!-- Leaflet CSS et JS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script>
+const map = L.map('map').setView([46.6, 2.3], 5);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+const clubs = {{ clubs|json_encode()|raw }};
+
+clubs.forEach(club => {
+    const clubIcon = L.icon({
+        iconUrl: club.logo,     // chemin vers le logo
+        iconSize: [40, 40],     // taille du logo
+        iconAnchor: [20, 40],   // centre du bas du logo
+        popupAnchor: [0, -40]   // position du popup
+    });
+
+    L.marker([club.latitude, club.longitude], { icon: clubIcon })
+        .addTo(map)
+        .bindPopup(`<b>${club.name}</b><br>${club.stadium}`);
+});
+</script>
+
+{% endblock %}
