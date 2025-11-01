@@ -3,7 +3,7 @@
 {% block title %}Carte des clubs{% endblock %}
 
 {% block body %}
- <h1 class="text-center text-primary">Hello Symfony + Bootstrap 🎉</h1>
+ <h1 class="text-center">Titre</h1>
 
 <div id="map" style="height: 600px; width: 100%;"></div>
 
@@ -23,7 +23,6 @@
     const clubs = {{ clubs|json_encode()|raw }};
 
     clubs.forEach(club => {
-        // On utilise asset() pour générer l'URL publique correcte
         const iconUrl = "{{ asset('images/logos/') }}" + club.logo;
 
         const clubIcon = L.icon({
