@@ -18,7 +18,7 @@ final class ClubController extends AbstractController
     $clubsArray = array_map(function($club) {
         return [
             'name' => $club->getNomClub(),
-            'logo' => '/images/logos/' . $club->getLogoClub(),
+            'logo' => $club->getLogoClub(),
             'stadium' => $club->getNomStadeClub(),
             'latitude' => $club->getLatitudeStadeClub(),
             'longitude' => $club->getLongitudeStadeClub(),
