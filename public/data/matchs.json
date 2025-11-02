@@ -1,0 +1,1398 @@
+{
+  "updatedAt": "2025-11-02T22:14:50.239Z",
+  "fixtures": [
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Nice",
+      "startTime": "2025-11-01T16:00:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Paris FC",
+      "startTime": "2025-11-01T18:00:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "Auxerre",
+      "awayTeam": "Olympique de Marseille",
+      "startTime": "2025-11-01T20:05:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "Stade Rennais",
+      "awayTeam": "RC Strasbourg",
+      "startTime": "2025-11-02T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "Lille",
+      "awayTeam": "Angers",
+      "startTime": "2025-11-02T16:15:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "Nantes",
+      "awayTeam": "Metz",
+      "startTime": "2025-11-02T16:15:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "RC Lens",
+      "awayTeam": "Lorient",
+      "startTime": "2025-11-02T16:15:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "Toulouse",
+      "awayTeam": "Le Havre",
+      "startTime": "2025-11-02T16:15:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "Stade Brestois",
+      "awayTeam": "Olympique Lyonnais",
+      "startTime": "2025-11-02T19:45:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 2",
+      "homeTeam": "Amiens SC",
+      "awayTeam": "Grenoble Foot 38",
+      "startTime": "2025-11-01T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 2",
+      "homeTeam": "Stade de Reims",
+      "awayTeam": "USL Dunkerque",
+      "startTime": "2025-11-01T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 2",
+      "homeTeam": "Red Star FC",
+      "awayTeam": "Saint-Étienne",
+      "startTime": "2025-11-01T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "Olympique Akbou",
+      "awayTeam": "MB Rouissat",
+      "startTime": "2025-11-01T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "MC Oran",
+      "awayTeam": "CS Constantine",
+      "startTime": "2025-11-01T17:00:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "ES Ben Aknoun",
+      "awayTeam": "ES Sétif",
+      "startTime": "2025-11-02T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "ES Mostaganem",
+      "awayTeam": "CR Belouizdad",
+      "startTime": "2025-11-02T16:00:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "USM Alger",
+      "awayTeam": "ASO Chlef",
+      "startTime": "2025-11-02T18:00:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "Avenir Sportif De Gabes",
+      "awayTeam": "US Monastir",
+      "startTime": "2025-11-01T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "Club Africain",
+      "awayTeam": "AS Soliman",
+      "startTime": "2025-11-01T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "Etoile Sportive Du Sahel",
+      "awayTeam": "ES Métlaoui",
+      "startTime": "2025-11-01T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "US Ben Guerdane",
+      "awayTeam": "JS Kairouanaise",
+      "startTime": "2025-11-01T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "CA Bizertin",
+      "awayTeam": "Olympique Béja",
+      "startTime": "2025-11-02T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "CS Sfaxien",
+      "awayTeam": "Espérance Tunis",
+      "startTime": "2025-11-02T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "ES Zarzis",
+      "awayTeam": "Avenir Sportif De La Marsa",
+      "startTime": "2025-11-02T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "Ligue 1",
+      "homeTeam": "JS Omrane",
+      "awayTeam": "Stade Tunisien",
+      "startTime": "2025-11-02T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-03",
+      "league": "Ligue 2",
+      "homeTeam": "Pau FC",
+      "awayTeam": "Troyes",
+      "startTime": "2025-11-03T19:45:00.000Z"
+    },
+    {
+      "date": "2025-11-03",
+      "league": "Ligue 1",
+      "homeTeam": "Paradou AC",
+      "awayTeam": "USM Khenchela",
+      "startTime": "2025-11-03T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-03",
+      "league": "Ligue 1",
+      "homeTeam": "JS Kabylie",
+      "awayTeam": "MC El Bayadh",
+      "startTime": "2025-11-03T16:45:00.000Z"
+    },
+    {
+      "date": "2025-11-03",
+      "league": "Ligue 1",
+      "homeTeam": "MC Alger",
+      "awayTeam": "JS Saoura",
+      "startTime": "2025-11-03T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-04",
+      "league": "Ligue 1",
+      "homeTeam": "AS Soliman",
+      "awayTeam": "US Ben Guerdane",
+      "startTime": "2025-11-04T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-04",
+      "league": "Ligue 1",
+      "homeTeam": "JS Kairouanaise",
+      "awayTeam": "Avenir Sportif De Gabes",
+      "startTime": "2025-11-04T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-05",
+      "league": "Ligue 1",
+      "homeTeam": "Avenir Sportif De La Marsa",
+      "awayTeam": "CA Bizertin",
+      "startTime": "2025-11-05T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-05",
+      "league": "Ligue 1",
+      "homeTeam": "ES Métlaoui",
+      "awayTeam": "US Monastir",
+      "startTime": "2025-11-05T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-05",
+      "league": "Ligue 1",
+      "homeTeam": "Etoile Sportive Du Sahel",
+      "awayTeam": "ES Zarzis",
+      "startTime": "2025-11-05T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-05",
+      "league": "Ligue 1",
+      "homeTeam": "Olympique Béja",
+      "awayTeam": "CS Sfaxien",
+      "startTime": "2025-11-05T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-06",
+      "league": "Ligue 1",
+      "homeTeam": "Espérance Tunis",
+      "awayTeam": "JS Omrane",
+      "startTime": "2025-11-06T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-06",
+      "league": "Ligue 1",
+      "homeTeam": "Stade Tunisien",
+      "awayTeam": "Club Africain",
+      "startTime": "2025-11-06T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-07",
+      "league": "Ligue 1",
+      "homeTeam": "Paris FC",
+      "awayTeam": "Stade Rennais",
+      "startTime": "2025-11-07T19:45:00.000Z"
+    },
+    {
+      "date": "2025-11-07",
+      "league": "Ligue 2",
+      "homeTeam": "Bastia",
+      "awayTeam": "Stade de Reims",
+      "startTime": "2025-11-07T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-07",
+      "league": "Ligue 2",
+      "homeTeam": "Clermont Foot",
+      "awayTeam": "Amiens SC",
+      "startTime": "2025-11-07T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-07",
+      "league": "Ligue 2",
+      "homeTeam": "Grenoble Foot 38",
+      "awayTeam": "Rodez AF",
+      "startTime": "2025-11-07T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-07",
+      "league": "Ligue 2",
+      "homeTeam": "Montpellier",
+      "awayTeam": "Annecy FC",
+      "startTime": "2025-11-07T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-07",
+      "league": "Ligue 2",
+      "homeTeam": "Nancy",
+      "awayTeam": "Stade Lavallois",
+      "startTime": "2025-11-07T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-07",
+      "league": "Ligue 2",
+      "homeTeam": "USL Dunkerque",
+      "awayTeam": "US Boulogne Côte-d'Opale",
+      "startTime": "2025-11-07T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Ligue 1",
+      "homeTeam": "Olympique de Marseille",
+      "awayTeam": "Stade Brestois",
+      "startTime": "2025-11-08T16:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Ligue 1",
+      "homeTeam": "Le Havre",
+      "awayTeam": "Nantes",
+      "startTime": "2025-11-08T18:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Ligue 1",
+      "homeTeam": "AS Monaco",
+      "awayTeam": "RC Lens",
+      "startTime": "2025-11-08T20:05:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Ligue 2",
+      "homeTeam": "Guingamp",
+      "awayTeam": "Pau FC",
+      "startTime": "2025-11-08T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Ligue 2",
+      "homeTeam": "Le Mans",
+      "awayTeam": "Red Star FC",
+      "startTime": "2025-11-08T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Ligue 2",
+      "homeTeam": "Troyes",
+      "awayTeam": "Saint-Étienne",
+      "startTime": "2025-11-08T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Ligue 1",
+      "homeTeam": "CR Belouizdad",
+      "awayTeam": "USM Alger",
+      "startTime": "2025-11-08T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Ligue 1",
+      "homeTeam": "ES Sétif",
+      "awayTeam": "Olympique Akbou",
+      "startTime": "2025-11-08T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Ligue 1",
+      "homeTeam": "MB Rouissat",
+      "awayTeam": "MC Oran",
+      "startTime": "2025-11-08T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Ligue 1",
+      "homeTeam": "USM Khenchela",
+      "awayTeam": "ES Mostaganem",
+      "startTime": "2025-11-08T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Ligue 1",
+      "homeTeam": "Avenir Sportif De Gabes",
+      "awayTeam": "AS Soliman",
+      "startTime": "2025-11-08T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Ligue 1",
+      "homeTeam": "CA Bizertin",
+      "awayTeam": "Etoile Sportive Du Sahel",
+      "startTime": "2025-11-08T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Ligue 1",
+      "homeTeam": "CS Sfaxien",
+      "awayTeam": "Avenir Sportif De La Marsa",
+      "startTime": "2025-11-08T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Ligue 1",
+      "homeTeam": "US Monastir",
+      "awayTeam": "JS Kairouanaise",
+      "startTime": "2025-11-08T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "Ligue 1",
+      "homeTeam": "Lorient",
+      "awayTeam": "Toulouse",
+      "startTime": "2025-11-09T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "Ligue 1",
+      "homeTeam": "Angers",
+      "awayTeam": "Auxerre",
+      "startTime": "2025-11-09T16:15:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "Ligue 1",
+      "homeTeam": "Metz",
+      "awayTeam": "Nice",
+      "startTime": "2025-11-09T16:15:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "Ligue 1",
+      "homeTeam": "RC Strasbourg",
+      "awayTeam": "Lille",
+      "startTime": "2025-11-09T16:15:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "Ligue 1",
+      "homeTeam": "Olympique Lyonnais",
+      "awayTeam": "Paris Saint-Germain",
+      "startTime": "2025-11-09T19:45:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "Ligue 1",
+      "homeTeam": "ASO Chlef",
+      "awayTeam": "ES Ben Aknoun",
+      "startTime": "2025-11-09T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "Ligue 1",
+      "homeTeam": "CS Constantine",
+      "awayTeam": "JS Kabylie",
+      "startTime": "2025-11-09T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "Ligue 1",
+      "homeTeam": "JS Saoura",
+      "awayTeam": "Paradou AC",
+      "startTime": "2025-11-09T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "Ligue 1",
+      "homeTeam": "MC El Bayadh",
+      "awayTeam": "MC Alger",
+      "startTime": "2025-11-09T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "Ligue 1",
+      "homeTeam": "Club Africain",
+      "awayTeam": "Espérance Tunis",
+      "startTime": "2025-11-09T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "Ligue 1",
+      "homeTeam": "ES Métlaoui",
+      "awayTeam": "ES Zarzis",
+      "startTime": "2025-11-09T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "Ligue 1",
+      "homeTeam": "US Ben Guerdane",
+      "awayTeam": "Stade Tunisien",
+      "startTime": "2025-11-09T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-10",
+      "league": "Ligue 1",
+      "homeTeam": "JS Omrane",
+      "awayTeam": "Olympique Béja",
+      "startTime": "2025-11-10T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-21",
+      "league": "Ligue 1",
+      "homeTeam": "Nice",
+      "awayTeam": "Olympique de Marseille",
+      "startTime": "2025-11-21T19:45:00.000Z"
+    },
+    {
+      "date": "2025-11-21",
+      "league": "Ligue 2",
+      "homeTeam": "Annecy FC",
+      "awayTeam": "Bastia",
+      "startTime": "2025-11-21T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-21",
+      "league": "Ligue 2",
+      "homeTeam": "Pau FC",
+      "awayTeam": "Le Mans",
+      "startTime": "2025-11-21T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-21",
+      "league": "Ligue 2",
+      "homeTeam": "Rodez AF",
+      "awayTeam": "USL Dunkerque",
+      "startTime": "2025-11-21T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-21",
+      "league": "Ligue 2",
+      "homeTeam": "Stade Lavallois",
+      "awayTeam": "Troyes",
+      "startTime": "2025-11-21T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-21",
+      "league": "Ligue 2",
+      "homeTeam": "US Boulogne Côte-d'Opale",
+      "awayTeam": "Grenoble Foot 38",
+      "startTime": "2025-11-21T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-21",
+      "league": "Ligue 2",
+      "homeTeam": "Stade de Reims",
+      "awayTeam": "Montpellier",
+      "startTime": "2025-11-21T20:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Ligue 1",
+      "homeTeam": "RC Lens",
+      "awayTeam": "RC Strasbourg",
+      "startTime": "2025-11-22T16:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Ligue 1",
+      "homeTeam": "Stade Rennais",
+      "awayTeam": "AS Monaco",
+      "startTime": "2025-11-22T18:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Ligue 1",
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Le Havre",
+      "startTime": "2025-11-22T20:05:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Ligue 2",
+      "homeTeam": "Amiens SC",
+      "awayTeam": "Guingamp",
+      "startTime": "2025-11-22T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Ligue 2",
+      "homeTeam": "Red Star FC",
+      "awayTeam": "Clermont Foot",
+      "startTime": "2025-11-22T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Ligue 2",
+      "homeTeam": "Saint-Étienne",
+      "awayTeam": "Nancy",
+      "startTime": "2025-11-22T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "Ligue 1",
+      "homeTeam": "Auxerre",
+      "awayTeam": "Olympique Lyonnais",
+      "startTime": "2025-11-23T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "Ligue 1",
+      "homeTeam": "Nantes",
+      "awayTeam": "Lorient",
+      "startTime": "2025-11-23T16:15:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "Ligue 1",
+      "homeTeam": "Stade Brestois",
+      "awayTeam": "Metz",
+      "startTime": "2025-11-23T16:15:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "Ligue 1",
+      "homeTeam": "Toulouse",
+      "awayTeam": "Angers",
+      "startTime": "2025-11-23T16:15:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "Ligue 1",
+      "homeTeam": "Lille",
+      "awayTeam": "Paris FC",
+      "startTime": "2025-11-23T19:45:00.000Z"
+    },
+    {
+      "date": "2025-11-24",
+      "league": "Ligue 2",
+      "homeTeam": "Stade de Reims",
+      "awayTeam": "Montpellier",
+      "startTime": "2025-11-24T19:45:00.000Z"
+    },
+    {
+      "date": "2025-11-28",
+      "league": "Ligue 1",
+      "homeTeam": "Metz",
+      "awayTeam": "Stade Rennais",
+      "startTime": "2025-11-28T19:45:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Ligue 1",
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Paris Saint-Germain",
+      "startTime": "2025-11-29T16:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Ligue 1",
+      "homeTeam": "Paris FC",
+      "awayTeam": "Auxerre",
+      "startTime": "2025-11-29T18:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Ligue 1",
+      "homeTeam": "Olympique de Marseille",
+      "awayTeam": "Toulouse",
+      "startTime": "2025-11-29T20:05:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "Ligue 1",
+      "homeTeam": "RC Strasbourg",
+      "awayTeam": "Stade Brestois",
+      "startTime": "2025-11-30T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "Ligue 1",
+      "homeTeam": "Angers",
+      "awayTeam": "RC Lens",
+      "startTime": "2025-11-30T16:15:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "Ligue 1",
+      "homeTeam": "Le Havre",
+      "awayTeam": "Lille",
+      "startTime": "2025-11-30T16:15:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "Ligue 1",
+      "homeTeam": "Lorient",
+      "awayTeam": "Nice",
+      "startTime": "2025-11-30T16:15:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "Ligue 1",
+      "homeTeam": "Olympique Lyonnais",
+      "awayTeam": "Nantes",
+      "startTime": "2025-11-30T19:45:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "Ligue 1",
+      "homeTeam": "Stade Brestois",
+      "awayTeam": "AS Monaco",
+      "startTime": "2025-12-05T18:00:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "Ligue 1",
+      "homeTeam": "Lille",
+      "awayTeam": "Olympique de Marseille",
+      "startTime": "2025-12-05T20:00:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "Ligue 2",
+      "homeTeam": "Bastia",
+      "awayTeam": "Red Star FC",
+      "startTime": "2025-12-05T19:00:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "Ligue 2",
+      "homeTeam": "Clermont Foot",
+      "awayTeam": "US Boulogne Côte-d'Opale",
+      "startTime": "2025-12-05T19:00:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "Ligue 2",
+      "homeTeam": "Grenoble Foot 38",
+      "awayTeam": "Nancy",
+      "startTime": "2025-12-05T19:00:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "Ligue 2",
+      "homeTeam": "Guingamp",
+      "awayTeam": "Annecy FC",
+      "startTime": "2025-12-05T19:00:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "Ligue 2",
+      "homeTeam": "Le Mans",
+      "awayTeam": "Amiens SC",
+      "startTime": "2025-12-05T19:00:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Ligue 1",
+      "homeTeam": "Nantes",
+      "awayTeam": "RC Lens",
+      "startTime": "2025-12-06T16:00:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Ligue 1",
+      "homeTeam": "Toulouse",
+      "awayTeam": "RC Strasbourg",
+      "startTime": "2025-12-06T18:00:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Ligue 1",
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Stade Rennais",
+      "startTime": "2025-12-06T20:05:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Ligue 2",
+      "homeTeam": "Montpellier",
+      "awayTeam": "Pau FC",
+      "startTime": "2025-12-06T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Ligue 2",
+      "homeTeam": "Troyes",
+      "awayTeam": "Rodez AF",
+      "startTime": "2025-12-06T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Ligue 2",
+      "homeTeam": "USL Dunkerque",
+      "awayTeam": "Saint-Étienne",
+      "startTime": "2025-12-06T19:00:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Ligue 2",
+      "homeTeam": "Stade de Reims",
+      "awayTeam": "Stade Lavallois",
+      "startTime": "2025-12-06T19:45:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
+      "league": "Ligue 1",
+      "homeTeam": "Nice",
+      "awayTeam": "Angers",
+      "startTime": "2025-12-07T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
+      "league": "Ligue 1",
+      "homeTeam": "Auxerre",
+      "awayTeam": "Metz",
+      "startTime": "2025-12-07T16:15:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
+      "league": "Ligue 1",
+      "homeTeam": "Le Havre",
+      "awayTeam": "Paris FC",
+      "startTime": "2025-12-07T16:15:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
+      "league": "Ligue 1",
+      "homeTeam": "Lorient",
+      "awayTeam": "Olympique Lyonnais",
+      "startTime": "2025-12-07T19:45:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "Ligue 1",
+      "homeTeam": "Angers",
+      "awayTeam": "Nantes",
+      "startTime": "2025-12-12T19:45:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "Ligue 2",
+      "homeTeam": "Annecy FC",
+      "awayTeam": "Le Mans",
+      "startTime": "2025-12-12T19:00:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "Ligue 2",
+      "homeTeam": "Nancy",
+      "awayTeam": "Clermont Foot",
+      "startTime": "2025-12-12T19:00:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "Ligue 2",
+      "homeTeam": "Pau FC",
+      "awayTeam": "Amiens SC",
+      "startTime": "2025-12-12T19:00:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "Ligue 2",
+      "homeTeam": "Rodez AF",
+      "awayTeam": "Guingamp",
+      "startTime": "2025-12-12T19:00:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "Ligue 2",
+      "homeTeam": "Stade Lavallois",
+      "awayTeam": "USL Dunkerque",
+      "startTime": "2025-12-12T19:00:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "Ligue 2",
+      "homeTeam": "US Boulogne Côte-d'Opale",
+      "awayTeam": "Troyes",
+      "startTime": "2025-12-12T20:00:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Ligue 1",
+      "homeTeam": "Stade Rennais",
+      "awayTeam": "Stade Brestois",
+      "startTime": "2025-12-13T16:00:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Ligue 1",
+      "homeTeam": "Metz",
+      "awayTeam": "Paris Saint-Germain",
+      "startTime": "2025-12-13T18:00:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Ligue 1",
+      "homeTeam": "Paris FC",
+      "awayTeam": "Toulouse",
+      "startTime": "2025-12-13T20:05:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Ligue 2",
+      "homeTeam": "Grenoble Foot 38",
+      "awayTeam": "Montpellier",
+      "startTime": "2025-12-13T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Ligue 2",
+      "homeTeam": "Red Star FC",
+      "awayTeam": "Stade de Reims",
+      "startTime": "2025-12-13T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Ligue 2",
+      "homeTeam": "Saint-Étienne",
+      "awayTeam": "Bastia",
+      "startTime": "2025-12-13T19:00:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "Ligue 1",
+      "homeTeam": "Olympique Lyonnais",
+      "awayTeam": "Le Havre",
+      "startTime": "2025-12-14T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "Ligue 1",
+      "homeTeam": "Auxerre",
+      "awayTeam": "Lille",
+      "startTime": "2025-12-14T16:15:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "Ligue 1",
+      "homeTeam": "RC Lens",
+      "awayTeam": "Nice",
+      "startTime": "2025-12-14T16:15:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "Ligue 1",
+      "homeTeam": "RC Strasbourg",
+      "awayTeam": "Lorient",
+      "startTime": "2025-12-14T16:15:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "Ligue 1",
+      "homeTeam": "Olympique de Marseille",
+      "awayTeam": "AS Monaco",
+      "startTime": "2025-12-14T19:45:00.000Z"
+    },
+    {
+      "date": "2025-12-15",
+      "league": "Ligue 2",
+      "homeTeam": "US Boulogne Côte-d'Opale",
+      "awayTeam": "Troyes",
+      "startTime": "2025-12-15T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-02",
+      "league": "Ligue 2",
+      "homeTeam": "Amiens SC",
+      "awayTeam": "Nancy",
+      "startTime": "2026-01-02T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-02",
+      "league": "Ligue 2",
+      "homeTeam": "Bastia",
+      "awayTeam": "Grenoble Foot 38",
+      "startTime": "2026-01-02T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-02",
+      "league": "Ligue 2",
+      "homeTeam": "Clermont Foot",
+      "awayTeam": "Stade Lavallois",
+      "startTime": "2026-01-02T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-02",
+      "league": "Ligue 2",
+      "homeTeam": "Guingamp",
+      "awayTeam": "US Boulogne Côte-d'Opale",
+      "startTime": "2026-01-02T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-02",
+      "league": "Ligue 2",
+      "homeTeam": "Le Mans",
+      "awayTeam": "Saint-Étienne",
+      "startTime": "2026-01-02T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-02",
+      "league": "Ligue 2",
+      "homeTeam": "Montpellier",
+      "awayTeam": "USL Dunkerque",
+      "startTime": "2026-01-02T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-02",
+      "league": "Ligue 2",
+      "homeTeam": "Pau FC",
+      "awayTeam": "Rodez AF",
+      "startTime": "2026-01-02T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-02",
+      "league": "Ligue 2",
+      "homeTeam": "Stade de Reims",
+      "awayTeam": "Annecy FC",
+      "startTime": "2026-01-02T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-02",
+      "league": "Ligue 2",
+      "homeTeam": "Troyes",
+      "awayTeam": "Red Star FC",
+      "startTime": "2026-01-02T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-04",
+      "league": "Ligue 1",
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Olympique Lyonnais",
+      "startTime": "2026-01-04T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-04",
+      "league": "Ligue 1",
+      "homeTeam": "Le Havre",
+      "awayTeam": "Angers",
+      "startTime": "2026-01-04T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-04",
+      "league": "Ligue 1",
+      "homeTeam": "Lille",
+      "awayTeam": "Stade Rennais",
+      "startTime": "2026-01-04T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-04",
+      "league": "Ligue 1",
+      "homeTeam": "Lorient",
+      "awayTeam": "Metz",
+      "startTime": "2026-01-04T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-04",
+      "league": "Ligue 1",
+      "homeTeam": "Nice",
+      "awayTeam": "RC Strasbourg",
+      "startTime": "2026-01-04T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-04",
+      "league": "Ligue 1",
+      "homeTeam": "Olympique de Marseille",
+      "awayTeam": "Nantes",
+      "startTime": "2026-01-04T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-04",
+      "league": "Ligue 1",
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Paris FC",
+      "startTime": "2026-01-04T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-04",
+      "league": "Ligue 1",
+      "homeTeam": "Stade Brestois",
+      "awayTeam": "Auxerre",
+      "startTime": "2026-01-04T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-04",
+      "league": "Ligue 1",
+      "homeTeam": "Toulouse",
+      "awayTeam": "RC Lens",
+      "startTime": "2026-01-04T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "Ligue 2",
+      "homeTeam": "Annecy FC",
+      "awayTeam": "Amiens SC",
+      "startTime": "2026-01-16T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "Ligue 2",
+      "homeTeam": "Grenoble Foot 38",
+      "awayTeam": "Red Star FC",
+      "startTime": "2026-01-16T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "Ligue 2",
+      "homeTeam": "Nancy",
+      "awayTeam": "Guingamp",
+      "startTime": "2026-01-16T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "Ligue 2",
+      "homeTeam": "Rodez AF",
+      "awayTeam": "Le Mans",
+      "startTime": "2026-01-16T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "Ligue 2",
+      "homeTeam": "Saint-Étienne",
+      "awayTeam": "Clermont Foot",
+      "startTime": "2026-01-16T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "Ligue 2",
+      "homeTeam": "Stade Lavallois",
+      "awayTeam": "Bastia",
+      "startTime": "2026-01-16T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "Ligue 2",
+      "homeTeam": "Troyes",
+      "awayTeam": "Stade de Reims",
+      "startTime": "2026-01-16T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "Ligue 2",
+      "homeTeam": "US Boulogne Côte-d'Opale",
+      "awayTeam": "Montpellier",
+      "startTime": "2026-01-16T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "Ligue 2",
+      "homeTeam": "USL Dunkerque",
+      "awayTeam": "Pau FC",
+      "startTime": "2026-01-16T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "Ligue 1",
+      "homeTeam": "Angers",
+      "awayTeam": "Olympique de Marseille",
+      "startTime": "2026-01-18T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "Ligue 1",
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Lorient",
+      "startTime": "2026-01-18T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "Ligue 1",
+      "homeTeam": "Nantes",
+      "awayTeam": "Paris FC",
+      "startTime": "2026-01-18T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "Ligue 1",
+      "homeTeam": "Olympique Lyonnais",
+      "awayTeam": "Stade Brestois",
+      "startTime": "2026-01-18T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "Ligue 1",
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Lille",
+      "startTime": "2026-01-18T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "Ligue 1",
+      "homeTeam": "RC Lens",
+      "awayTeam": "Auxerre",
+      "startTime": "2026-01-18T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "Ligue 1",
+      "homeTeam": "RC Strasbourg",
+      "awayTeam": "Metz",
+      "startTime": "2026-01-18T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "Ligue 1",
+      "homeTeam": "Stade Rennais",
+      "awayTeam": "Le Havre",
+      "startTime": "2026-01-18T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "Ligue 1",
+      "homeTeam": "Toulouse",
+      "awayTeam": "Nice",
+      "startTime": "2026-01-18T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "Ligue 2",
+      "homeTeam": "Amiens SC",
+      "awayTeam": "Stade Lavallois",
+      "startTime": "2026-01-23T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "Ligue 2",
+      "homeTeam": "Annecy FC",
+      "awayTeam": "Clermont Foot",
+      "startTime": "2026-01-23T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "Ligue 2",
+      "homeTeam": "Bastia",
+      "awayTeam": "Montpellier",
+      "startTime": "2026-01-23T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "Ligue 2",
+      "homeTeam": "Guingamp",
+      "awayTeam": "Troyes",
+      "startTime": "2026-01-23T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "Ligue 2",
+      "homeTeam": "Le Mans",
+      "awayTeam": "USL Dunkerque",
+      "startTime": "2026-01-23T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "Ligue 2",
+      "homeTeam": "Nancy",
+      "awayTeam": "Rodez AF",
+      "startTime": "2026-01-23T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "Ligue 2",
+      "homeTeam": "Pau FC",
+      "awayTeam": "Grenoble Foot 38",
+      "startTime": "2026-01-23T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "Ligue 2",
+      "homeTeam": "Red Star FC",
+      "awayTeam": "US Boulogne Côte-d'Opale",
+      "startTime": "2026-01-23T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "Ligue 2",
+      "homeTeam": "Stade de Reims",
+      "awayTeam": "Saint-Étienne",
+      "startTime": "2026-01-23T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "Ligue 1",
+      "homeTeam": "Auxerre",
+      "awayTeam": "Paris Saint-Germain",
+      "startTime": "2026-01-25T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "Ligue 1",
+      "homeTeam": "Le Havre",
+      "awayTeam": "AS Monaco",
+      "startTime": "2026-01-25T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "Ligue 1",
+      "homeTeam": "Lille",
+      "awayTeam": "RC Strasbourg",
+      "startTime": "2026-01-25T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "Ligue 1",
+      "homeTeam": "Metz",
+      "awayTeam": "Olympique Lyonnais",
+      "startTime": "2026-01-25T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "Ligue 1",
+      "homeTeam": "Nantes",
+      "awayTeam": "Nice",
+      "startTime": "2026-01-25T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "Ligue 1",
+      "homeTeam": "Olympique de Marseille",
+      "awayTeam": "RC Lens",
+      "startTime": "2026-01-25T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "Ligue 1",
+      "homeTeam": "Paris FC",
+      "awayTeam": "Angers",
+      "startTime": "2026-01-25T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "Ligue 1",
+      "homeTeam": "Stade Brestois",
+      "awayTeam": "Toulouse",
+      "startTime": "2026-01-25T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "Ligue 1",
+      "homeTeam": "Stade Rennais",
+      "awayTeam": "Lorient",
+      "startTime": "2026-01-25T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "Ligue 2",
+      "homeTeam": "Bastia",
+      "awayTeam": "Nancy",
+      "startTime": "2026-01-30T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "Ligue 2",
+      "homeTeam": "Clermont Foot",
+      "awayTeam": "Stade de Reims",
+      "startTime": "2026-01-30T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "Ligue 2",
+      "homeTeam": "Grenoble Foot 38",
+      "awayTeam": "Amiens SC",
+      "startTime": "2026-01-30T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "Ligue 2",
+      "homeTeam": "Montpellier",
+      "awayTeam": "Guingamp",
+      "startTime": "2026-01-30T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "Ligue 2",
+      "homeTeam": "Rodez AF",
+      "awayTeam": "Red Star FC",
+      "startTime": "2026-01-30T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "Ligue 2",
+      "homeTeam": "Saint-Étienne",
+      "awayTeam": "US Boulogne Côte-d'Opale",
+      "startTime": "2026-01-30T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "Ligue 2",
+      "homeTeam": "Stade Lavallois",
+      "awayTeam": "Pau FC",
+      "startTime": "2026-01-30T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "Ligue 2",
+      "homeTeam": "Troyes",
+      "awayTeam": "Le Mans",
+      "startTime": "2026-01-30T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "Ligue 2",
+      "homeTeam": "USL Dunkerque",
+      "awayTeam": "Annecy FC",
+      "startTime": "2026-01-30T20:00:00.000Z"
+    }
+  ]
+}

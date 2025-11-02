@@ -3,34 +3,45 @@
 namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Contracts\HttpClient\HttpClientInterface;
 
-final class SofascoreController extends AbstractController
+class SofascoreController extends AbstractController
 {
-    #[Route('/api/sofascore', name: 'api_sofascore')]
-    public function getMatches(Request $request, HttpClientInterface $client): JsonResponse
-    {
-        $date = $request->query->get('date');
-        if (!$date) {
-            return new JsonResponse(['error' => 'missing_date'], 400);
-        }
-
-        $url = "https://api.sofascore.com/api/v1/sport/football/scheduled-events/" . $date;
-
-        try {
-            $response = $client->request('GET', $url, [
-                'headers' => [
-                    'User-Agent' => 'Mozilla/5.0 (compatible; SymfonyApp/1.0)',
-                ]
-            ]);
-
-            $data = $response->toArray(false);
-            return new JsonResponse($data);
-        } catch (\Throwable $e) {
-            return new JsonResponse(['error' => $e->getMessage()], 500);
-        }
+   #[Route('/api/matchs', name: 'api_matchs')]
+public function getMatchs(Request $request): JsonResponse
+{
+    $date = $request->query->get('date');
+    if (!$date) {
+        return new JsonResponse(['error' => 'missing_date'], 400);
     }
+
+    $jsonFile = $this->getParameter('kernel.project_dir') . '/public/data/matchs.json';
+
+    if (!file_exists($jsonFile)) {
+        return new JsonResponse(['error' => 'file_not_found'], 404);
+    }
+
+    $jsonContent = file_get_contents($jsonFile);
+    $data = json_decode($jsonContent, true);
+
+    if (!is_array($data) || !isset($data['fixtures']) || !is_array($data['fixtures'])) {
+        return new JsonResponse(['error' => 'invalid_json_file'], 500);
+    }
+
+    // On récupère bien le tableau des fixtures
+    $matches = $data['fixtures'];
+
+    // Filtrer uniquement les matchs de la date choisie
+    $filtered = array_filter($matches, function ($m) use ($date) {
+        return isset($m['date']) && $m['date'] === $date;
+    });
+
+    // Réindexer le tableau
+    $filtered = array_values($filtered);
+
+    return new JsonResponse(['events' => $filtered]);
+}
+
 }
