@@ -80,10 +80,6 @@ async function chargerMatchs(startDate, endDate) {
         console.log("✅ Clubs affichés sur la carte :", clubsAffiches.map(c => c.name));
         afficherClubs(clubsAffiches);
 
-        if (clubsAffiches.length === 0) {
-            alert("Aucun club de ta base ne joue à domicile sur cette période.");
-        }
-
     } catch (err) {
         console.error("❌ Erreur lors du chargement des matchs :", err);
         alert("Impossible de charger les données.");

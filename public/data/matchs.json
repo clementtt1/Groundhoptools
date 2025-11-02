@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-11-02T22:14:50.239Z",
+  "updatedAt": "2025-11-02T22:28:42.316Z",
   "fixtures": [
     {
       "date": "2025-11-02",
@@ -119,6 +119,13 @@
       "homeTeam": "USM Alger",
       "awayTeam": "ASO Chlef",
       "startTime": "2025-11-02T18:00:00.000Z"
+    },
+    {
+      "date": "2025-11-02",
+      "league": "National",
+      "homeTeam": "FC Rouen",
+      "awayTeam": "FC Villefranche Beaujolais",
+      "startTime": "2025-11-01T14:00:00.000Z"
     },
     {
       "date": "2025-11-02",
@@ -308,6 +315,69 @@
       "homeTeam": "USL Dunkerque",
       "awayTeam": "US Boulogne Côte-d'Opale",
       "startTime": "2025-11-07T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-07",
+      "league": "National",
+      "homeTeam": "Ajaccio",
+      "awayTeam": "FC Rouen",
+      "startTime": "2025-11-07T18:30:00.000Z"
+    },
+    {
+      "date": "2025-11-07",
+      "league": "National",
+      "homeTeam": "Aubagne FC",
+      "awayTeam": "Le Puy Foot 43 Auvergne",
+      "startTime": "2025-11-07T18:30:00.000Z"
+    },
+    {
+      "date": "2025-11-07",
+      "league": "National",
+      "homeTeam": "Bourg-en-Bresse",
+      "awayTeam": "Dijon",
+      "startTime": "2025-11-07T18:30:00.000Z"
+    },
+    {
+      "date": "2025-11-07",
+      "league": "National",
+      "homeTeam": "Caen",
+      "awayTeam": "Paris 13 Atletico",
+      "startTime": "2025-11-07T18:30:00.000Z"
+    },
+    {
+      "date": "2025-11-07",
+      "league": "National",
+      "homeTeam": "FC Fleury",
+      "awayTeam": "Sochaux",
+      "startTime": "2025-11-07T18:30:00.000Z"
+    },
+    {
+      "date": "2025-11-07",
+      "league": "National",
+      "homeTeam": "FC Versailles 78",
+      "awayTeam": "Valenciennes",
+      "startTime": "2025-11-07T18:30:00.000Z"
+    },
+    {
+      "date": "2025-11-07",
+      "league": "National",
+      "homeTeam": "FC Villefranche Beaujolais",
+      "awayTeam": "Stade Briochin",
+      "startTime": "2025-11-07T18:30:00.000Z"
+    },
+    {
+      "date": "2025-11-07",
+      "league": "National",
+      "homeTeam": "Quevilly - Rouen Métropole",
+      "awayTeam": "Châteauroux",
+      "startTime": "2025-11-07T18:30:00.000Z"
+    },
+    {
+      "date": "2025-11-07",
+      "league": "National",
+      "homeTeam": "US Concarneau",
+      "awayTeam": "US Orléans",
+      "startTime": "2025-11-07T18:30:00.000Z"
     },
     {
       "date": "2025-11-08",
@@ -548,6 +618,69 @@
       "startTime": "2025-11-21T20:00:00.000Z"
     },
     {
+      "date": "2025-11-21",
+      "league": "National",
+      "homeTeam": "Caen",
+      "awayTeam": "Bourg-en-Bresse",
+      "startTime": "2025-11-21T18:30:00.000Z"
+    },
+    {
+      "date": "2025-11-21",
+      "league": "National",
+      "homeTeam": "Châteauroux",
+      "awayTeam": "FC Versailles 78",
+      "startTime": "2025-11-21T18:30:00.000Z"
+    },
+    {
+      "date": "2025-11-21",
+      "league": "National",
+      "homeTeam": "FC Rouen",
+      "awayTeam": "US Concarneau",
+      "startTime": "2025-11-21T18:30:00.000Z"
+    },
+    {
+      "date": "2025-11-21",
+      "league": "National",
+      "homeTeam": "Le Puy Foot 43 Auvergne",
+      "awayTeam": "Quevilly - Rouen Métropole",
+      "startTime": "2025-11-21T18:30:00.000Z"
+    },
+    {
+      "date": "2025-11-21",
+      "league": "National",
+      "homeTeam": "Paris 13 Atletico",
+      "awayTeam": "FC Villefranche Beaujolais",
+      "startTime": "2025-11-21T18:30:00.000Z"
+    },
+    {
+      "date": "2025-11-21",
+      "league": "National",
+      "homeTeam": "Sochaux",
+      "awayTeam": "Dijon",
+      "startTime": "2025-11-21T18:30:00.000Z"
+    },
+    {
+      "date": "2025-11-21",
+      "league": "National",
+      "homeTeam": "Stade Briochin",
+      "awayTeam": "Ajaccio",
+      "startTime": "2025-11-21T18:30:00.000Z"
+    },
+    {
+      "date": "2025-11-21",
+      "league": "National",
+      "homeTeam": "US Orléans",
+      "awayTeam": "Aubagne FC",
+      "startTime": "2025-11-21T18:30:00.000Z"
+    },
+    {
+      "date": "2025-11-21",
+      "league": "National",
+      "homeTeam": "Valenciennes",
+      "awayTeam": "FC Fleury",
+      "startTime": "2025-11-21T18:30:00.000Z"
+    },
+    {
       "date": "2025-11-22",
       "league": "Ligue 1",
       "homeTeam": "RC Lens",
@@ -744,6 +877,69 @@
       "startTime": "2025-12-05T19:00:00.000Z"
     },
     {
+      "date": "2025-12-05",
+      "league": "National",
+      "homeTeam": "Ajaccio",
+      "awayTeam": "Paris 13 Atletico",
+      "startTime": "2025-12-05T18:30:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "National",
+      "homeTeam": "Aubagne FC",
+      "awayTeam": "FC Rouen",
+      "startTime": "2025-12-05T18:30:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "National",
+      "homeTeam": "Bourg-en-Bresse",
+      "awayTeam": "Sochaux",
+      "startTime": "2025-12-05T18:30:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "National",
+      "homeTeam": "Dijon",
+      "awayTeam": "Valenciennes",
+      "startTime": "2025-12-05T18:30:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "National",
+      "homeTeam": "FC Fleury",
+      "awayTeam": "Châteauroux",
+      "startTime": "2025-12-05T18:30:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "National",
+      "homeTeam": "FC Versailles 78",
+      "awayTeam": "Le Puy Foot 43 Auvergne",
+      "startTime": "2025-12-05T18:30:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "National",
+      "homeTeam": "FC Villefranche Beaujolais",
+      "awayTeam": "Caen",
+      "startTime": "2025-12-05T18:30:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "National",
+      "homeTeam": "Quevilly - Rouen Métropole",
+      "awayTeam": "US Orléans",
+      "startTime": "2025-12-05T18:30:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "National",
+      "homeTeam": "US Concarneau",
+      "awayTeam": "Stade Briochin",
+      "startTime": "2025-12-05T18:30:00.000Z"
+    },
+    {
       "date": "2025-12-06",
       "league": "Ligue 1",
       "homeTeam": "Nantes",
@@ -868,6 +1064,69 @@
       "homeTeam": "US Boulogne Côte-d'Opale",
       "awayTeam": "Troyes",
       "startTime": "2025-12-12T20:00:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "National",
+      "homeTeam": "Caen",
+      "awayTeam": "Ajaccio",
+      "startTime": "2025-12-12T18:30:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "National",
+      "homeTeam": "Châteauroux",
+      "awayTeam": "Dijon",
+      "startTime": "2025-12-12T18:30:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "National",
+      "homeTeam": "FC Rouen",
+      "awayTeam": "Quevilly - Rouen Métropole",
+      "startTime": "2025-12-12T18:30:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "National",
+      "homeTeam": "FC Villefranche Beaujolais",
+      "awayTeam": "Bourg-en-Bresse",
+      "startTime": "2025-12-12T18:30:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "National",
+      "homeTeam": "Le Puy Foot 43 Auvergne",
+      "awayTeam": "FC Fleury",
+      "startTime": "2025-12-12T18:30:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "National",
+      "homeTeam": "Paris 13 Atletico",
+      "awayTeam": "US Concarneau",
+      "startTime": "2025-12-12T18:30:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "National",
+      "homeTeam": "Stade Briochin",
+      "awayTeam": "Aubagne FC",
+      "startTime": "2025-12-12T18:30:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "National",
+      "homeTeam": "US Orléans",
+      "awayTeam": "FC Versailles 78",
+      "startTime": "2025-12-12T18:30:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "National",
+      "homeTeam": "Valenciennes",
+      "awayTeam": "Sochaux",
+      "startTime": "2025-12-12T18:30:00.000Z"
     },
     {
       "date": "2025-12-13",
@@ -1143,6 +1402,69 @@
       "startTime": "2026-01-16T20:00:00.000Z"
     },
     {
+      "date": "2026-01-16",
+      "league": "National",
+      "homeTeam": "Ajaccio",
+      "awayTeam": "FC Villefranche Beaujolais",
+      "startTime": "2026-01-16T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "National",
+      "homeTeam": "Aubagne FC",
+      "awayTeam": "Paris 13 Atletico",
+      "startTime": "2026-01-16T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "National",
+      "homeTeam": "Dijon",
+      "awayTeam": "Le Puy Foot 43 Auvergne",
+      "startTime": "2026-01-16T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "National",
+      "homeTeam": "FC Fleury",
+      "awayTeam": "US Orléans",
+      "startTime": "2026-01-16T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "National",
+      "homeTeam": "FC Versailles 78",
+      "awayTeam": "FC Rouen",
+      "startTime": "2026-01-16T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "National",
+      "homeTeam": "Quevilly - Rouen Métropole",
+      "awayTeam": "Stade Briochin",
+      "startTime": "2026-01-16T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "National",
+      "homeTeam": "Sochaux",
+      "awayTeam": "Châteauroux",
+      "startTime": "2026-01-16T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "National",
+      "homeTeam": "US Concarneau",
+      "awayTeam": "Caen",
+      "startTime": "2026-01-16T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "National",
+      "homeTeam": "Valenciennes",
+      "awayTeam": "Bourg-en-Bresse",
+      "startTime": "2026-01-16T18:30:00.000Z"
+    },
+    {
       "date": "2026-01-18",
       "league": "Ligue 1",
       "homeTeam": "Angers",
@@ -1269,6 +1591,69 @@
       "startTime": "2026-01-23T20:00:00.000Z"
     },
     {
+      "date": "2026-01-23",
+      "league": "National",
+      "homeTeam": "Ajaccio",
+      "awayTeam": "US Concarneau",
+      "startTime": "2026-01-23T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "National",
+      "homeTeam": "Bourg-en-Bresse",
+      "awayTeam": "Châteauroux",
+      "startTime": "2026-01-23T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "National",
+      "homeTeam": "Caen",
+      "awayTeam": "Quevilly - Rouen Métropole",
+      "startTime": "2026-01-23T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "National",
+      "homeTeam": "FC Rouen",
+      "awayTeam": "Dijon",
+      "startTime": "2026-01-23T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "National",
+      "homeTeam": "FC Villefranche Beaujolais",
+      "awayTeam": "Aubagne FC",
+      "startTime": "2026-01-23T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "National",
+      "homeTeam": "Le Puy Foot 43 Auvergne",
+      "awayTeam": "Valenciennes",
+      "startTime": "2026-01-23T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "National",
+      "homeTeam": "Paris 13 Atletico",
+      "awayTeam": "FC Versailles 78",
+      "startTime": "2026-01-23T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "National",
+      "homeTeam": "Stade Briochin",
+      "awayTeam": "FC Fleury",
+      "startTime": "2026-01-23T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "National",
+      "homeTeam": "US Orléans",
+      "awayTeam": "Sochaux",
+      "startTime": "2026-01-23T18:30:00.000Z"
+    },
+    {
       "date": "2026-01-25",
       "league": "Ligue 1",
       "homeTeam": "Auxerre",
@@ -1393,6 +1778,69 @@
       "homeTeam": "USL Dunkerque",
       "awayTeam": "Annecy FC",
       "startTime": "2026-01-30T20:00:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "National",
+      "homeTeam": "Aubagne FC",
+      "awayTeam": "Ajaccio",
+      "startTime": "2026-01-30T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "National",
+      "homeTeam": "Châteauroux",
+      "awayTeam": "Le Puy Foot 43 Auvergne",
+      "startTime": "2026-01-30T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "National",
+      "homeTeam": "Dijon",
+      "awayTeam": "Stade Briochin",
+      "startTime": "2026-01-30T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "National",
+      "homeTeam": "FC Fleury",
+      "awayTeam": "Paris 13 Atletico",
+      "startTime": "2026-01-30T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "National",
+      "homeTeam": "FC Versailles 78",
+      "awayTeam": "Caen",
+      "startTime": "2026-01-30T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "National",
+      "homeTeam": "Quevilly - Rouen Métropole",
+      "awayTeam": "FC Villefranche Beaujolais",
+      "startTime": "2026-01-30T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "National",
+      "homeTeam": "Sochaux",
+      "awayTeam": "FC Rouen",
+      "startTime": "2026-01-30T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "National",
+      "homeTeam": "US Concarneau",
+      "awayTeam": "Bourg-en-Bresse",
+      "startTime": "2026-01-30T18:30:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "National",
+      "homeTeam": "Valenciennes",
+      "awayTeam": "US Orléans",
+      "startTime": "2026-01-30T18:30:00.000Z"
     }
   ]
 }
