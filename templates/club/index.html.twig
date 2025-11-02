@@ -5,7 +5,7 @@
 {% block body %}
  <h1 class="text-center">Titre</h1>
 
-<div id="map" style="height: 600px; width: 80%; margin: 0 auto; display: block;"></div>
+<div id="map" style="height: 800px; width: 80%; margin: 0 auto; display: block;"></div>
 
 
 <!-- Leaflet CSS et JS -->
@@ -14,7 +14,7 @@
 
 <script>
     // Initialisation de la carte
-    const map = L.map('map').setView([46.6, 2.3], 6);
+    const map = L.map('map').setView([46.8, 2.3], 6);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
     ).addTo(map);
