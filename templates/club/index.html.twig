@@ -3,7 +3,7 @@
 {% block title %}Carte des clubs{% endblock %}
 
 {% block body %}
- <h1 class="text-center">Groundhoptools</h1>
+<h1 class="text-center">Groundhoptools</h1>
 
 <div style="text-align:center; margin-bottom: 20px;">
     <label for="match-date" style="font-weight: bold;">Choisis une date :</label>
@@ -13,7 +13,6 @@
 
 <div id="map" style="height: 800px; width: 80%; margin: 0 auto; display: block;"></div>
 
-
 <!-- Leaflet CSS et JS -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
@@ -21,26 +20,79 @@
 <script>
     // Initialisation de la carte
     const map = L.map('map').setView([46.8, 2.3], 6);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
-    ).addTo(map);
-
-    // Données PHP encodées en JSON
+    // Données des clubs depuis Symfony
     const clubs = {{ clubs|json_encode()|raw }};
+    let markers = [];
 
-    clubs.forEach(club => {
-        const iconUrl = "{{ asset('images/logos/') }}" + club.logo;
+    // Fonction pour afficher une liste de clubs
+    function afficherClubs(liste) {
+        // Nettoyer les anciens marqueurs
+        markers.forEach(m => map.removeLayer(m));
+        markers = [];
 
-        const clubIcon = L.icon({
-            iconUrl: iconUrl,
-            iconSize: [40, 40],
-            iconAnchor: [20, 40],
-            popupAnchor: [0, -40]
+        liste.forEach(club => {
+            const iconUrl = "{{ asset('images/logos/') }}" + club.logo;
+
+            const clubIcon = L.icon({
+                iconUrl: iconUrl,
+                iconSize: [40, 40],
+                iconAnchor: [20, 40],
+                popupAnchor: [0, -40]
+            });
+
+            const marker = L.marker([club.latitude, club.longitude], { icon: clubIcon })
+                .addTo(map)
+                .bindPopup(`<b>${club.name}</b><br>${club.stadium}`);
+
+            markers.push(marker);
         });
+    }
 
-        L.marker([club.latitude, club.longitude], { icon: clubIcon })
-            .addTo(map)
-            .bindPopup(`<b>${club.name}</b><br>${club.stadium}`);
+    // Affiche tous les clubs par défaut
+    afficherClubs(clubs);
+
+    // Fonction principale : charger les matchs d'une date
+    async function chargerMatchs(date) {
+        const url = `https://api.sofascore.com/api/v1/sport/football/scheduled-events/${date}`;
+        try {
+            const response = await fetch(url);
+            const data = await response.json();
+
+            if (!data.events) {
+                alert("Aucun match trouvé pour cette date.");
+                return;
+            }
+
+            // On récupère tous les clubs à domicile du jour
+            const clubsDomicile = data.events.map(e => e.homeTeam.name.toLowerCase());
+
+            // On garde uniquement les clubs de ta base qui jouent à domicile
+            const clubsAffiches = clubs.filter(c =>
+                clubsDomicile.includes(c.name.toLowerCase())
+            );
+
+            afficherClubs(clubsAffiches);
+
+            if (clubsAffiches.length === 0) {
+                alert("Aucun club de ta base ne joue à domicile ce jour-là.");
+            }
+
+        } catch (err) {
+            console.error("Erreur API SofaScore :", err);
+            alert("Impossible de charger les données depuis SofaScore.");
+        }
+    }
+
+    // Quand on clique sur le bouton
+    document.getElementById('load-matches').addEventListener('click', () => {
+        const date = document.getElementById('match-date').value;
+        if (date) {
+            chargerMatchs(date);
+        } else {
+            alert("Merci de choisir une date !");
+        }
     });
 </script>
 
