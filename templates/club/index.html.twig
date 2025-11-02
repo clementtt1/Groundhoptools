@@ -18,23 +18,18 @@
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
 <script>
-    // Initialisation de la carte
     const map = L.map('map').setView([46.8, 2.3], 6);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
-    // Données des clubs depuis Symfony
     const clubs = {{ clubs|json_encode()|raw }};
     let markers = [];
 
-    // Fonction pour afficher une liste de clubs
     function afficherClubs(liste) {
-        // Nettoyer les anciens marqueurs
         markers.forEach(m => map.removeLayer(m));
         markers = [];
 
         liste.forEach(club => {
             const iconUrl = "{{ asset('images/logos/') }}" + club.logo;
-
             const clubIcon = L.icon({
                 iconUrl: iconUrl,
                 iconSize: [40, 40],
@@ -50,28 +45,34 @@
         });
     }
 
-    // Affiche tous les clubs par défaut
     afficherClubs(clubs);
 
-    // Fonction principale : charger les matchs d'une date
     async function chargerMatchs(date) {
         const url = `https://api.sofascore.com/api/v1/sport/football/scheduled-events/${date}`;
+        console.log("📅 Requête API SofaScore :", url);
+
         try {
             const response = await fetch(url);
             const data = await response.json();
 
-            if (!data.events) {
+            console.log("📦 Données brutes renvoyées :", data);
+
+            if (!data.events || data.events.length === 0) {
                 alert("Aucun match trouvé pour cette date.");
                 return;
             }
 
-            // On récupère tous les clubs à domicile du jour
+            // Liste de tous les clubs à domicile (noms en minuscules)
             const clubsDomicile = data.events.map(e => e.homeTeam.name.toLowerCase());
 
-            // On garde uniquement les clubs de ta base qui jouent à domicile
+            console.log("🏠 Clubs à domicile trouvés :", clubsDomicile);
+
+            // On garde ceux qui sont dans ta base
             const clubsAffiches = clubs.filter(c =>
                 clubsDomicile.includes(c.name.toLowerCase())
             );
+
+            console.log("✅ Clubs de ta base jouant à domicile :", clubsAffiches.map(c => c.name));
 
             afficherClubs(clubsAffiches);
 
@@ -80,12 +81,11 @@
             }
 
         } catch (err) {
-            console.error("Erreur API SofaScore :", err);
+            console.error("❌ Erreur lors de la récupération des matchs :", err);
             alert("Impossible de charger les données depuis SofaScore.");
         }
     }
 
-    // Quand on clique sur le bouton
     document.getElementById('load-matches').addEventListener('click', () => {
         const date = document.getElementById('match-date').value;
         if (date) {
