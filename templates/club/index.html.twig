@@ -48,7 +48,7 @@
     afficherClubs(clubs);
 
     async function chargerMatchs(date) {
-        const url = `https://api.sofascore.com/api/v1/sport/football/scheduled-events/${date}`;
+        const url = `/api/sofascore?date=${date}`;
         console.log("📅 Requête API SofaScore :", url);
 
         try {
