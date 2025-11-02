@@ -6,10 +6,15 @@
 <h1 class="text-center">Groundhoptools</h1>
 
 <div style="text-align:center; margin-bottom: 20px;">
-    <label for="match-date" style="font-weight: bold;">Choisis une date :</label>
-    <input type="date" id="match-date" value="{{ "now"|date("Y-m-d") }}" />
+    <label for="start-date" style="font-weight: bold;">Date de début :</label>
+    <input type="date" id="start-date" value="{{ "now"|date("Y-m-d") }}" />
+
+    <label for="end-date" style="font-weight: bold;">Date de fin :</label>
+    <input type="date" id="end-date" value="{{ "now"|date("Y-m-d") }}" />
+
     <button id="load-matches" class="btn btn-primary">Voir les clubs à domicile</button>
 </div>
+
 
 <div id="map" style="height: 800px; width: 80%; margin: 0 auto; display: block;"></div>
 
@@ -48,29 +53,24 @@ function afficherClubs(liste) {
 // Affiche tous les clubs par défaut
 afficherClubs(clubs);
 
-async function chargerMatchs(date) {
-    console.log("📅 Date sélectionnée :", date);
+async function chargerMatchs(startDate, endDate) {
+    console.log("📅 Période sélectionnée :", startDate, "->", endDate);
 
     try {
-        const response = await fetch(`/api/matchs?date=${date}`);
+        const response = await fetch(`/api/matchs?start=${startDate}&end=${endDate}`);
         const data = await response.json();
 
         console.log("📦 Données JSON récupérées :", data);
 
         if (!data.events || data.events.length === 0) {
-            console.log("⚠️ Aucun match trouvé pour cette date");
-            alert("Aucun match trouvé pour cette date.");
+            console.log("⚠️ Aucun match trouvé pour cette période");
+            alert("Aucun match trouvé pour cette période.");
             afficherClubs([]); // on vide la carte
             return;
         }
 
-        // Liste des clubs à domicile (noms en minuscules)
+        // Liste des clubs à domicile (insensible à la casse)
         const clubsDomicile = data.events.map(e => e.homeTeam.toLowerCase());
-        console.log("🏠 Clubs à domicile (JSON) :", clubsDomicile);
-
-        // Liste des noms de ta base
-        const nomsClubsBase = clubs.map(c => c.name.toLowerCase());
-        console.log("📌 Noms des clubs dans la base :", nomsClubsBase);
 
         // Filtrer les clubs qui jouent à domicile
         const clubsAffiches = clubs.filter(c => 
@@ -78,11 +78,10 @@ async function chargerMatchs(date) {
         );
 
         console.log("✅ Clubs affichés sur la carte :", clubsAffiches.map(c => c.name));
-
         afficherClubs(clubsAffiches);
 
         if (clubsAffiches.length === 0) {
-            alert("Aucun club de ta base ne joue à domicile ce jour-là.");
+            alert("Aucun club de ta base ne joue à domicile sur cette période.");
         }
 
     } catch (err) {
@@ -92,13 +91,22 @@ async function chargerMatchs(date) {
 }
 
 document.getElementById('load-matches').addEventListener('click', () => {
-    const date = document.getElementById('match-date').value;
-    if (date) {
-        chargerMatchs(date);
-    } else {
-        alert("Merci de choisir une date !");
+    const start = document.getElementById('start-date').value;
+    const end = document.getElementById('end-date').value;
+
+    if (!start || !end) {
+        alert("Merci de choisir les deux dates !");
+        return;
     }
+
+    if (start > end) {
+        alert("La date de début doit être avant la date de fin !");
+        return;
+    }
+
+    chargerMatchs(start, end);
 });
+
 
 </script>
 

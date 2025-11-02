@@ -12,9 +12,11 @@ class SofascoreController extends AbstractController
    #[Route('/api/matchs', name: 'api_matchs')]
 public function getMatchs(Request $request): JsonResponse
 {
-    $date = $request->query->get('date');
-    if (!$date) {
-        return new JsonResponse(['error' => 'missing_date'], 400);
+    $start = $request->query->get('start');
+    $end = $request->query->get('end');
+
+    if (!$start || !$end) {
+        return new JsonResponse(['error' => 'missing_dates'], 400);
     }
 
     $jsonFile = $this->getParameter('kernel.project_dir') . '/public/data/matchs.json';
@@ -30,18 +32,13 @@ public function getMatchs(Request $request): JsonResponse
         return new JsonResponse(['error' => 'invalid_json_file'], 500);
     }
 
-    // On récupère bien le tableau des fixtures
     $matches = $data['fixtures'];
 
-    // Filtrer uniquement les matchs de la date choisie
-    $filtered = array_filter($matches, function ($m) use ($date) {
-        return isset($m['date']) && $m['date'] === $date;
+    // Filtrer les matchs dont la date est comprise entre start et end
+    $filtered = array_filter($matches, function ($m) use ($start, $end) {
+        return isset($m['date']) && $m['date'] >= $start && $m['date'] <= $end;
     });
 
-    // Réindexer le tableau
-    $filtered = array_values($filtered);
-
-    return new JsonResponse(['events' => $filtered]);
+    return new JsonResponse(['events' => array_values($filtered)]);
 }
-
 }
