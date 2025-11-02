@@ -3,7 +3,13 @@
 {% block title %}Carte des clubs{% endblock %}
 
 {% block body %}
- <h1 class="text-center">Titre</h1>
+ <h1 class="text-center">Groundhoptools</h1>
+
+<div style="text-align:center; margin-bottom: 20px;">
+    <label for="match-date" style="font-weight: bold;">Choisis une date :</label>
+    <input type="date" id="match-date" value="{{ "now"|date("Y-m-d") }}" />
+    <button id="load-matches" class="btn btn-primary">Voir les clubs à domicile</button>
+</div>
 
 <div id="map" style="height: 800px; width: 80%; margin: 0 auto; display: block;"></div>
 
