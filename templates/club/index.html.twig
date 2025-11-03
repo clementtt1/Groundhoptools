@@ -29,9 +29,13 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 const clubs = {{ clubs|json_encode()|raw }};
 let markers = [];
 
-function afficherClubs(liste) {
+function afficherClubs(liste, matchs = []) {
+    // Supprimer les anciens marqueurs
     markers.forEach(m => map.removeLayer(m));
     markers = [];
+
+    // Options pour formatter la date en français
+    const optionsDate = { weekday: 'long', day: 'numeric', month: 'short' };
 
     liste.forEach(club => {
         const iconUrl = "{{ asset('images/logos/') }}" + club.logo;
@@ -42,16 +46,36 @@ function afficherClubs(liste) {
             popupAnchor: [0, -40]
         });
 
+        // Filtrer les matchs à domicile pour ce club
+        const matchsClub = matchs.filter(m => m.homeTeam.toLowerCase() === club.name.toLowerCase());
+
+        // Construire le contenu du popup
+        let popupContent = `<b>${club.name}</b><br>${club.stadium}`;
+
+        if (matchsClub.length > 0) {
+            popupContent += `<br><br><b>Matchs à domicile :</b><br>`;
+            matchsClub.forEach(m => {
+                // On récupère la date et l'heure du match
+                const dateMatch = new Date(m.date + 'T' + (m.time || "00:00"));
+                const jour = dateMatch.toLocaleDateString('fr-FR', optionsDate);
+                const heure = dateMatch.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+                
+                popupContent += `<span style="font-weight:bold;">${jour}</span> à ${heure} - ${m.awayTeam}<br>`;
+            });
+        }
+
         const marker = L.marker([club.latitude, club.longitude], { icon: clubIcon })
             .addTo(map)
-            .bindPopup(`<b>${club.name}</b><br>${club.stadium}`);
+            .bindPopup(popupContent);
 
         markers.push(marker);
     });
 }
 
+
+
 // Affiche tous les clubs par défaut
-afficherClubs(clubs);
+afficherClubs(clubsAffiches, data.events);
 
 async function chargerMatchs(startDate, endDate) {
     console.log("📅 Période sélectionnée :", startDate, "->", endDate);
@@ -64,7 +88,6 @@ async function chargerMatchs(startDate, endDate) {
 
         if (!data.events || data.events.length === 0) {
             console.log("⚠️ Aucun match trouvé pour cette période");
-            alert("Aucun match trouvé pour cette période.");
             afficherClubs([]); // on vide la carte
             return;
         }
