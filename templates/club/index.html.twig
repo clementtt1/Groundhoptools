@@ -15,7 +15,6 @@
     <button id="load-matches" class="btn btn-primary">Voir les clubs à domicile</button>
 </div>
 
-
 <div id="map" style="height: 800px; width: 80%; margin: 0 auto; display: block;"></div>
 
 <!-- Leaflet CSS et JS -->
@@ -51,9 +50,10 @@ function afficherClubs(liste, matchs = []) {
         if (matchsClub.length > 0) {
             popupContent += `<br><br><b>Matchs à domicile :</b><br>`;
             matchsClub.forEach(m => {
-                // Format : Heure - Adversaire
-                const heure = m.time || "??:??"; // si ton JSON contient 'time'
-                popupContent += `${heure} - ${m.awayTeam}<br>`;
+                const dateObj = new Date(m.startTime);
+                const heure = dateObj.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+                const jour = dateObj.toLocaleDateString('fr-FR');
+                popupContent += `${jour} - ${heure} 🆚 ${m.awayTeam}<br>`;
             });
         }
 
@@ -64,7 +64,6 @@ function afficherClubs(liste, matchs = []) {
         markers.push(marker);
     });
 }
-
 
 // Affiche tous les clubs par défaut
 afficherClubs(clubs);
@@ -93,7 +92,7 @@ async function chargerMatchs(startDate, endDate) {
         );
 
         console.log("✅ Clubs affichés sur la carte :", clubsAffiches.map(c => c.name));
-        afficherClubs(clubsAffiches);
+        afficherClubs(clubsAffiches, data.events);
 
     } catch (err) {
         console.error("❌ Erreur lors du chargement des matchs :", err);
@@ -117,9 +116,6 @@ document.getElementById('load-matches').addEventListener('click', () => {
 
     chargerMatchs(start, end);
 });
-
-
 </script>
-
 
 {% endblock %}
