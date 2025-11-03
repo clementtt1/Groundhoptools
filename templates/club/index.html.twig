@@ -34,9 +34,6 @@ function afficherClubs(liste, matchs = []) {
     markers.forEach(m => map.removeLayer(m));
     markers = [];
 
-    // Options pour formatter la date en français
-    const optionsDate = { weekday: 'long', day: 'numeric', month: 'short' };
-
     liste.forEach(club => {
         const iconUrl = "{{ asset('images/logos/') }}" + club.logo;
         const clubIcon = L.icon({
@@ -51,16 +48,12 @@ function afficherClubs(liste, matchs = []) {
 
         // Construire le contenu du popup
         let popupContent = `<b>${club.name}</b><br>${club.stadium}`;
-
         if (matchsClub.length > 0) {
             popupContent += `<br><br><b>Matchs à domicile :</b><br>`;
             matchsClub.forEach(m => {
-                // On récupère la date et l'heure du match
-                const dateMatch = new Date(m.date + 'T' + (m.time || "00:00"));
-                const jour = dateMatch.toLocaleDateString('fr-FR', optionsDate);
-                const heure = dateMatch.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
-                
-                popupContent += `<span style="font-weight:bold;">${jour}</span> à ${heure} - ${m.awayTeam}<br>`;
+                // Format : Heure - Adversaire
+                const heure = m.time || "??:??"; // si ton JSON contient 'time'
+                popupContent += `${heure} - ${m.awayTeam}<br>`;
             });
         }
 
@@ -73,9 +66,8 @@ function afficherClubs(liste, matchs = []) {
 }
 
 
-
 // Affiche tous les clubs par défaut
-afficherClubs(clubsAffiches, data.events);
+afficherClubs(clubs);
 
 async function chargerMatchs(startDate, endDate) {
     console.log("📅 Période sélectionnée :", startDate, "->", endDate);
