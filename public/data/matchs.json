@@ -1,125 +1,6 @@
 {
-  "updatedAt": "2025-11-03T00:25:20.938Z",
+  "updatedAt": "2025-11-04T15:32:56.031Z",
   "fixtures": [
-    {
-      "date": "2025-11-03",
-      "league": "Ligue 1",
-      "homeTeam": "Stade Rennais",
-      "awayTeam": "RC Strasbourg",
-      "startTime": "2025-11-02T14:00:00.000Z"
-    },
-    {
-      "date": "2025-11-03",
-      "league": "Ligue 1",
-      "homeTeam": "Lille",
-      "awayTeam": "Angers",
-      "startTime": "2025-11-02T16:15:00.000Z"
-    },
-    {
-      "date": "2025-11-03",
-      "league": "Ligue 1",
-      "homeTeam": "Nantes",
-      "awayTeam": "Metz",
-      "startTime": "2025-11-02T16:15:00.000Z"
-    },
-    {
-      "date": "2025-11-03",
-      "league": "Ligue 1",
-      "homeTeam": "RC Lens",
-      "awayTeam": "Lorient",
-      "startTime": "2025-11-02T16:15:00.000Z"
-    },
-    {
-      "date": "2025-11-03",
-      "league": "Ligue 1",
-      "homeTeam": "Toulouse",
-      "awayTeam": "Le Havre",
-      "startTime": "2025-11-02T16:15:00.000Z"
-    },
-    {
-      "date": "2025-11-03",
-      "league": "Ligue 1",
-      "homeTeam": "Stade Brestois",
-      "awayTeam": "Olympique Lyonnais",
-      "startTime": "2025-11-02T19:45:00.000Z"
-    },
-    {
-      "date": "2025-11-03",
-      "league": "Ligue 2",
-      "homeTeam": "Pau FC",
-      "awayTeam": "Troyes",
-      "startTime": "2025-11-03T19:45:00.000Z"
-    },
-    {
-      "date": "2025-11-03",
-      "league": "Ligue 1",
-      "homeTeam": "ES Ben Aknoun",
-      "awayTeam": "ES Sétif",
-      "startTime": "2025-11-02T13:30:00.000Z"
-    },
-    {
-      "date": "2025-11-03",
-      "league": "Ligue 1",
-      "homeTeam": "ES Mostaganem",
-      "awayTeam": "CR Belouizdad",
-      "startTime": "2025-11-02T16:00:00.000Z"
-    },
-    {
-      "date": "2025-11-03",
-      "league": "Ligue 1",
-      "homeTeam": "USM Alger",
-      "awayTeam": "ASO Chlef",
-      "startTime": "2025-11-02T18:00:00.000Z"
-    },
-    {
-      "date": "2025-11-03",
-      "league": "Ligue 1",
-      "homeTeam": "Paradou AC",
-      "awayTeam": "USM Khenchela",
-      "startTime": "2025-11-03T13:30:00.000Z"
-    },
-    {
-      "date": "2025-11-03",
-      "league": "Ligue 1",
-      "homeTeam": "JS Kabylie",
-      "awayTeam": "MC El Bayadh",
-      "startTime": "2025-11-03T16:45:00.000Z"
-    },
-    {
-      "date": "2025-11-03",
-      "league": "Ligue 1",
-      "homeTeam": "MC Alger",
-      "awayTeam": "JS Saoura",
-      "startTime": "2025-11-03T19:00:00.000Z"
-    },
-    {
-      "date": "2025-11-03",
-      "league": "Ligue 1",
-      "homeTeam": "CA Bizertin",
-      "awayTeam": "Olympique Béja",
-      "startTime": "2025-11-02T13:30:00.000Z"
-    },
-    {
-      "date": "2025-11-03",
-      "league": "Ligue 1",
-      "homeTeam": "CS Sfaxien",
-      "awayTeam": "Espérance Tunis",
-      "startTime": "2025-11-02T13:30:00.000Z"
-    },
-    {
-      "date": "2025-11-03",
-      "league": "Ligue 1",
-      "homeTeam": "ES Zarzis",
-      "awayTeam": "Avenir Sportif De La Marsa",
-      "startTime": "2025-11-02T13:30:00.000Z"
-    },
-    {
-      "date": "2025-11-03",
-      "league": "Ligue 1",
-      "homeTeam": "JS Omrane",
-      "awayTeam": "Stade Tunisien",
-      "startTime": "2025-11-02T13:30:00.000Z"
-    },
     {
       "date": "2025-11-04",
       "league": "UEFA Champions League",
@@ -182,6 +63,34 @@
       "homeTeam": "Tottenham Hotspur",
       "awayTeam": "FC København",
       "startTime": "2025-11-04T20:00:00.000Z"
+    },
+    {
+      "date": "2025-11-04",
+      "league": "Ligue 2",
+      "homeTeam": "Pau FC",
+      "awayTeam": "Troyes",
+      "startTime": "2025-11-03T19:45:00.000Z"
+    },
+    {
+      "date": "2025-11-04",
+      "league": "Ligue 1",
+      "homeTeam": "Paradou AC",
+      "awayTeam": "USM Khenchela",
+      "startTime": "2025-11-03T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-04",
+      "league": "Ligue 1",
+      "homeTeam": "JS Kabylie",
+      "awayTeam": "MC El Bayadh",
+      "startTime": "2025-11-03T16:45:00.000Z"
+    },
+    {
+      "date": "2025-11-04",
+      "league": "Ligue 1",
+      "homeTeam": "MC Alger",
+      "awayTeam": "JS Saoura",
+      "startTime": "2025-11-03T19:00:00.000Z"
     },
     {
       "date": "2025-11-04",
@@ -556,10 +465,31 @@
     },
     {
       "date": "2025-11-07",
+      "league": "Bundesliga",
+      "homeTeam": "SV Werder Bremen",
+      "awayTeam": "VfL Wolfsburg",
+      "startTime": "2025-11-07T19:30:00.000Z"
+    },
+    {
+      "date": "2025-11-07",
       "league": "Ligue 1",
       "homeTeam": "Paris FC",
       "awayTeam": "Stade Rennais",
       "startTime": "2025-11-07T19:45:00.000Z"
+    },
+    {
+      "date": "2025-11-07",
+      "league": "2. Bundesliga",
+      "homeTeam": "SG Dynamo Dresden",
+      "awayTeam": "1. FC Nürnberg",
+      "startTime": "2025-11-07T17:30:00.000Z"
+    },
+    {
+      "date": "2025-11-07",
+      "league": "2. Bundesliga",
+      "homeTeam": "SpVgg Greuther Fürth",
+      "awayTeam": "Preußen Münster",
+      "startTime": "2025-11-07T17:30:00.000Z"
     },
     {
       "date": "2025-11-07",
@@ -667,6 +597,48 @@
       "startTime": "2025-11-07T18:30:00.000Z"
     },
     {
+      "date": "2025-11-07",
+      "league": "3. Liga",
+      "homeTeam": "MSV Duisburg",
+      "awayTeam": "SV Waldhof Mannheim",
+      "startTime": "2025-11-07T18:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Bundesliga",
+      "homeTeam": "1. FC Union Berlin",
+      "awayTeam": "FC Bayern München",
+      "startTime": "2025-11-08T14:30:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Bundesliga",
+      "homeTeam": "Bayer 04 Leverkusen",
+      "awayTeam": "1. FC Heidenheim",
+      "startTime": "2025-11-08T14:30:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Bundesliga",
+      "homeTeam": "Hamburger SV",
+      "awayTeam": "Borussia Dortmund",
+      "startTime": "2025-11-08T14:30:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Bundesliga",
+      "homeTeam": "TSG Hoffenheim",
+      "awayTeam": "RB Leipzig",
+      "startTime": "2025-11-08T14:30:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Bundesliga",
+      "homeTeam": "Borussia M'gladbach",
+      "awayTeam": "1. FC Köln",
+      "startTime": "2025-11-08T17:30:00.000Z"
+    },
+    {
       "date": "2025-11-08",
       "league": "Ligue 1",
       "homeTeam": "Olympique de Marseille",
@@ -689,6 +661,34 @@
     },
     {
       "date": "2025-11-08",
+      "league": "2. Bundesliga",
+      "homeTeam": "Arminia Bielefeld",
+      "awayTeam": "Karlsruher SC",
+      "startTime": "2025-11-08T12:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "2. Bundesliga",
+      "homeTeam": "FC Schalke 04",
+      "awayTeam": "SV 07 Elversberg",
+      "startTime": "2025-11-08T12:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "2. Bundesliga",
+      "homeTeam": "Hannover 96",
+      "awayTeam": "Darmstadt 98",
+      "startTime": "2025-11-08T12:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "2. Bundesliga",
+      "homeTeam": "1. FC Kaiserslautern",
+      "awayTeam": "Hertha BSC",
+      "startTime": "2025-11-08T19:30:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
       "league": "Ligue 2",
       "homeTeam": "Guingamp",
       "awayTeam": "Pau FC",
@@ -707,6 +707,27 @@
       "homeTeam": "Troyes",
       "awayTeam": "Saint-Étienne",
       "startTime": "2025-11-08T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Winterthur",
+      "awayTeam": "Grasshopper Club Zürich",
+      "startTime": "2025-11-08T17:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Zürich",
+      "awayTeam": "FC Luzern",
+      "startTime": "2025-11-08T17:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "Swiss Super League",
+      "homeTeam": "Servette FC",
+      "awayTeam": "FC Thun",
+      "startTime": "2025-11-08T19:30:00.000Z"
     },
     {
       "date": "2025-11-08",
@@ -738,6 +759,48 @@
     },
     {
       "date": "2025-11-08",
+      "league": "3. Liga",
+      "homeTeam": "1. FC Schweinfurt 05",
+      "awayTeam": "TSG Hoffenheim II U23",
+      "startTime": "2025-11-08T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "3. Liga",
+      "homeTeam": "Energie Cottbus",
+      "awayTeam": "VfL Osnabrück",
+      "startTime": "2025-11-08T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "3. Liga",
+      "homeTeam": "FC Ingolstadt 04",
+      "awayTeam": "Rot-Weiss Essen",
+      "startTime": "2025-11-08T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "3. Liga",
+      "homeTeam": "SC Verl",
+      "awayTeam": "Erzgebirge Aue",
+      "startTime": "2025-11-08T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "3. Liga",
+      "homeTeam": "SSV Ulm 1846",
+      "awayTeam": "F.C. Hansa Rostock",
+      "startTime": "2025-11-08T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
+      "league": "3. Liga",
+      "homeTeam": "1. FC Saarbrücken",
+      "awayTeam": "TSV Havelse",
+      "startTime": "2025-11-08T15:30:00.000Z"
+    },
+    {
+      "date": "2025-11-08",
       "league": "Ligue 1",
       "homeTeam": "Avenir Sportif De Gabes",
       "awayTeam": "AS Soliman",
@@ -763,6 +826,27 @@
       "homeTeam": "US Monastir",
       "awayTeam": "JS Kairouanaise",
       "startTime": "2025-11-08T13:30:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "Bundesliga",
+      "homeTeam": "SC Freiburg",
+      "awayTeam": "FC St. Pauli",
+      "startTime": "2025-11-09T14:30:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "Bundesliga",
+      "homeTeam": "VfB Stuttgart",
+      "awayTeam": "FC Augsburg",
+      "startTime": "2025-11-09T16:30:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "Bundesliga",
+      "homeTeam": "Eintracht Frankfurt",
+      "awayTeam": "1. FSV Mainz 05",
+      "startTime": "2025-11-09T18:30:00.000Z"
     },
     {
       "date": "2025-11-09",
@@ -801,6 +885,48 @@
     },
     {
       "date": "2025-11-09",
+      "league": "2. Bundesliga",
+      "homeTeam": "1. FC Magdeburg",
+      "awayTeam": "SC Paderborn 07",
+      "startTime": "2025-11-09T12:30:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "2. Bundesliga",
+      "homeTeam": "Eintracht Braunschweig",
+      "awayTeam": "VfL Bochum 1848",
+      "startTime": "2025-11-09T12:30:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "2. Bundesliga",
+      "homeTeam": "Holstein Kiel",
+      "awayTeam": "Fortuna Düsseldorf",
+      "startTime": "2025-11-09T12:30:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "Swiss Super League",
+      "homeTeam": "Basel",
+      "awayTeam": "FC Lugano",
+      "startTime": "2025-11-09T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Lausanne-Sport",
+      "awayTeam": "FC Sion",
+      "startTime": "2025-11-09T15:30:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "Swiss Super League",
+      "homeTeam": "FC St. Gallen 1879",
+      "awayTeam": "Young Boys",
+      "startTime": "2025-11-09T15:30:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
       "league": "Ligue 1",
       "homeTeam": "ASO Chlef",
       "awayTeam": "ES Ben Aknoun",
@@ -826,6 +952,27 @@
       "homeTeam": "MC El Bayadh",
       "awayTeam": "MC Alger",
       "startTime": "2025-11-09T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "3. Liga",
+      "homeTeam": "VfB Stuttgart II U21",
+      "awayTeam": "Alemannia Aachen",
+      "startTime": "2025-11-09T12:30:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "3. Liga",
+      "homeTeam": "SSV Jahn Regensburg",
+      "awayTeam": "TSV 1860 München",
+      "startTime": "2025-11-09T15:30:00.000Z"
+    },
+    {
+      "date": "2025-11-09",
+      "league": "3. Liga",
+      "homeTeam": "SV Wehen Wiesbaden",
+      "awayTeam": "FC Viktoria Köln",
+      "startTime": "2025-11-09T18:30:00.000Z"
     },
     {
       "date": "2025-11-09",
@@ -857,10 +1004,31 @@
     },
     {
       "date": "2025-11-21",
+      "league": "Bundesliga",
+      "homeTeam": "1. FSV Mainz 05",
+      "awayTeam": "TSG Hoffenheim",
+      "startTime": "2025-11-21T19:30:00.000Z"
+    },
+    {
+      "date": "2025-11-21",
       "league": "Ligue 1",
       "homeTeam": "Nice",
       "awayTeam": "Olympique de Marseille",
       "startTime": "2025-11-21T19:45:00.000Z"
+    },
+    {
+      "date": "2025-11-21",
+      "league": "2. Bundesliga",
+      "homeTeam": "Hertha BSC",
+      "awayTeam": "Eintracht Braunschweig",
+      "startTime": "2025-11-21T17:30:00.000Z"
+    },
+    {
+      "date": "2025-11-21",
+      "league": "2. Bundesliga",
+      "homeTeam": "VfL Bochum 1848",
+      "awayTeam": "SG Dynamo Dresden",
+      "startTime": "2025-11-21T17:30:00.000Z"
     },
     {
       "date": "2025-11-21",
@@ -968,6 +1136,55 @@
       "startTime": "2025-11-21T18:30:00.000Z"
     },
     {
+      "date": "2025-11-21",
+      "league": "3. Liga",
+      "homeTeam": "TSG Hoffenheim II U23",
+      "awayTeam": "MSV Duisburg",
+      "startTime": "2025-11-21T18:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Bundesliga",
+      "homeTeam": "1. FC Heidenheim",
+      "awayTeam": "Borussia M'gladbach",
+      "startTime": "2025-11-22T14:30:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Bundesliga",
+      "homeTeam": "Borussia Dortmund",
+      "awayTeam": "VfB Stuttgart",
+      "startTime": "2025-11-22T14:30:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Bundesliga",
+      "homeTeam": "FC Augsburg",
+      "awayTeam": "Hamburger SV",
+      "startTime": "2025-11-22T14:30:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Bundesliga",
+      "homeTeam": "FC Bayern München",
+      "awayTeam": "SC Freiburg",
+      "startTime": "2025-11-22T14:30:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Bundesliga",
+      "homeTeam": "VfL Wolfsburg",
+      "awayTeam": "Bayer 04 Leverkusen",
+      "startTime": "2025-11-22T14:30:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Bundesliga",
+      "homeTeam": "1. FC Köln",
+      "awayTeam": "Eintracht Frankfurt",
+      "startTime": "2025-11-22T17:30:00.000Z"
+    },
+    {
       "date": "2025-11-22",
       "league": "Ligue 1",
       "homeTeam": "RC Lens",
@@ -990,6 +1207,34 @@
     },
     {
       "date": "2025-11-22",
+      "league": "2. Bundesliga",
+      "homeTeam": "Fortuna Düsseldorf",
+      "awayTeam": "1. FC Magdeburg",
+      "startTime": "2025-11-22T12:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "2. Bundesliga",
+      "homeTeam": "Preußen Münster",
+      "awayTeam": "FC Schalke 04",
+      "startTime": "2025-11-22T12:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "2. Bundesliga",
+      "homeTeam": "SC Paderborn 07",
+      "awayTeam": "Hannover 96",
+      "startTime": "2025-11-22T12:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "2. Bundesliga",
+      "homeTeam": "Darmstadt 98",
+      "awayTeam": "SpVgg Greuther Fürth",
+      "startTime": "2025-11-22T19:30:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
       "league": "Ligue 2",
       "homeTeam": "Amiens SC",
       "awayTeam": "Guingamp",
@@ -1008,6 +1253,83 @@
       "homeTeam": "Saint-Étienne",
       "awayTeam": "Nancy",
       "startTime": "2025-11-22T19:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Luzern",
+      "awayTeam": "Servette FC",
+      "startTime": "2025-11-22T17:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Swiss Super League",
+      "homeTeam": "Young Boys",
+      "awayTeam": "FC Winterthur",
+      "startTime": "2025-11-22T17:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Thun",
+      "awayTeam": "FC Lugano",
+      "startTime": "2025-11-22T19:30:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "3. Liga",
+      "homeTeam": "Alemannia Aachen",
+      "awayTeam": "SSV Jahn Regensburg",
+      "startTime": "2025-11-22T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "3. Liga",
+      "homeTeam": "F.C. Hansa Rostock",
+      "awayTeam": "1. FC Schweinfurt 05",
+      "startTime": "2025-11-22T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "3. Liga",
+      "homeTeam": "FC Viktoria Köln",
+      "awayTeam": "SC Verl",
+      "startTime": "2025-11-22T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "3. Liga",
+      "homeTeam": "SV Waldhof Mannheim",
+      "awayTeam": "SV Wehen Wiesbaden",
+      "startTime": "2025-11-22T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "3. Liga",
+      "homeTeam": "TSV Havelse",
+      "awayTeam": "SSV Ulm 1846",
+      "startTime": "2025-11-22T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "3. Liga",
+      "homeTeam": "VfL Osnabrück",
+      "awayTeam": "FC Ingolstadt 04",
+      "startTime": "2025-11-22T15:30:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "Bundesliga",
+      "homeTeam": "RB Leipzig",
+      "awayTeam": "SV Werder Bremen",
+      "startTime": "2025-11-23T14:30:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "Bundesliga",
+      "homeTeam": "FC St. Pauli",
+      "awayTeam": "1. FC Union Berlin",
+      "startTime": "2025-11-23T16:30:00.000Z"
     },
     {
       "date": "2025-11-23",
@@ -1043,6 +1365,69 @@
       "homeTeam": "Lille",
       "awayTeam": "Paris FC",
       "startTime": "2025-11-23T19:45:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "2. Bundesliga",
+      "homeTeam": "1. FC Kaiserslautern",
+      "awayTeam": "Holstein Kiel",
+      "startTime": "2025-11-23T12:30:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "2. Bundesliga",
+      "homeTeam": "1. FC Nürnberg",
+      "awayTeam": "Arminia Bielefeld",
+      "startTime": "2025-11-23T12:30:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "2. Bundesliga",
+      "homeTeam": "Karlsruher SC",
+      "awayTeam": "SV 07 Elversberg",
+      "startTime": "2025-11-23T12:30:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Sion",
+      "awayTeam": "FC Zürich",
+      "startTime": "2025-11-23T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "Swiss Super League",
+      "homeTeam": "FC St. Gallen 1879",
+      "awayTeam": "FC Lausanne-Sport",
+      "startTime": "2025-11-23T15:30:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "Swiss Super League",
+      "homeTeam": "Grasshopper Club Zürich",
+      "awayTeam": "Basel",
+      "startTime": "2025-11-23T15:30:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "3. Liga",
+      "homeTeam": "TSV 1860 München",
+      "awayTeam": "1. FC Saarbrücken",
+      "startTime": "2025-11-23T12:30:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "3. Liga",
+      "homeTeam": "Erzgebirge Aue",
+      "awayTeam": "VfB Stuttgart II U21",
+      "startTime": "2025-11-23T15:30:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "3. Liga",
+      "homeTeam": "Rot-Weiss Essen",
+      "awayTeam": "Energie Cottbus",
+      "startTime": "2025-11-23T18:30:00.000Z"
     },
     {
       "date": "2025-11-24",
@@ -1431,10 +1816,73 @@
     },
     {
       "date": "2025-11-28",
+      "league": "Bundesliga",
+      "homeTeam": "Borussia M'gladbach",
+      "awayTeam": "RB Leipzig",
+      "startTime": "2025-11-28T19:30:00.000Z"
+    },
+    {
+      "date": "2025-11-28",
       "league": "Ligue 1",
       "homeTeam": "Metz",
       "awayTeam": "Stade Rennais",
       "startTime": "2025-11-28T19:45:00.000Z"
+    },
+    {
+      "date": "2025-11-28",
+      "league": "2. Bundesliga",
+      "homeTeam": "FC Schalke 04",
+      "awayTeam": "SC Paderborn 07",
+      "startTime": "2025-11-28T17:30:00.000Z"
+    },
+    {
+      "date": "2025-11-28",
+      "league": "2. Bundesliga",
+      "homeTeam": "Hannover 96",
+      "awayTeam": "Karlsruher SC",
+      "startTime": "2025-11-28T17:30:00.000Z"
+    },
+    {
+      "date": "2025-11-28",
+      "league": "3. Liga",
+      "homeTeam": "SV Wehen Wiesbaden",
+      "awayTeam": "Erzgebirge Aue",
+      "startTime": "2025-11-28T18:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Bundesliga",
+      "homeTeam": "1. FC Union Berlin",
+      "awayTeam": "1. FC Heidenheim",
+      "startTime": "2025-11-29T14:30:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Bundesliga",
+      "homeTeam": "FC Bayern München",
+      "awayTeam": "FC St. Pauli",
+      "startTime": "2025-11-29T14:30:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Bundesliga",
+      "homeTeam": "SV Werder Bremen",
+      "awayTeam": "1. FC Köln",
+      "startTime": "2025-11-29T14:30:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Bundesliga",
+      "homeTeam": "TSG Hoffenheim",
+      "awayTeam": "FC Augsburg",
+      "startTime": "2025-11-29T14:30:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Bundesliga",
+      "homeTeam": "Bayer 04 Leverkusen",
+      "awayTeam": "Borussia Dortmund",
+      "startTime": "2025-11-29T17:30:00.000Z"
     },
     {
       "date": "2025-11-29",
@@ -1456,6 +1904,118 @@
       "homeTeam": "Olympique de Marseille",
       "awayTeam": "Toulouse",
       "startTime": "2025-11-29T20:05:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "2. Bundesliga",
+      "homeTeam": "Eintracht Braunschweig",
+      "awayTeam": "1. FC Kaiserslautern",
+      "startTime": "2025-11-29T12:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "2. Bundesliga",
+      "homeTeam": "Holstein Kiel",
+      "awayTeam": "Hertha BSC",
+      "startTime": "2025-11-29T12:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "2. Bundesliga",
+      "homeTeam": "SpVgg Greuther Fürth",
+      "awayTeam": "VfL Bochum 1848",
+      "startTime": "2025-11-29T12:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "2. Bundesliga",
+      "homeTeam": "1. FC Magdeburg",
+      "awayTeam": "1. FC Nürnberg",
+      "startTime": "2025-11-29T19:30:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Lugano",
+      "awayTeam": "FC Sion",
+      "startTime": "2025-11-29T17:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Zürich",
+      "awayTeam": "Grasshopper Club Zürich",
+      "startTime": "2025-11-29T17:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Luzern",
+      "awayTeam": "FC Winterthur",
+      "startTime": "2025-11-29T19:30:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "3. Liga",
+      "homeTeam": "1. FC Saarbrücken",
+      "awayTeam": "Rot-Weiss Essen",
+      "startTime": "2025-11-29T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "3. Liga",
+      "homeTeam": "Energie Cottbus",
+      "awayTeam": "FC Viktoria Köln",
+      "startTime": "2025-11-29T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "3. Liga",
+      "homeTeam": "FC Ingolstadt 04",
+      "awayTeam": "TSG Hoffenheim II U23",
+      "startTime": "2025-11-29T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "3. Liga",
+      "homeTeam": "MSV Duisburg",
+      "awayTeam": "Alemannia Aachen",
+      "startTime": "2025-11-29T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "3. Liga",
+      "homeTeam": "SSV Ulm 1846",
+      "awayTeam": "TSV 1860 München",
+      "startTime": "2025-11-29T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "3. Liga",
+      "homeTeam": "1. FC Schweinfurt 05",
+      "awayTeam": "SV Waldhof Mannheim",
+      "startTime": "2025-11-29T15:30:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "Bundesliga",
+      "homeTeam": "Hamburger SV",
+      "awayTeam": "VfB Stuttgart",
+      "startTime": "2025-11-30T14:30:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "Bundesliga",
+      "homeTeam": "Eintracht Frankfurt",
+      "awayTeam": "VfL Wolfsburg",
+      "startTime": "2025-11-30T16:30:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "Bundesliga",
+      "homeTeam": "SC Freiburg",
+      "awayTeam": "1. FSV Mainz 05",
+      "startTime": "2025-11-30T18:30:00.000Z"
     },
     {
       "date": "2025-11-30",
@@ -1491,6 +2051,69 @@
       "homeTeam": "Olympique Lyonnais",
       "awayTeam": "Nantes",
       "startTime": "2025-11-30T19:45:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "2. Bundesliga",
+      "homeTeam": "Arminia Bielefeld",
+      "awayTeam": "Preußen Münster",
+      "startTime": "2025-11-30T12:30:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "2. Bundesliga",
+      "homeTeam": "SG Dynamo Dresden",
+      "awayTeam": "Fortuna Düsseldorf",
+      "startTime": "2025-11-30T12:30:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "2. Bundesliga",
+      "homeTeam": "SV 07 Elversberg",
+      "awayTeam": "Darmstadt 98",
+      "startTime": "2025-11-30T12:30:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "Swiss Super League",
+      "homeTeam": "Servette FC",
+      "awayTeam": "Young Boys",
+      "startTime": "2025-11-30T13:00:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "Swiss Super League",
+      "homeTeam": "Basel",
+      "awayTeam": "FC St. Gallen 1879",
+      "startTime": "2025-11-30T15:30:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Lausanne-Sport",
+      "awayTeam": "FC Thun",
+      "startTime": "2025-11-30T15:30:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "3. Liga",
+      "homeTeam": "SSV Jahn Regensburg",
+      "awayTeam": "F.C. Hansa Rostock",
+      "startTime": "2025-11-30T12:30:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "3. Liga",
+      "homeTeam": "SC Verl",
+      "awayTeam": "VfL Osnabrück",
+      "startTime": "2025-11-30T15:30:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "3. Liga",
+      "homeTeam": "VfB Stuttgart II U21",
+      "awayTeam": "TSV Havelse",
+      "startTime": "2025-11-30T18:30:00.000Z"
     },
     {
       "date": "2025-12-05",
@@ -1605,6 +2228,139 @@
       "startTime": "2025-12-05T18:30:00.000Z"
     },
     {
+      "date": "2025-12-05",
+      "league": "3. Liga",
+      "homeTeam": "Energie Cottbus",
+      "awayTeam": "MSV Duisburg",
+      "startTime": "2025-12-05T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "3. Liga",
+      "homeTeam": "Erzgebirge Aue",
+      "awayTeam": "FC Ingolstadt 04",
+      "startTime": "2025-12-05T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "3. Liga",
+      "homeTeam": "F.C. Hansa Rostock",
+      "awayTeam": "Alemannia Aachen",
+      "startTime": "2025-12-05T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "3. Liga",
+      "homeTeam": "FC Viktoria Köln",
+      "awayTeam": "SSV Ulm 1846",
+      "startTime": "2025-12-05T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "3. Liga",
+      "homeTeam": "Rot-Weiss Essen",
+      "awayTeam": "VfB Stuttgart II U21",
+      "startTime": "2025-12-05T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "3. Liga",
+      "homeTeam": "SV Waldhof Mannheim",
+      "awayTeam": "1. FC Saarbrücken",
+      "startTime": "2025-12-05T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "3. Liga",
+      "homeTeam": "TSG Hoffenheim II U23",
+      "awayTeam": "SSV Jahn Regensburg",
+      "startTime": "2025-12-05T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "3. Liga",
+      "homeTeam": "TSV 1860 München",
+      "awayTeam": "1. FC Schweinfurt 05",
+      "startTime": "2025-12-05T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "3. Liga",
+      "homeTeam": "TSV Havelse",
+      "awayTeam": "SC Verl",
+      "startTime": "2025-12-05T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-05",
+      "league": "3. Liga",
+      "homeTeam": "VfL Osnabrück",
+      "awayTeam": "SV Wehen Wiesbaden",
+      "startTime": "2025-12-05T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Bundesliga",
+      "homeTeam": "1. FC Heidenheim",
+      "awayTeam": "SC Freiburg",
+      "startTime": "2025-12-06T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Bundesliga",
+      "homeTeam": "1. FC Köln",
+      "awayTeam": "FC St. Pauli",
+      "startTime": "2025-12-06T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Bundesliga",
+      "homeTeam": "1. FSV Mainz 05",
+      "awayTeam": "Borussia M'gladbach",
+      "startTime": "2025-12-06T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Bundesliga",
+      "homeTeam": "Borussia Dortmund",
+      "awayTeam": "TSG Hoffenheim",
+      "startTime": "2025-12-06T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Bundesliga",
+      "homeTeam": "FC Augsburg",
+      "awayTeam": "Bayer 04 Leverkusen",
+      "startTime": "2025-12-06T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Bundesliga",
+      "homeTeam": "Hamburger SV",
+      "awayTeam": "SV Werder Bremen",
+      "startTime": "2025-12-06T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Bundesliga",
+      "homeTeam": "RB Leipzig",
+      "awayTeam": "Eintracht Frankfurt",
+      "startTime": "2025-12-06T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Bundesliga",
+      "homeTeam": "VfB Stuttgart",
+      "awayTeam": "FC Bayern München",
+      "startTime": "2025-12-06T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Bundesliga",
+      "homeTeam": "VfL Wolfsburg",
+      "awayTeam": "1. FC Union Berlin",
+      "startTime": "2025-12-06T14:30:00.000Z"
+    },
+    {
       "date": "2025-12-06",
       "league": "Ligue 1",
       "homeTeam": "Nantes",
@@ -1654,6 +2410,27 @@
       "startTime": "2025-12-06T19:45:00.000Z"
     },
     {
+      "date": "2025-12-06",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Thun",
+      "awayTeam": "FC Luzern",
+      "startTime": "2025-12-06T17:00:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Swiss Super League",
+      "homeTeam": "Grasshopper Club Zürich",
+      "awayTeam": "Servette FC",
+      "startTime": "2025-12-06T17:00:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Swiss Super League",
+      "homeTeam": "FC St. Gallen 1879",
+      "awayTeam": "FC Zürich",
+      "startTime": "2025-12-06T19:30:00.000Z"
+    },
+    {
       "date": "2025-12-07",
       "league": "Ligue 1",
       "homeTeam": "Nice",
@@ -1680,6 +2457,90 @@
       "homeTeam": "Lorient",
       "awayTeam": "Olympique Lyonnais",
       "startTime": "2025-12-07T19:45:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
+      "league": "2. Bundesliga",
+      "homeTeam": "1. FC Kaiserslautern",
+      "awayTeam": "SG Dynamo Dresden",
+      "startTime": "2025-12-07T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
+      "league": "2. Bundesliga",
+      "homeTeam": "1. FC Nürnberg",
+      "awayTeam": "SpVgg Greuther Fürth",
+      "startTime": "2025-12-07T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
+      "league": "2. Bundesliga",
+      "homeTeam": "Darmstadt 98",
+      "awayTeam": "Karlsruher SC",
+      "startTime": "2025-12-07T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
+      "league": "2. Bundesliga",
+      "homeTeam": "Eintracht Braunschweig",
+      "awayTeam": "Holstein Kiel",
+      "startTime": "2025-12-07T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
+      "league": "2. Bundesliga",
+      "homeTeam": "Fortuna Düsseldorf",
+      "awayTeam": "FC Schalke 04",
+      "startTime": "2025-12-07T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
+      "league": "2. Bundesliga",
+      "homeTeam": "Hertha BSC",
+      "awayTeam": "1. FC Magdeburg",
+      "startTime": "2025-12-07T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
+      "league": "2. Bundesliga",
+      "homeTeam": "Preußen Münster",
+      "awayTeam": "Hannover 96",
+      "startTime": "2025-12-07T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
+      "league": "2. Bundesliga",
+      "homeTeam": "SC Paderborn 07",
+      "awayTeam": "SV 07 Elversberg",
+      "startTime": "2025-12-07T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
+      "league": "2. Bundesliga",
+      "homeTeam": "VfL Bochum 1848",
+      "awayTeam": "Arminia Bielefeld",
+      "startTime": "2025-12-07T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Winterthur",
+      "awayTeam": "Basel",
+      "startTime": "2025-12-07T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Lausanne-Sport",
+      "awayTeam": "FC Lugano",
+      "startTime": "2025-12-07T15:30:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Sion",
+      "awayTeam": "Young Boys",
+      "startTime": "2025-12-07T15:30:00.000Z"
     },
     {
       "date": "2025-12-09",
@@ -2172,6 +3033,139 @@
       "startTime": "2025-12-12T18:30:00.000Z"
     },
     {
+      "date": "2025-12-12",
+      "league": "3. Liga",
+      "homeTeam": "1. FC Saarbrücken",
+      "awayTeam": "TSG Hoffenheim II U23",
+      "startTime": "2025-12-12T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "3. Liga",
+      "homeTeam": "1. FC Schweinfurt 05",
+      "awayTeam": "TSV Havelse",
+      "startTime": "2025-12-12T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "3. Liga",
+      "homeTeam": "Alemannia Aachen",
+      "awayTeam": "FC Viktoria Köln",
+      "startTime": "2025-12-12T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "3. Liga",
+      "homeTeam": "FC Ingolstadt 04",
+      "awayTeam": "TSV 1860 München",
+      "startTime": "2025-12-12T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "3. Liga",
+      "homeTeam": "MSV Duisburg",
+      "awayTeam": "Erzgebirge Aue",
+      "startTime": "2025-12-12T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "3. Liga",
+      "homeTeam": "SC Verl",
+      "awayTeam": "Rot-Weiss Essen",
+      "startTime": "2025-12-12T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "3. Liga",
+      "homeTeam": "SSV Jahn Regensburg",
+      "awayTeam": "SV Waldhof Mannheim",
+      "startTime": "2025-12-12T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "3. Liga",
+      "homeTeam": "SSV Ulm 1846",
+      "awayTeam": "VfL Osnabrück",
+      "startTime": "2025-12-12T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "3. Liga",
+      "homeTeam": "SV Wehen Wiesbaden",
+      "awayTeam": "Energie Cottbus",
+      "startTime": "2025-12-12T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "3. Liga",
+      "homeTeam": "VfB Stuttgart II U21",
+      "awayTeam": "F.C. Hansa Rostock",
+      "startTime": "2025-12-12T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Bundesliga",
+      "homeTeam": "1. FC Union Berlin",
+      "awayTeam": "RB Leipzig",
+      "startTime": "2025-12-13T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Bundesliga",
+      "homeTeam": "Bayer 04 Leverkusen",
+      "awayTeam": "1. FC Köln",
+      "startTime": "2025-12-13T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Bundesliga",
+      "homeTeam": "Borussia M'gladbach",
+      "awayTeam": "VfL Wolfsburg",
+      "startTime": "2025-12-13T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Bundesliga",
+      "homeTeam": "Eintracht Frankfurt",
+      "awayTeam": "FC Augsburg",
+      "startTime": "2025-12-13T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Bundesliga",
+      "homeTeam": "FC Bayern München",
+      "awayTeam": "1. FSV Mainz 05",
+      "startTime": "2025-12-13T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Bundesliga",
+      "homeTeam": "FC St. Pauli",
+      "awayTeam": "1. FC Heidenheim",
+      "startTime": "2025-12-13T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Bundesliga",
+      "homeTeam": "SC Freiburg",
+      "awayTeam": "Borussia Dortmund",
+      "startTime": "2025-12-13T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Bundesliga",
+      "homeTeam": "SV Werder Bremen",
+      "awayTeam": "VfB Stuttgart",
+      "startTime": "2025-12-13T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Bundesliga",
+      "homeTeam": "TSG Hoffenheim",
+      "awayTeam": "Hamburger SV",
+      "startTime": "2025-12-13T14:30:00.000Z"
+    },
+    {
       "date": "2025-12-13",
       "league": "Ligue 1",
       "homeTeam": "Stade Rennais",
@@ -2214,6 +3208,27 @@
       "startTime": "2025-12-13T19:00:00.000Z"
     },
     {
+      "date": "2025-12-13",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Sion",
+      "awayTeam": "Grasshopper Club Zürich",
+      "startTime": "2025-12-13T17:00:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Zürich",
+      "awayTeam": "FC Winterthur",
+      "startTime": "2025-12-13T17:00:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Thun",
+      "awayTeam": "FC St. Gallen 1879",
+      "startTime": "2025-12-13T19:30:00.000Z"
+    },
+    {
       "date": "2025-12-14",
       "league": "Ligue 1",
       "homeTeam": "Olympique Lyonnais",
@@ -2249,11 +3264,137 @@
       "startTime": "2025-12-14T19:45:00.000Z"
     },
     {
+      "date": "2025-12-14",
+      "league": "2. Bundesliga",
+      "homeTeam": "1. FC Magdeburg",
+      "awayTeam": "Holstein Kiel",
+      "startTime": "2025-12-14T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "2. Bundesliga",
+      "homeTeam": "Arminia Bielefeld",
+      "awayTeam": "1. FC Kaiserslautern",
+      "startTime": "2025-12-14T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "2. Bundesliga",
+      "homeTeam": "Darmstadt 98",
+      "awayTeam": "Preußen Münster",
+      "startTime": "2025-12-14T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "2. Bundesliga",
+      "homeTeam": "FC Schalke 04",
+      "awayTeam": "1. FC Nürnberg",
+      "startTime": "2025-12-14T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "2. Bundesliga",
+      "homeTeam": "Hannover 96",
+      "awayTeam": "VfL Bochum 1848",
+      "startTime": "2025-12-14T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "2. Bundesliga",
+      "homeTeam": "Karlsruher SC",
+      "awayTeam": "SC Paderborn 07",
+      "startTime": "2025-12-14T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "2. Bundesliga",
+      "homeTeam": "SG Dynamo Dresden",
+      "awayTeam": "Eintracht Braunschweig",
+      "startTime": "2025-12-14T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "2. Bundesliga",
+      "homeTeam": "SpVgg Greuther Fürth",
+      "awayTeam": "Hertha BSC",
+      "startTime": "2025-12-14T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "2. Bundesliga",
+      "homeTeam": "SV 07 Elversberg",
+      "awayTeam": "Fortuna Düsseldorf",
+      "startTime": "2025-12-14T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "Swiss Super League",
+      "homeTeam": "Young Boys",
+      "awayTeam": "FC Luzern",
+      "startTime": "2025-12-14T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "Swiss Super League",
+      "homeTeam": "Basel",
+      "awayTeam": "FC Lausanne-Sport",
+      "startTime": "2025-12-14T15:30:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Lugano",
+      "awayTeam": "Servette FC",
+      "startTime": "2025-12-14T15:30:00.000Z"
+    },
+    {
       "date": "2025-12-15",
       "league": "Ligue 2",
       "homeTeam": "US Boulogne Côte-d'Opale",
       "awayTeam": "Troyes",
       "startTime": "2025-12-15T19:45:00.000Z"
+    },
+    {
+      "date": "2025-12-16",
+      "league": "Swiss Super League",
+      "homeTeam": "FC St. Gallen 1879",
+      "awayTeam": "FC Sion",
+      "startTime": "2025-12-16T19:30:00.000Z"
+    },
+    {
+      "date": "2025-12-16",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Winterthur",
+      "awayTeam": "FC Thun",
+      "startTime": "2025-12-16T19:30:00.000Z"
+    },
+    {
+      "date": "2025-12-17",
+      "league": "Swiss Super League",
+      "homeTeam": "Servette FC",
+      "awayTeam": "FC Lausanne-Sport",
+      "startTime": "2025-12-17T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-17",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Luzern",
+      "awayTeam": "Basel",
+      "startTime": "2025-12-17T19:30:00.000Z"
+    },
+    {
+      "date": "2025-12-17",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Zürich",
+      "awayTeam": "FC Lugano",
+      "startTime": "2025-12-17T19:30:00.000Z"
+    },
+    {
+      "date": "2025-12-17",
+      "league": "Swiss Super League",
+      "homeTeam": "Young Boys",
+      "awayTeam": "Grasshopper Club Zürich",
+      "startTime": "2025-12-17T19:30:00.000Z"
     },
     {
       "date": "2025-12-18",
@@ -2382,6 +3523,251 @@
       "startTime": "2025-12-18T20:00:00.000Z"
     },
     {
+      "date": "2025-12-19",
+      "league": "3. Liga",
+      "homeTeam": "Energie Cottbus",
+      "awayTeam": "SSV Jahn Regensburg",
+      "startTime": "2025-12-19T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-19",
+      "league": "3. Liga",
+      "homeTeam": "Erzgebirge Aue",
+      "awayTeam": "1. FC Schweinfurt 05",
+      "startTime": "2025-12-19T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-19",
+      "league": "3. Liga",
+      "homeTeam": "F.C. Hansa Rostock",
+      "awayTeam": "1. FC Saarbrücken",
+      "startTime": "2025-12-19T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-19",
+      "league": "3. Liga",
+      "homeTeam": "FC Viktoria Köln",
+      "awayTeam": "MSV Duisburg",
+      "startTime": "2025-12-19T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-19",
+      "league": "3. Liga",
+      "homeTeam": "Rot-Weiss Essen",
+      "awayTeam": "SSV Ulm 1846",
+      "startTime": "2025-12-19T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-19",
+      "league": "3. Liga",
+      "homeTeam": "SV Waldhof Mannheim",
+      "awayTeam": "FC Ingolstadt 04",
+      "startTime": "2025-12-19T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-19",
+      "league": "3. Liga",
+      "homeTeam": "TSG Hoffenheim II U23",
+      "awayTeam": "SV Wehen Wiesbaden",
+      "startTime": "2025-12-19T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-19",
+      "league": "3. Liga",
+      "homeTeam": "TSV 1860 München",
+      "awayTeam": "SC Verl",
+      "startTime": "2025-12-19T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-19",
+      "league": "3. Liga",
+      "homeTeam": "TSV Havelse",
+      "awayTeam": "Alemannia Aachen",
+      "startTime": "2025-12-19T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-19",
+      "league": "3. Liga",
+      "homeTeam": "VfL Osnabrück",
+      "awayTeam": "VfB Stuttgart II U21",
+      "startTime": "2025-12-19T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Bundesliga",
+      "homeTeam": "1. FC Heidenheim",
+      "awayTeam": "FC Bayern München",
+      "startTime": "2025-12-20T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Bundesliga",
+      "homeTeam": "1. FC Köln",
+      "awayTeam": "1. FC Union Berlin",
+      "startTime": "2025-12-20T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Bundesliga",
+      "homeTeam": "1. FSV Mainz 05",
+      "awayTeam": "FC St. Pauli",
+      "startTime": "2025-12-20T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Bundesliga",
+      "homeTeam": "Borussia Dortmund",
+      "awayTeam": "Borussia M'gladbach",
+      "startTime": "2025-12-20T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Bundesliga",
+      "homeTeam": "FC Augsburg",
+      "awayTeam": "SV Werder Bremen",
+      "startTime": "2025-12-20T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Bundesliga",
+      "homeTeam": "Hamburger SV",
+      "awayTeam": "Eintracht Frankfurt",
+      "startTime": "2025-12-20T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Bundesliga",
+      "homeTeam": "RB Leipzig",
+      "awayTeam": "Bayer 04 Leverkusen",
+      "startTime": "2025-12-20T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Bundesliga",
+      "homeTeam": "VfB Stuttgart",
+      "awayTeam": "TSG Hoffenheim",
+      "startTime": "2025-12-20T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Bundesliga",
+      "homeTeam": "VfL Wolfsburg",
+      "awayTeam": "SC Freiburg",
+      "startTime": "2025-12-20T14:30:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Sion",
+      "awayTeam": "FC Winterthur",
+      "startTime": "2025-12-20T17:00:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Thun",
+      "awayTeam": "FC Zürich",
+      "startTime": "2025-12-20T17:00:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Swiss Super League",
+      "homeTeam": "Basel",
+      "awayTeam": "Servette FC",
+      "startTime": "2025-12-20T19:30:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
+      "league": "2. Bundesliga",
+      "homeTeam": "1. FC Kaiserslautern",
+      "awayTeam": "1. FC Magdeburg",
+      "startTime": "2025-12-21T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
+      "league": "2. Bundesliga",
+      "homeTeam": "1. FC Nürnberg",
+      "awayTeam": "Hannover 96",
+      "startTime": "2025-12-21T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
+      "league": "2. Bundesliga",
+      "homeTeam": "Eintracht Braunschweig",
+      "awayTeam": "FC Schalke 04",
+      "startTime": "2025-12-21T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
+      "league": "2. Bundesliga",
+      "homeTeam": "Fortuna Düsseldorf",
+      "awayTeam": "SpVgg Greuther Fürth",
+      "startTime": "2025-12-21T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
+      "league": "2. Bundesliga",
+      "homeTeam": "Hertha BSC",
+      "awayTeam": "Arminia Bielefeld",
+      "startTime": "2025-12-21T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
+      "league": "2. Bundesliga",
+      "homeTeam": "Holstein Kiel",
+      "awayTeam": "SG Dynamo Dresden",
+      "startTime": "2025-12-21T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
+      "league": "2. Bundesliga",
+      "homeTeam": "Preußen Münster",
+      "awayTeam": "SV 07 Elversberg",
+      "startTime": "2025-12-21T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
+      "league": "2. Bundesliga",
+      "homeTeam": "SC Paderborn 07",
+      "awayTeam": "Darmstadt 98",
+      "startTime": "2025-12-21T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
+      "league": "2. Bundesliga",
+      "homeTeam": "VfL Bochum 1848",
+      "awayTeam": "Karlsruher SC",
+      "startTime": "2025-12-21T12:30:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Lausanne-Sport",
+      "awayTeam": "FC Luzern",
+      "startTime": "2025-12-21T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Lugano",
+      "awayTeam": "Young Boys",
+      "startTime": "2025-12-21T15:30:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
+      "league": "Swiss Super League",
+      "homeTeam": "Grasshopper Club Zürich",
+      "awayTeam": "FC St. Gallen 1879",
+      "startTime": "2025-12-21T15:30:00.000Z"
+    },
+    {
+      "date": "2026-01-02",
+      "league": "Ligue 1",
+      "homeTeam": "Toulouse",
+      "awayTeam": "RC Lens",
+      "startTime": "2026-01-02T19:45:00.000Z"
+    },
+    {
       "date": "2026-01-02",
       "league": "Ligue 2",
       "homeTeam": "Amiens SC",
@@ -2445,39 +3831,25 @@
       "startTime": "2026-01-02T20:00:00.000Z"
     },
     {
-      "date": "2026-01-04",
+      "date": "2026-01-03",
       "league": "Ligue 1",
       "homeTeam": "AS Monaco",
       "awayTeam": "Olympique Lyonnais",
-      "startTime": "2026-01-04T14:00:00.000Z"
+      "startTime": "2026-01-03T16:00:00.000Z"
     },
     {
-      "date": "2026-01-04",
-      "league": "Ligue 1",
-      "homeTeam": "Le Havre",
-      "awayTeam": "Angers",
-      "startTime": "2026-01-04T14:00:00.000Z"
-    },
-    {
-      "date": "2026-01-04",
-      "league": "Ligue 1",
-      "homeTeam": "Lille",
-      "awayTeam": "Stade Rennais",
-      "startTime": "2026-01-04T14:00:00.000Z"
-    },
-    {
-      "date": "2026-01-04",
-      "league": "Ligue 1",
-      "homeTeam": "Lorient",
-      "awayTeam": "Metz",
-      "startTime": "2026-01-04T14:00:00.000Z"
-    },
-    {
-      "date": "2026-01-04",
+      "date": "2026-01-03",
       "league": "Ligue 1",
       "homeTeam": "Nice",
       "awayTeam": "RC Strasbourg",
-      "startTime": "2026-01-04T14:00:00.000Z"
+      "startTime": "2026-01-03T18:00:00.000Z"
+    },
+    {
+      "date": "2026-01-03",
+      "league": "Ligue 1",
+      "homeTeam": "Lille",
+      "awayTeam": "Stade Rennais",
+      "startTime": "2026-01-03T20:05:00.000Z"
     },
     {
       "date": "2026-01-04",
@@ -2489,23 +3861,170 @@
     {
       "date": "2026-01-04",
       "league": "Ligue 1",
-      "homeTeam": "Paris Saint-Germain",
-      "awayTeam": "Paris FC",
-      "startTime": "2026-01-04T14:00:00.000Z"
+      "homeTeam": "Le Havre",
+      "awayTeam": "Angers",
+      "startTime": "2026-01-04T16:15:00.000Z"
+    },
+    {
+      "date": "2026-01-04",
+      "league": "Ligue 1",
+      "homeTeam": "Lorient",
+      "awayTeam": "Metz",
+      "startTime": "2026-01-04T16:15:00.000Z"
     },
     {
       "date": "2026-01-04",
       "league": "Ligue 1",
       "homeTeam": "Stade Brestois",
       "awayTeam": "Auxerre",
-      "startTime": "2026-01-04T14:00:00.000Z"
+      "startTime": "2026-01-04T16:15:00.000Z"
     },
     {
       "date": "2026-01-04",
       "league": "Ligue 1",
-      "homeTeam": "Toulouse",
-      "awayTeam": "RC Lens",
-      "startTime": "2026-01-04T14:00:00.000Z"
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Paris FC",
+      "startTime": "2026-01-04T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Bundesliga",
+      "homeTeam": "1. FC Heidenheim",
+      "awayTeam": "1. FC Köln",
+      "startTime": "2026-01-10T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Bundesliga",
+      "homeTeam": "1. FC Union Berlin",
+      "awayTeam": "1. FSV Mainz 05",
+      "startTime": "2026-01-10T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Bundesliga",
+      "homeTeam": "Bayer 04 Leverkusen",
+      "awayTeam": "VfB Stuttgart",
+      "startTime": "2026-01-10T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Bundesliga",
+      "homeTeam": "Borussia M'gladbach",
+      "awayTeam": "FC Augsburg",
+      "startTime": "2026-01-10T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Bundesliga",
+      "homeTeam": "Eintracht Frankfurt",
+      "awayTeam": "Borussia Dortmund",
+      "startTime": "2026-01-10T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Bundesliga",
+      "homeTeam": "FC Bayern München",
+      "awayTeam": "VfL Wolfsburg",
+      "startTime": "2026-01-10T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Bundesliga",
+      "homeTeam": "FC St. Pauli",
+      "awayTeam": "RB Leipzig",
+      "startTime": "2026-01-10T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Bundesliga",
+      "homeTeam": "SC Freiburg",
+      "awayTeam": "Hamburger SV",
+      "startTime": "2026-01-10T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Bundesliga",
+      "homeTeam": "SV Werder Bremen",
+      "awayTeam": "TSG Hoffenheim",
+      "startTime": "2026-01-10T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-13",
+      "league": "Bundesliga",
+      "homeTeam": "1. FC Köln",
+      "awayTeam": "FC Bayern München",
+      "startTime": "2026-01-13T19:30:00.000Z"
+    },
+    {
+      "date": "2026-01-13",
+      "league": "Bundesliga",
+      "homeTeam": "1. FSV Mainz 05",
+      "awayTeam": "1. FC Heidenheim",
+      "startTime": "2026-01-13T19:30:00.000Z"
+    },
+    {
+      "date": "2026-01-13",
+      "league": "Bundesliga",
+      "homeTeam": "Borussia Dortmund",
+      "awayTeam": "SV Werder Bremen",
+      "startTime": "2026-01-13T19:30:00.000Z"
+    },
+    {
+      "date": "2026-01-13",
+      "league": "Bundesliga",
+      "homeTeam": "FC Augsburg",
+      "awayTeam": "1. FC Union Berlin",
+      "startTime": "2026-01-13T19:30:00.000Z"
+    },
+    {
+      "date": "2026-01-13",
+      "league": "Bundesliga",
+      "homeTeam": "Hamburger SV",
+      "awayTeam": "Bayer 04 Leverkusen",
+      "startTime": "2026-01-13T19:30:00.000Z"
+    },
+    {
+      "date": "2026-01-13",
+      "league": "Bundesliga",
+      "homeTeam": "RB Leipzig",
+      "awayTeam": "SC Freiburg",
+      "startTime": "2026-01-13T19:30:00.000Z"
+    },
+    {
+      "date": "2026-01-13",
+      "league": "Bundesliga",
+      "homeTeam": "TSG Hoffenheim",
+      "awayTeam": "Borussia M'gladbach",
+      "startTime": "2026-01-13T19:30:00.000Z"
+    },
+    {
+      "date": "2026-01-13",
+      "league": "Bundesliga",
+      "homeTeam": "VfB Stuttgart",
+      "awayTeam": "Eintracht Frankfurt",
+      "startTime": "2026-01-13T19:30:00.000Z"
+    },
+    {
+      "date": "2026-01-13",
+      "league": "Bundesliga",
+      "homeTeam": "VfL Wolfsburg",
+      "awayTeam": "FC St. Pauli",
+      "startTime": "2026-01-13T19:30:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "Ligue 1",
+      "homeTeam": "AS Monaco",
+      "awayTeam": "Lorient",
+      "startTime": "2026-01-16T18:00:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "Ligue 1",
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Lille",
+      "startTime": "2026-01-16T20:00:00.000Z"
     },
     {
       "date": "2026-01-16",
@@ -2634,46 +4153,179 @@
       "startTime": "2026-01-16T18:30:00.000Z"
     },
     {
-      "date": "2026-01-18",
-      "league": "Ligue 1",
-      "homeTeam": "Angers",
-      "awayTeam": "Olympique de Marseille",
-      "startTime": "2026-01-18T14:00:00.000Z"
+      "date": "2026-01-16",
+      "league": "3. Liga",
+      "homeTeam": "1. FC Saarbrücken",
+      "awayTeam": "Energie Cottbus",
+      "startTime": "2026-01-16T13:00:00.000Z"
     },
     {
-      "date": "2026-01-18",
-      "league": "Ligue 1",
-      "homeTeam": "AS Monaco",
-      "awayTeam": "Lorient",
-      "startTime": "2026-01-18T14:00:00.000Z"
+      "date": "2026-01-16",
+      "league": "3. Liga",
+      "homeTeam": "1. FC Schweinfurt 05",
+      "awayTeam": "FC Viktoria Köln",
+      "startTime": "2026-01-16T13:00:00.000Z"
     },
     {
-      "date": "2026-01-18",
-      "league": "Ligue 1",
-      "homeTeam": "Nantes",
-      "awayTeam": "Paris FC",
-      "startTime": "2026-01-18T14:00:00.000Z"
+      "date": "2026-01-16",
+      "league": "3. Liga",
+      "homeTeam": "Alemannia Aachen",
+      "awayTeam": "VfL Osnabrück",
+      "startTime": "2026-01-16T13:00:00.000Z"
     },
     {
-      "date": "2026-01-18",
-      "league": "Ligue 1",
-      "homeTeam": "Olympique Lyonnais",
-      "awayTeam": "Stade Brestois",
-      "startTime": "2026-01-18T14:00:00.000Z"
+      "date": "2026-01-16",
+      "league": "3. Liga",
+      "homeTeam": "F.C. Hansa Rostock",
+      "awayTeam": "Erzgebirge Aue",
+      "startTime": "2026-01-16T13:00:00.000Z"
     },
     {
-      "date": "2026-01-18",
-      "league": "Ligue 1",
-      "homeTeam": "Paris Saint-Germain",
-      "awayTeam": "Lille",
-      "startTime": "2026-01-18T14:00:00.000Z"
+      "date": "2026-01-16",
+      "league": "3. Liga",
+      "homeTeam": "SC Verl",
+      "awayTeam": "SV Waldhof Mannheim",
+      "startTime": "2026-01-16T13:00:00.000Z"
     },
     {
-      "date": "2026-01-18",
+      "date": "2026-01-16",
+      "league": "3. Liga",
+      "homeTeam": "SSV Jahn Regensburg",
+      "awayTeam": "FC Ingolstadt 04",
+      "startTime": "2026-01-16T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "3. Liga",
+      "homeTeam": "SSV Ulm 1846",
+      "awayTeam": "SV Wehen Wiesbaden",
+      "startTime": "2026-01-16T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "3. Liga",
+      "homeTeam": "TSV 1860 München",
+      "awayTeam": "Rot-Weiss Essen",
+      "startTime": "2026-01-16T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "3. Liga",
+      "homeTeam": "TSV Havelse",
+      "awayTeam": "TSG Hoffenheim II U23",
+      "startTime": "2026-01-16T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "3. Liga",
+      "homeTeam": "VfB Stuttgart II U21",
+      "awayTeam": "MSV Duisburg",
+      "startTime": "2026-01-16T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Bundesliga",
+      "homeTeam": "1. FC Köln",
+      "awayTeam": "1. FSV Mainz 05",
+      "startTime": "2026-01-17T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Bundesliga",
+      "homeTeam": "Borussia Dortmund",
+      "awayTeam": "FC St. Pauli",
+      "startTime": "2026-01-17T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Bundesliga",
+      "homeTeam": "FC Augsburg",
+      "awayTeam": "SC Freiburg",
+      "startTime": "2026-01-17T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Bundesliga",
+      "homeTeam": "Hamburger SV",
+      "awayTeam": "Borussia M'gladbach",
+      "startTime": "2026-01-17T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Bundesliga",
+      "homeTeam": "RB Leipzig",
+      "awayTeam": "FC Bayern München",
+      "startTime": "2026-01-17T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Bundesliga",
+      "homeTeam": "SV Werder Bremen",
+      "awayTeam": "Eintracht Frankfurt",
+      "startTime": "2026-01-17T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Bundesliga",
+      "homeTeam": "TSG Hoffenheim",
+      "awayTeam": "Bayer 04 Leverkusen",
+      "startTime": "2026-01-17T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Bundesliga",
+      "homeTeam": "VfB Stuttgart",
+      "awayTeam": "1. FC Union Berlin",
+      "startTime": "2026-01-17T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Bundesliga",
+      "homeTeam": "VfL Wolfsburg",
+      "awayTeam": "1. FC Heidenheim",
+      "startTime": "2026-01-17T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
       "league": "Ligue 1",
       "homeTeam": "RC Lens",
       "awayTeam": "Auxerre",
-      "startTime": "2026-01-18T14:00:00.000Z"
+      "startTime": "2026-01-17T16:00:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Ligue 1",
+      "homeTeam": "Toulouse",
+      "awayTeam": "Nice",
+      "startTime": "2026-01-17T18:00:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Ligue 1",
+      "homeTeam": "Angers",
+      "awayTeam": "Olympique de Marseille",
+      "startTime": "2026-01-17T20:05:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Luzern",
+      "awayTeam": "FC Lugano",
+      "startTime": "2026-01-17T17:00:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Winterthur",
+      "awayTeam": "FC St. Gallen 1879",
+      "startTime": "2026-01-17T17:00:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Swiss Super League",
+      "homeTeam": "Young Boys",
+      "awayTeam": "FC Lausanne-Sport",
+      "startTime": "2026-01-17T19:30:00.000Z"
     },
     {
       "date": "2026-01-18",
@@ -2685,16 +4337,107 @@
     {
       "date": "2026-01-18",
       "league": "Ligue 1",
-      "homeTeam": "Stade Rennais",
-      "awayTeam": "Le Havre",
-      "startTime": "2026-01-18T14:00:00.000Z"
+      "homeTeam": "Nantes",
+      "awayTeam": "Paris FC",
+      "startTime": "2026-01-18T16:15:00.000Z"
     },
     {
       "date": "2026-01-18",
       "league": "Ligue 1",
-      "homeTeam": "Toulouse",
-      "awayTeam": "Nice",
-      "startTime": "2026-01-18T14:00:00.000Z"
+      "homeTeam": "Stade Rennais",
+      "awayTeam": "Le Havre",
+      "startTime": "2026-01-18T16:15:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "Ligue 1",
+      "homeTeam": "Olympique Lyonnais",
+      "awayTeam": "Stade Brestois",
+      "startTime": "2026-01-18T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "2. Bundesliga",
+      "homeTeam": "1. FC Kaiserslautern",
+      "awayTeam": "Hannover 96",
+      "startTime": "2026-01-18T12:30:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "2. Bundesliga",
+      "homeTeam": "1. FC Nürnberg",
+      "awayTeam": "SV 07 Elversberg",
+      "startTime": "2026-01-18T12:30:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "2. Bundesliga",
+      "homeTeam": "Eintracht Braunschweig",
+      "awayTeam": "1. FC Magdeburg",
+      "startTime": "2026-01-18T12:30:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "2. Bundesliga",
+      "homeTeam": "Fortuna Düsseldorf",
+      "awayTeam": "Arminia Bielefeld",
+      "startTime": "2026-01-18T12:30:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "2. Bundesliga",
+      "homeTeam": "Hertha BSC",
+      "awayTeam": "FC Schalke 04",
+      "startTime": "2026-01-18T12:30:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "2. Bundesliga",
+      "homeTeam": "Holstein Kiel",
+      "awayTeam": "SC Paderborn 07",
+      "startTime": "2026-01-18T12:30:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "2. Bundesliga",
+      "homeTeam": "Preußen Münster",
+      "awayTeam": "Karlsruher SC",
+      "startTime": "2026-01-18T12:30:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "2. Bundesliga",
+      "homeTeam": "SG Dynamo Dresden",
+      "awayTeam": "SpVgg Greuther Fürth",
+      "startTime": "2026-01-18T12:30:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "2. Bundesliga",
+      "homeTeam": "VfL Bochum 1848",
+      "awayTeam": "Darmstadt 98",
+      "startTime": "2026-01-18T12:30:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "Swiss Super League",
+      "homeTeam": "Servette FC",
+      "awayTeam": "FC Zürich",
+      "startTime": "2026-01-18T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "Swiss Super League",
+      "homeTeam": "Basel",
+      "awayTeam": "FC Sion",
+      "startTime": "2026-01-18T15:30:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "Swiss Super League",
+      "homeTeam": "Grasshopper Club Zürich",
+      "awayTeam": "FC Thun",
+      "startTime": "2026-01-18T15:30:00.000Z"
     },
     {
       "date": "2026-01-20",
@@ -3075,6 +4818,160 @@
       "startTime": "2026-01-23T18:30:00.000Z"
     },
     {
+      "date": "2026-01-23",
+      "league": "3. Liga",
+      "homeTeam": "Energie Cottbus",
+      "awayTeam": "1. FC Schweinfurt 05",
+      "startTime": "2026-01-23T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "3. Liga",
+      "homeTeam": "Erzgebirge Aue",
+      "awayTeam": "SSV Ulm 1846",
+      "startTime": "2026-01-23T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "3. Liga",
+      "homeTeam": "FC Ingolstadt 04",
+      "awayTeam": "VfB Stuttgart II U21",
+      "startTime": "2026-01-23T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "3. Liga",
+      "homeTeam": "FC Viktoria Köln",
+      "awayTeam": "1. FC Saarbrücken",
+      "startTime": "2026-01-23T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "3. Liga",
+      "homeTeam": "MSV Duisburg",
+      "awayTeam": "SSV Jahn Regensburg",
+      "startTime": "2026-01-23T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "3. Liga",
+      "homeTeam": "Rot-Weiss Essen",
+      "awayTeam": "TSV Havelse",
+      "startTime": "2026-01-23T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "3. Liga",
+      "homeTeam": "SV Waldhof Mannheim",
+      "awayTeam": "F.C. Hansa Rostock",
+      "startTime": "2026-01-23T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "3. Liga",
+      "homeTeam": "SV Wehen Wiesbaden",
+      "awayTeam": "SC Verl",
+      "startTime": "2026-01-23T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "3. Liga",
+      "homeTeam": "TSG Hoffenheim II U23",
+      "awayTeam": "Alemannia Aachen",
+      "startTime": "2026-01-23T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
+      "league": "3. Liga",
+      "homeTeam": "VfL Osnabrück",
+      "awayTeam": "TSV 1860 München",
+      "startTime": "2026-01-23T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Bundesliga",
+      "homeTeam": "1. FC Heidenheim",
+      "awayTeam": "RB Leipzig",
+      "startTime": "2026-01-24T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Bundesliga",
+      "homeTeam": "1. FC Union Berlin",
+      "awayTeam": "Borussia Dortmund",
+      "startTime": "2026-01-24T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Bundesliga",
+      "homeTeam": "1. FSV Mainz 05",
+      "awayTeam": "VfL Wolfsburg",
+      "startTime": "2026-01-24T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Bundesliga",
+      "homeTeam": "Bayer 04 Leverkusen",
+      "awayTeam": "SV Werder Bremen",
+      "startTime": "2026-01-24T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Bundesliga",
+      "homeTeam": "Borussia M'gladbach",
+      "awayTeam": "VfB Stuttgart",
+      "startTime": "2026-01-24T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Bundesliga",
+      "homeTeam": "Eintracht Frankfurt",
+      "awayTeam": "TSG Hoffenheim",
+      "startTime": "2026-01-24T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Bundesliga",
+      "homeTeam": "FC Bayern München",
+      "awayTeam": "FC Augsburg",
+      "startTime": "2026-01-24T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Bundesliga",
+      "homeTeam": "FC St. Pauli",
+      "awayTeam": "Hamburger SV",
+      "startTime": "2026-01-24T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Bundesliga",
+      "homeTeam": "SC Freiburg",
+      "awayTeam": "1. FC Köln",
+      "startTime": "2026-01-24T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Lausanne-Sport",
+      "awayTeam": "Grasshopper Club Zürich",
+      "startTime": "2026-01-24T17:00:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Lugano",
+      "awayTeam": "FC Winterthur",
+      "startTime": "2026-01-24T17:00:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Sion",
+      "awayTeam": "FC Luzern",
+      "startTime": "2026-01-24T19:30:00.000Z"
+    },
+    {
       "date": "2026-01-25",
       "league": "Ligue 1",
       "homeTeam": "Auxerre",
@@ -3136,6 +5033,90 @@
       "homeTeam": "Stade Rennais",
       "awayTeam": "Lorient",
       "startTime": "2026-01-25T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "2. Bundesliga",
+      "homeTeam": "1. FC Magdeburg",
+      "awayTeam": "SG Dynamo Dresden",
+      "startTime": "2026-01-25T12:30:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "2. Bundesliga",
+      "homeTeam": "Arminia Bielefeld",
+      "awayTeam": "Holstein Kiel",
+      "startTime": "2026-01-25T12:30:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "2. Bundesliga",
+      "homeTeam": "Darmstadt 98",
+      "awayTeam": "1. FC Nürnberg",
+      "startTime": "2026-01-25T12:30:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "2. Bundesliga",
+      "homeTeam": "FC Schalke 04",
+      "awayTeam": "1. FC Kaiserslautern",
+      "startTime": "2026-01-25T12:30:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "2. Bundesliga",
+      "homeTeam": "Hannover 96",
+      "awayTeam": "Fortuna Düsseldorf",
+      "startTime": "2026-01-25T12:30:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "2. Bundesliga",
+      "homeTeam": "Karlsruher SC",
+      "awayTeam": "Hertha BSC",
+      "startTime": "2026-01-25T12:30:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "2. Bundesliga",
+      "homeTeam": "SC Paderborn 07",
+      "awayTeam": "Preußen Münster",
+      "startTime": "2026-01-25T12:30:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "2. Bundesliga",
+      "homeTeam": "SpVgg Greuther Fürth",
+      "awayTeam": "Eintracht Braunschweig",
+      "startTime": "2026-01-25T12:30:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "2. Bundesliga",
+      "homeTeam": "SV 07 Elversberg",
+      "awayTeam": "VfL Bochum 1848",
+      "startTime": "2026-01-25T12:30:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Thun",
+      "awayTeam": "Young Boys",
+      "startTime": "2026-01-25T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "Swiss Super League",
+      "homeTeam": "FC St. Gallen 1879",
+      "awayTeam": "Servette FC",
+      "startTime": "2026-01-25T15:30:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Zürich",
+      "awayTeam": "Basel",
+      "startTime": "2026-01-25T15:30:00.000Z"
     },
     {
       "date": "2026-01-28",
@@ -3516,6 +5497,160 @@
       "startTime": "2026-01-30T18:30:00.000Z"
     },
     {
+      "date": "2026-01-30",
+      "league": "3. Liga",
+      "homeTeam": "1. FC Saarbrücken",
+      "awayTeam": "VfL Osnabrück",
+      "startTime": "2026-01-30T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "3. Liga",
+      "homeTeam": "1. FC Schweinfurt 05",
+      "awayTeam": "SSV Jahn Regensburg",
+      "startTime": "2026-01-30T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "3. Liga",
+      "homeTeam": "Energie Cottbus",
+      "awayTeam": "TSG Hoffenheim II U23",
+      "startTime": "2026-01-30T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "3. Liga",
+      "homeTeam": "F.C. Hansa Rostock",
+      "awayTeam": "FC Ingolstadt 04",
+      "startTime": "2026-01-30T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "3. Liga",
+      "homeTeam": "FC Viktoria Köln",
+      "awayTeam": "SV Waldhof Mannheim",
+      "startTime": "2026-01-30T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "3. Liga",
+      "homeTeam": "Rot-Weiss Essen",
+      "awayTeam": "SV Wehen Wiesbaden",
+      "startTime": "2026-01-30T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "3. Liga",
+      "homeTeam": "SC Verl",
+      "awayTeam": "VfB Stuttgart II U21",
+      "startTime": "2026-01-30T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "3. Liga",
+      "homeTeam": "SSV Ulm 1846",
+      "awayTeam": "MSV Duisburg",
+      "startTime": "2026-01-30T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "3. Liga",
+      "homeTeam": "TSV 1860 München",
+      "awayTeam": "Alemannia Aachen",
+      "startTime": "2026-01-30T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-30",
+      "league": "3. Liga",
+      "homeTeam": "TSV Havelse",
+      "awayTeam": "Erzgebirge Aue",
+      "startTime": "2026-01-30T13:00:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Bundesliga",
+      "homeTeam": "1. FC Köln",
+      "awayTeam": "VfL Wolfsburg",
+      "startTime": "2026-01-31T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Bundesliga",
+      "homeTeam": "Borussia Dortmund",
+      "awayTeam": "1. FC Heidenheim",
+      "startTime": "2026-01-31T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Bundesliga",
+      "homeTeam": "Eintracht Frankfurt",
+      "awayTeam": "Bayer 04 Leverkusen",
+      "startTime": "2026-01-31T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Bundesliga",
+      "homeTeam": "FC Augsburg",
+      "awayTeam": "FC St. Pauli",
+      "startTime": "2026-01-31T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Bundesliga",
+      "homeTeam": "Hamburger SV",
+      "awayTeam": "FC Bayern München",
+      "startTime": "2026-01-31T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Bundesliga",
+      "homeTeam": "RB Leipzig",
+      "awayTeam": "1. FSV Mainz 05",
+      "startTime": "2026-01-31T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Bundesliga",
+      "homeTeam": "SV Werder Bremen",
+      "awayTeam": "Borussia M'gladbach",
+      "startTime": "2026-01-31T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Bundesliga",
+      "homeTeam": "TSG Hoffenheim",
+      "awayTeam": "1. FC Union Berlin",
+      "startTime": "2026-01-31T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Bundesliga",
+      "homeTeam": "VfB Stuttgart",
+      "awayTeam": "SC Freiburg",
+      "startTime": "2026-01-31T14:30:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Winterthur",
+      "awayTeam": "FC Lausanne-Sport",
+      "startTime": "2026-01-31T17:00:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Swiss Super League",
+      "homeTeam": "Servette FC",
+      "awayTeam": "FC Sion",
+      "startTime": "2026-01-31T17:00:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Swiss Super League",
+      "homeTeam": "Grasshopper Club Zürich",
+      "awayTeam": "FC Lugano",
+      "startTime": "2026-01-31T19:30:00.000Z"
+    },
+    {
       "date": "2026-02-01",
       "league": "Ligue 1",
       "homeTeam": "Angers",
@@ -3577,6 +5712,90 @@
       "homeTeam": "Toulouse",
       "awayTeam": "Auxerre",
       "startTime": "2026-02-01T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "2. Bundesliga",
+      "homeTeam": "1. FC Kaiserslautern",
+      "awayTeam": "SV 07 Elversberg",
+      "startTime": "2026-02-01T12:30:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "2. Bundesliga",
+      "homeTeam": "1. FC Magdeburg",
+      "awayTeam": "Hannover 96",
+      "startTime": "2026-02-01T12:30:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "2. Bundesliga",
+      "homeTeam": "1. FC Nürnberg",
+      "awayTeam": "Preußen Münster",
+      "startTime": "2026-02-01T12:30:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "2. Bundesliga",
+      "homeTeam": "Eintracht Braunschweig",
+      "awayTeam": "Karlsruher SC",
+      "startTime": "2026-02-01T12:30:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "2. Bundesliga",
+      "homeTeam": "Fortuna Düsseldorf",
+      "awayTeam": "SC Paderborn 07",
+      "startTime": "2026-02-01T12:30:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "2. Bundesliga",
+      "homeTeam": "Hertha BSC",
+      "awayTeam": "Darmstadt 98",
+      "startTime": "2026-02-01T12:30:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "2. Bundesliga",
+      "homeTeam": "Holstein Kiel",
+      "awayTeam": "SpVgg Greuther Fürth",
+      "startTime": "2026-02-01T12:30:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "2. Bundesliga",
+      "homeTeam": "SG Dynamo Dresden",
+      "awayTeam": "Arminia Bielefeld",
+      "startTime": "2026-02-01T12:30:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "2. Bundesliga",
+      "homeTeam": "VfL Bochum 1848",
+      "awayTeam": "FC Schalke 04",
+      "startTime": "2026-02-01T12:30:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "Swiss Super League",
+      "homeTeam": "FC Luzern",
+      "awayTeam": "FC St. Gallen 1879",
+      "startTime": "2026-02-01T13:00:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "Swiss Super League",
+      "homeTeam": "Basel",
+      "awayTeam": "FC Thun",
+      "startTime": "2026-02-01T15:30:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "Swiss Super League",
+      "homeTeam": "Young Boys",
+      "awayTeam": "FC Zürich",
+      "startTime": "2026-02-01T15:30:00.000Z"
     }
   ]
 }

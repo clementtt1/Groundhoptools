@@ -3,23 +3,27 @@
 {% block title %}Carte des clubs{% endblock %}
 
 {% block body %}
-<h1 class="text-center">Groundhoptools</h1>
+<h1 class="text-center mb-4">Groundhoptools</h1>
 
-<div style="text-align:center; margin-bottom: 20px;">
-    <label for="start-date" style="font-weight: bold;">Date de début :</label>
-    <input type="date" id="start-date" value="{{ "now"|date("Y-m-d") }}" />
-
-    <label for="end-date" style="font-weight: bold;">Date de fin :</label>
-    <input type="date" id="end-date" value="{{ "now"|date("Y-m-d") }}" />
-
-    <button id="load-matches" class="btn btn-primary">Voir les clubs à domicile</button>
+<div class="container mb-4 text-center">
+    <div class="d-flex justify-content-center gap-2 flex-wrap">
+        <input type="text" id="daterange" class="form-control text-center" 
+               placeholder="Choisis une période" style="max-width: 250px;">
+        <button id="load-matches" class="btn btn-primary">Voir les clubs à domicile</button>
+    </div>
 </div>
 
-<div id="map" style="height: 800px; width: 80%; margin: 0 auto; display: block;"></div>
+<div id="map" style="height: 800px; width: 80%; margin: 0 auto;"></div>
 
 <!-- Leaflet CSS et JS -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<!-- Seulement les dépendances nécessaires au DateRangePicker -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
 
 <script>
 const map = L.map('map').setView([46.8, 2.3], 6);
@@ -29,7 +33,6 @@ const clubs = {{ clubs|json_encode()|raw }};
 let markers = [];
 
 function afficherClubs(liste, matchs = []) {
-    // Supprimer les anciens marqueurs
     markers.forEach(m => map.removeLayer(m));
     markers = [];
 
@@ -42,10 +45,7 @@ function afficherClubs(liste, matchs = []) {
             popupAnchor: [0, -40]
         });
 
-        // Filtrer les matchs à domicile pour ce club
         const matchsClub = matchs.filter(m => m.homeTeam.toLowerCase() === club.name.toLowerCase());
-
-        // Construire le contenu du popup
         let popupContent = `<b>${club.name}</b><br>${club.stadium}`;
         if (matchsClub.length > 0) {
             popupContent += `<br><br><b>Matchs à domicile :</b><br>`;
@@ -68,54 +68,62 @@ function afficherClubs(liste, matchs = []) {
 // Affiche tous les clubs par défaut
 afficherClubs(clubs);
 
+// --- Initialisation du DateRangePicker ---
+let startDate = moment();
+let endDate = moment();
+
+$('#daterange').daterangepicker({
+    startDate: startDate,
+    endDate: endDate,
+    autoUpdateInput: true,
+    locale: {
+        format: 'DD/MM/YYYY',
+        applyLabel: 'Appliquer',
+        cancelLabel: 'Annuler',
+        fromLabel: 'De',
+        toLabel: 'À',
+        customRangeLabel: 'Personnalisé',
+        daysOfWeek: ['Di', 'Lu', 'Ma', 'Me', 'Je', 'Ve', 'Sa'],
+        monthNames: [
+            'Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin',
+            'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'
+        ],
+        firstDay: 1
+    }
+}, function(start, end) {
+    startDate = start;
+    endDate = end;
+});
+
+// --- Chargement des matchs sur clic ---
+document.getElementById('load-matches').addEventListener('click', () => {
+    const start = startDate.format('YYYY-MM-DD');
+    const end = endDate.format('YYYY-MM-DD');
+    chargerMatchs(start, end);
+});
+
 async function chargerMatchs(startDate, endDate) {
-    console.log("📅 Période sélectionnée :", startDate, "->", endDate);
+    console.log("Période sélectionnée :", startDate, "->", endDate);
 
     try {
         const response = await fetch(`/api/matchs?start=${startDate}&end=${endDate}`);
         const data = await response.json();
 
-        console.log("📦 Données JSON récupérées :", data);
-
         if (!data.events || data.events.length === 0) {
-            console.log("⚠️ Aucun match trouvé pour cette période");
-            afficherClubs([]); // on vide la carte
+            console.log("Aucun match trouvé pour cette période");
+            afficherClubs([]);
             return;
         }
 
-        // Liste des clubs à domicile (insensible à la casse)
         const clubsDomicile = data.events.map(e => e.homeTeam.toLowerCase());
+        const clubsAffiches = clubs.filter(c => clubsDomicile.includes(c.name.toLowerCase()));
 
-        // Filtrer les clubs qui jouent à domicile
-        const clubsAffiches = clubs.filter(c => 
-            clubsDomicile.includes(c.name.toLowerCase())
-        );
-
-        console.log("✅ Clubs affichés sur la carte :", clubsAffiches.map(c => c.name));
         afficherClubs(clubsAffiches, data.events);
 
     } catch (err) {
-        console.error("❌ Erreur lors du chargement des matchs :", err);
+        console.error("Erreur lors du chargement des matchs :", err);
         alert("Impossible de charger les données.");
     }
 }
-
-document.getElementById('load-matches').addEventListener('click', () => {
-    const start = document.getElementById('start-date').value;
-    const end = document.getElementById('end-date').value;
-
-    if (!start || !end) {
-        alert("Merci de choisir les deux dates !");
-        return;
-    }
-
-    if (start > end) {
-        alert("La date de début doit être avant la date de fin !");
-        return;
-    }
-
-    chargerMatchs(start, end);
-});
 </script>
-
 {% endblock %}

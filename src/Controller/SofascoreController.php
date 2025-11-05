@@ -54,4 +54,3 @@ class SofascoreController extends AbstractController
         return new JsonResponse(['events' => array_values($filtered)]);
     }
 }
-
