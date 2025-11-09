@@ -3,6 +3,8 @@
 namespace App\Entity;
 
 use App\Repository\ClubRepository;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: ClubRepository::class)]
@@ -27,6 +29,17 @@ class Club
 
     #[ORM\Column(nullable: true)]
     private ?float $longitude_stade_club = null;
+
+    /**
+     * @var Collection<int, User>
+     */
+    #[ORM\ManyToMany(targetEntity: User::class, mappedBy: 'stadiums_visited')]
+    private Collection $visited_by;
+
+    public function __construct()
+    {
+        $this->visited_by = new ArrayCollection();
+    }
 
     public function getId(): ?int
     {
@@ -89,6 +102,33 @@ class Club
     public function setLongitudeStadeClub(?float $longitude_stade_club): static
     {
         $this->longitude_stade_club = $longitude_stade_club;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection<int, User>
+     */
+    public function getVisitedBy(): Collection
+    {
+        return $this->visited_by;
+    }
+
+    public function addVisitedBy(User $visitedBy): static
+    {
+        if (!$this->visited_by->contains($visitedBy)) {
+            $this->visited_by->add($visitedBy);
+            $visitedBy->addStadiumsVisited($this);
+        }
+
+        return $this;
+    }
+
+    public function removeVisitedBy(User $visitedBy): static
+    {
+        if ($this->visited_by->removeElement($visitedBy)) {
+            $visitedBy->removeStadiumsVisited($this);
+        }
 
         return $this;
     }

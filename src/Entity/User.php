@@ -3,6 +3,8 @@
 namespace App\Entity;
 
 use App\Repository\UserRepository;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: UserRepository::class)]
@@ -18,6 +20,23 @@ class User
 
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $password = null;
+
+    #[ORM\Column(length: 255, nullable: true)]
+    private ?string $email = null;
+
+    #[ORM\Column(nullable: true)]
+    private ?bool $isActive = null;
+
+    /**
+     * @var Collection<int, Club>
+     */
+    #[ORM\ManyToMany(targetEntity: Club::class, inversedBy: 'visited_by')]
+    private Collection $stadiums_visited;
+
+    public function __construct()
+    {
+        $this->stadiums_visited = new ArrayCollection();
+    }
 
     public function getId(): ?int
     {
@@ -44,6 +63,54 @@ class User
     public function setPassword(?string $password): static
     {
         $this->password = $password;
+
+        return $this;
+    }
+
+    public function getEmail(): ?string
+    {
+        return $this->email;
+    }
+
+    public function setEmail(?string $email): static
+    {
+        $this->email = $email;
+
+        return $this;
+    }
+
+    public function isActive(): ?bool
+    {
+        return $this->isActive;
+    }
+
+    public function setIsActive(?bool $isActive): static
+    {
+        $this->isActive = $isActive;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection<int, Club>
+     */
+    public function getStadiumsVisited(): Collection
+    {
+        return $this->stadiums_visited;
+    }
+
+    public function addStadiumsVisited(Club $stadiumsVisited): static
+    {
+        if (!$this->stadiums_visited->contains($stadiumsVisited)) {
+            $this->stadiums_visited->add($stadiumsVisited);
+        }
+
+        return $this;
+    }
+
+    public function removeStadiumsVisited(Club $stadiumsVisited): static
+    {
+        $this->stadiums_visited->removeElement($stadiumsVisited);
 
         return $this;
     }
