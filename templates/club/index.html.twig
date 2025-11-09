@@ -9,17 +9,17 @@
     <div class="d-flex justify-content-center gap-2 flex-wrap">
         <input type="text" id="daterange" class="form-control text-center" 
                placeholder="Choisis une période" style="max-width: 250px;">
-        <button id="load-matches" class="btn btn-primary">Voir les clubs à domicile</button>
+        <button id="load-matches" class="btn btn-dark">Voir les clubs à domicile</button>
     </div>
 </div>
 
-<div id="map" style="height: 800px; width: 80%; margin: 0 auto;"></div>
+<div id="map" style="height: 800px; width: 80%; margin: 0 auto 50px auto;"></div>
 
 <!-- Leaflet CSS et JS -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
-<!-- Seulement les dépendances nécessaires au DateRangePicker -->
+<!-- ✅ Seulement les dépendances nécessaires au DateRangePicker -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
@@ -95,7 +95,7 @@ $('#daterange').daterangepicker({
     endDate = end;
 });
 
-// --- Chargement des matchs sur clic ---
+// --- Chargement des matchs sur clic ---r
 document.getElementById('load-matches').addEventListener('click', () => {
     const start = startDate.format('YYYY-MM-DD');
     const end = endDate.format('YYYY-MM-DD');
@@ -103,14 +103,16 @@ document.getElementById('load-matches').addEventListener('click', () => {
 });
 
 async function chargerMatchs(startDate, endDate) {
-    console.log("Période sélectionnée :", startDate, "->", endDate);
+    console.log("📅 Période sélectionnée :", startDate, "->", endDate);
 
     try {
-        const response = await fetch(`/api/matchs?start=${startDate}&end=${endDate}`);
+        const response = await fetch(`{{ path('api_matchs') }}?start=${startDate}&end=${endDate}`);
+
+
         const data = await response.json();
 
         if (!data.events || data.events.length === 0) {
-            console.log("Aucun match trouvé pour cette période");
+            console.log("⚠️ Aucun match trouvé pour cette période");
             afficherClubs([]);
             return;
         }
@@ -121,7 +123,7 @@ async function chargerMatchs(startDate, endDate) {
         afficherClubs(clubsAffiches, data.events);
 
     } catch (err) {
-        console.error("Erreur lors du chargement des matchs :", err);
+        console.error("❌ Erreur lors du chargement des matchs :", err);
         alert("Impossible de charger les données.");
     }
 }
