@@ -6,9 +6,11 @@ use App\Repository\UserRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Security\Core\User\UserInterface;
+use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;
 
 #[ORM\Entity(repositoryClass: UserRepository::class)]
-class User
+class User implements UserInterface, PasswordAuthenticatedUserInterface
 {
     #[ORM\Id]
     #[ORM\GeneratedValue]
@@ -18,7 +20,7 @@ class User
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $username = null;
 
-    #[ORM\Column(length: 255, nullable: true)]
+    #[ORM\Column(length: 255)]
     private ?string $password = null;
 
     #[ORM\Column(length: 255, nullable: true)]
@@ -51,7 +53,6 @@ class User
     public function setUsername(?string $username): static
     {
         $this->username = $username;
-
         return $this;
     }
 
@@ -63,7 +64,6 @@ class User
     public function setPassword(?string $password): static
     {
         $this->password = $password;
-
         return $this;
     }
 
@@ -75,7 +75,6 @@ class User
     public function setEmail(?string $email): static
     {
         $this->email = $email;
-
         return $this;
     }
 
@@ -87,7 +86,6 @@ class User
     public function setIsActive(?bool $isActive): static
     {
         $this->isActive = $isActive;
-
         return $this;
     }
 
@@ -104,14 +102,27 @@ class User
         if (!$this->stadiums_visited->contains($stadiumsVisited)) {
             $this->stadiums_visited->add($stadiumsVisited);
         }
-
         return $this;
     }
 
     public function removeStadiumsVisited(Club $stadiumsVisited): static
     {
         $this->stadiums_visited->removeElement($stadiumsVisited);
-
         return $this;
+    }
+
+    public function getUserIdentifier(): string
+    {
+        return $this->email ?? '';
+    }
+
+    public function getRoles(): array
+    {
+        return ['ROLE_USER'];
+    }
+
+    public function eraseCredentials(): void
+    {
+        // Pour données sensibles temporaires
     }
 }
