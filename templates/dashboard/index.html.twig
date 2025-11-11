@@ -16,6 +16,15 @@
   </div>
 </section>
 
+<div class="container mb-5" style="max-width:600px;">
+  <h4 class="mb-3 text-center">Ajouter un club visité</h4>
+  <div class="position-relative mb-3">
+    <input type="text" id="club-search" class="form-control" placeholder="Rechercher un club...">
+    <ul id="suggestions" class="list-group position-absolute w-100 shadow-sm" style="z-index: 1000;"></ul>
+  </div>
+  <button id="add-club" class="btn btn-dark w-100" disabled>Ajouter à mes stades visités</button>
+</div>
+
 <div id="map" style="height: 800px; width: 80%; margin: 0 auto 50px auto;"></div>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
@@ -31,11 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const map = L.map('map').setView([46.8, 2.3], 6);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
-    if (clubs.length === 0) {
-        alert("Vous n'avez encore visité aucun club !");
-        return;
-    }
-
+    // --- MARQUEURS DES CLUBS VISITÉS ---
     clubs.forEach(club => {
         if (club.latitude && club.longitude) {
             const iconUrl = "{{ asset('images/logos/') }}" + club.logo;
@@ -54,6 +59,60 @@ document.addEventListener('DOMContentLoaded', () => {
             L.marker([club.latitude, club.longitude], { icon: clubIcon })
                 .addTo(map)
                 .bindPopup(popupContent);
+        }
+    });
+
+    // --- AJOUT DE CLUBS VISITÉS ---
+    const input = document.getElementById('club-search');
+    const suggestions = document.getElementById('suggestions');
+    const addBtn = document.getElementById('add-club');
+    let selectedClub = null;
+
+    input.addEventListener('input', async () => {
+        const query = input.value.trim();
+        suggestions.innerHTML = '';
+        selectedClub = null;
+        addBtn.disabled = true;
+
+        if (query.length < 2) return;
+
+        const response = await fetch(`/api/clubs?q=${encodeURIComponent(query)}`);
+        const clubs = await response.json();
+
+        clubs.forEach(club => {
+            const li = document.createElement('li');
+            li.className = 'list-group-item list-group-item-action';
+            li.textContent = club.name;
+            li.addEventListener('click', () => {
+                input.value = club.name;
+                selectedClub = club.id;
+                suggestions.innerHTML = '';
+                addBtn.disabled = false;
+            });
+            suggestions.appendChild(li);
+        });
+    });
+
+    addBtn.addEventListener('click', async () => {
+        if (!selectedClub) return;
+
+        const response = await fetch('/api/add-visited', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({ clubId: selectedClub })
+        });
+
+        const data = await response.json();
+
+        if (data.success) {
+            alert('✅ Club ajouté avec succès !');
+            input.value = '';
+            addBtn.disabled = true;
+
+            // Rechargement de la page pour mettre à jour la carte
+            location.reload();
+        } else {
+            alert('❌ Erreur : ' + (data.error || 'inconnue'));
         }
     });
 });
