@@ -52,7 +52,7 @@ class AppAuthenticator extends AbstractLoginFormAuthenticator
         }
 
         // Sinon, redirection vers l'accueil
-        return new RedirectResponse('club_map');
+        return new RedirectResponse('/');
     }
 
     protected function getLoginUrl(Request $request): string
