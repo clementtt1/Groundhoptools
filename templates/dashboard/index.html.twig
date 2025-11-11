@@ -1,0 +1,61 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mes stades visités{% endblock %}
+
+{% block body_id %}dashboard{% endblock %}
+
+{% block body %}
+<section class="container text-center py-4">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <h1 class="fw-bold mb-4 display-5 text-dark">Mes stades visités</h1>
+      <p class="fs-5 mb-4 text-secondary">
+        Retrouvez sur la carte ci-dessous tous les clubs que vous avez visités.
+      </p>
+    </div>
+  </div>
+</section>
+
+<div id="map" style="height: 800px; width: 80%; margin: 0 auto 50px auto;"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+{% endblock %}
+
+{% block javascripts %}
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    if (document.body.id !== 'dashboard') return;
+
+    const clubs = {{ clubs|json_encode()|raw }};
+    const map = L.map('map').setView([46.8, 2.3], 6);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+    if (clubs.length === 0) {
+        alert("Vous n'avez encore visité aucun club !");
+        return;
+    }
+
+    clubs.forEach(club => {
+        if (club.latitude && club.longitude) {
+            const iconUrl = "{{ asset('images/logos/') }}" + club.logo;
+            const clubIcon = L.icon({
+                iconUrl: iconUrl,
+                iconSize: [40, 40],
+                iconAnchor: [20, 40],
+                popupAnchor: [0, -40]
+            });
+
+            const popupContent = `
+                <b>${club.name}</b><br>
+                <small>${club.stadium ?? 'Stade inconnu'}</small>
+            `;
+
+            L.marker([club.latitude, club.longitude], { icon: clubIcon })
+                .addTo(map)
+                .bindPopup(popupContent);
+        }
+    });
+});
+</script>
+{% endblock %}
