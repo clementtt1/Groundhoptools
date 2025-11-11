@@ -2,7 +2,6 @@
 
 {% block title %}Carte des clubs{% endblock %}
 
-{# On définit un body_id pour savoir que c'est l'accueil #}
 {% block body_id %}homepage{% endblock %}
 
 {% block body %}
@@ -38,9 +37,13 @@
 </section>
 
 <div class="container mb-4 text-center">
-    <div class="d-flex justify-content-center gap-2 flex-wrap">
+    <div class="d-flex justify-content-center gap-2 flex-wrap align-items-center">
         <input type="text" id="daterange" class="form-control text-center" 
                placeholder="Choisis une période" style="max-width: 250px;">
+        <label class="form-check-label ms-2">
+            <input type="checkbox" id="hide-visited" class="form-check-input me-1">
+            Masquer les clubs déjà visités
+        </label>
         <button id="load-matches" class="btn btn-dark">Voir les clubs à domicile</button>
     </div>
 </div>
@@ -60,109 +63,107 @@
 
 {% block javascripts %}
 <script>
-    // Rend les clubs accessibles globalement
-    window.clubs = {{ clubs|json_encode()|raw }};
+window.clubs = {{ clubs|json_encode()|raw }};
 
-    document.addEventListener('DOMContentLoaded', () => {
-        // Exécute le code seulement sur l'accueil
-        if (document.body.id !== 'homepage') return;
+document.addEventListener('DOMContentLoaded', () => {
+    if (document.body.id !== 'homepage') return;
 
-        const mapDiv = document.getElementById('map');
-        if (!mapDiv) return;
+    const map = L.map('map').setView([46.8, 2.3], 6);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
-        const map = L.map('map').setView([46.8, 2.3], 6);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+    let markers = [];
 
-        const clubs = window.clubs;
-        let markers = [];
+    function afficherClubs(liste, matchs = []) {
+        markers.forEach(m => map.removeLayer(m));
+        markers = [];
 
-        function afficherClubs(liste, matchs = []) {
-            markers.forEach(m => map.removeLayer(m));
-            markers = [];
-
-            liste.forEach(club => {
-                const iconUrl = "{{ asset('images/logos/') }}" + club.logo;
-                const clubIcon = L.icon({
-                    iconUrl: iconUrl,
-                    iconSize: [40, 40],
-                    iconAnchor: [20, 40],
-                    popupAnchor: [0, -40]
-                });
-
-                const matchsClub = matchs.filter(m => m.homeTeam.toLowerCase() === club.name.toLowerCase());
-                let popupContent = `<b>${club.name}</b><br>${club.stadium}`;
-                if (matchsClub.length > 0) {
-                    popupContent += `<br><br><b>Matchs à domicile :</b><br>`;
-                    matchsClub.forEach(m => {
-                        const dateObj = new Date(m.startTime);
-                        const heure = dateObj.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
-                        const jour = dateObj.toLocaleDateString('fr-FR');
-                        popupContent += `${jour} - ${heure} 🆚 ${m.awayTeam}<br>`;
-                    });
-                }
-
-                const marker = L.marker([club.latitude, club.longitude], { icon: clubIcon })
-                    .addTo(map)
-                    .bindPopup(popupContent);
-
-                markers.push(marker);
+        liste.forEach(club => {
+            const iconUrl = "{{ asset('images/logos/') }}" + club.logo;
+            const clubIcon = L.icon({
+                iconUrl: iconUrl,
+                iconSize: [40, 40],
+                iconAnchor: [20, 40],
+                popupAnchor: [0, -40]
             });
-        }
 
-        // Affiche tous les clubs par défaut
-        afficherClubs(clubs);
-
-        // DateRangePicker
-        let startDate = moment();
-        let endDate = moment();
-
-        $('#daterange').daterangepicker({
-            startDate: startDate,
-            endDate: endDate,
-            autoUpdateInput: true,
-            locale: {
-                format: 'DD/MM/YYYY',
-                applyLabel: 'Appliquer',
-                cancelLabel: 'Annuler',
-                fromLabel: 'De',
-                toLabel: 'À',
-                customRangeLabel: 'Personnalisé',
-                daysOfWeek: ['Di', 'Lu', 'Ma', 'Me', 'Je', 'Ve', 'Sa'],
-                monthNames: [
-                    'Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin',
-                    'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'
-                ],
-                firstDay: 1
+            const matchsClub = matchs.filter(m => m.homeTeam.toLowerCase() === club.name.toLowerCase());
+            let popupContent = `<b>${club.name}</b><br>${club.stadium}`;
+            if (matchsClub.length > 0) {
+                popupContent += `<br><br><b>Matchs à domicile :</b><br>`;
+                matchsClub.forEach(m => {
+                    const dateObj = new Date(m.startTime);
+                    const heure = dateObj.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+                    const jour = dateObj.toLocaleDateString('fr-FR');
+                    popupContent += `${jour} - ${heure} 🆚 ${m.awayTeam}<br>`;
+                });
             }
-        }, function(start, end) {
-            startDate = start;
-            endDate = end;
+
+            const marker = L.marker([club.latitude, club.longitude], { icon: clubIcon })
+                .addTo(map)
+                .bindPopup(popupContent);
+
+            markers.push(marker);
         });
+    }
 
-        document.getElementById('load-matches').addEventListener('click', () => {
-            const start = startDate.format('YYYY-MM-DD');
-            const end = endDate.format('YYYY-MM-DD');
-            chargerMatchs(start, end);
-        });
+    // DateRangePicker
+    let startDate = moment();
+    let endDate = moment();
 
-        async function chargerMatchs(startDate, endDate) {
-            try {
-                const response = await fetch(`{{ path('api_matchs') }}?start=${startDate}&end=${endDate}`);
-                const data = await response.json();
-
-                if (!data.events || data.events.length === 0) {
-                    afficherClubs([]);
-                    return;
-                }
-
-                const clubsDomicile = data.events.map(e => e.homeTeam.toLowerCase());
-                const clubsAffiches = clubs.filter(c => clubsDomicile.includes(c.name.toLowerCase()));
-                afficherClubs(clubsAffiches, data.events);
-            } catch (err) {
-                console.error("Erreur chargement matchs:", err);
-                alert("Impossible de charger les données.");
-            }
+    $('#daterange').daterangepicker({
+        startDate,
+        endDate,
+        autoUpdateInput: true,
+        locale: {
+            format: 'DD/MM/YYYY',
+            applyLabel: 'Appliquer',
+            cancelLabel: 'Annuler',
+            fromLabel: 'De',
+            toLabel: 'À',
+            customRangeLabel: 'Personnalisé',
+            daysOfWeek: ['Di', 'Lu', 'Ma', 'Me', 'Je', 'Ve', 'Sa'],
+            monthNames: [
+                'Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin',
+                'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'
+            ],
+            firstDay: 1
         }
+    }, (start, end) => {
+        startDate = start;
+        endDate = end;
     });
+
+    document.getElementById('load-matches').addEventListener('click', () => {
+        const start = startDate.format('YYYY-MM-DD');
+        const end = endDate.format('YYYY-MM-DD');
+        const hideVisited = document.getElementById('hide-visited').checked ? 1 : 0;
+        chargerMatchs(start, end, hideVisited);
+    });
+
+    async function chargerMatchs(startDate, endDate, hideVisited = 0) {
+        try {
+            const response = await fetch(`{{ path('api_matchs') }}?start=${startDate}&end=${endDate}&hideVisited=${hideVisited}`);
+            const data = await response.json();
+
+            if (!data.events || data.events.length === 0) {
+                afficherClubs([]);
+                return;
+            }
+
+            let clubsDomicile = data.events.map(e => e.homeTeam.toLowerCase());
+
+            // Filtrage côté front si l'API ne filtre pas
+            if (hideVisited && data.visitedClubIds) {
+                clubsDomicile = clubsDomicile.filter(cName => !data.visitedClubIds.includes(cName));
+            }
+
+            const clubsAffiches = window.clubs.filter(c => clubsDomicile.includes(c.name.toLowerCase()));
+            afficherClubs(clubsAffiches, data.events);
+        } catch (err) {
+            console.error("Erreur chargement matchs:", err);
+            alert("Impossible de charger les données.");
+        }
+    }
+});
 </script>
 {% endblock %}

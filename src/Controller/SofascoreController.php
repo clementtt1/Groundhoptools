@@ -14,6 +14,7 @@ class SofascoreController extends AbstractController
     {
         $start = $request->query->get('start');
         $end = $request->query->get('end');
+        $hideVisited = $request->query->get('hideVisited', 0); // ← checkbox
 
         if (!$start || !$end) {
             return new JsonResponse(['error' => 'missing_dates'], 400);
@@ -34,7 +35,7 @@ class SofascoreController extends AbstractController
 
         $matches = $data['fixtures'];
 
-        // ✅ Filtrer les matchs selon startTime
+        // Filtrer les matchs selon startTime
         $filtered = array_filter($matches, function ($m) use ($start, $end) {
             if (!isset($m['startTime'])) {
                 return false;
@@ -51,6 +52,24 @@ class SofascoreController extends AbstractController
             return $matchDateTime >= $startDateTime && $matchDateTime <= $endDateTime;
         });
 
-        return new JsonResponse(['events' => array_values($filtered)]);
+        $events = array_values($filtered);
+
+        // Filtrer les clubs déjà visités si connecté et checkbox cochée
+        $user = $this->getUser();
+        $visitedClubIds = [];
+
+        if ($hideVisited && $user) {
+            $visitedClubIds = $user->getStadiumsVisited()
+                                   ->map(fn($c) => strtolower($c->getNomClub()))
+                                   ->toArray();
+
+            $events = array_filter($events, fn($e) => !in_array(strtolower($e['homeTeam']), $visitedClubIds));
+            $events = array_values($events); // réindexer
+        }
+
+        return new JsonResponse([
+            'events' => $events,
+            'visitedClubIds' => $visitedClubIds // utile pour le front si besoin
+        ]);
     }
 }
