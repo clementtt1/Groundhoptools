@@ -36,11 +36,12 @@
 document.addEventListener('DOMContentLoaded', () => {
     if (document.body.id !== 'dashboard') return;
 
+    // --- INITIALISATION DE LA CARTE ---
     const clubs = {{ clubs|json_encode()|raw }};
     const map = L.map('map').setView([46.8, 2.3], 6);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
-    // --- MARQUEURS DES CLUBS VISITÉS ---
+    // --- AFFICHAGE DES CLUBS VISITÉS ---
     clubs.forEach(club => {
         if (club.latitude && club.longitude) {
             const iconUrl = "{{ asset('images/logos/') }}" + club.logo;
@@ -62,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // --- AJOUT DE CLUBS VISITÉS ---
+    // --- SÉLECTION DE NOUVEAUX CLUBS ---
     const input = document.getElementById('club-search');
     const suggestions = document.getElementById('suggestions');
     const addBtn = document.getElementById('add-club');
@@ -76,45 +77,74 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (query.length < 2) return;
 
-        const response = await fetch(`/api/clubs?q=${encodeURIComponent(query)}`);
-        const clubs = await response.json();
+        try {
+            const response = await fetch(`/api/clubs?q=${encodeURIComponent(query)}`);
+            const clubs = await response.json();
 
-        clubs.forEach(club => {
-            const li = document.createElement('li');
-            li.className = 'list-group-item list-group-item-action';
-            li.textContent = club.name;
-            li.addEventListener('click', () => {
-                input.value = club.name;
-                selectedClub = club.id;
-                suggestions.innerHTML = '';
-                addBtn.disabled = false;
+            if (clubs.length === 0) {
+                suggestions.innerHTML = `<li class="list-group-item text-muted">Aucun résultat</li>`;
+                return;
+            }
+
+            clubs.forEach(club => {
+                const logoUrl = "{{ asset('images/logos/') }}" + club.logo;
+                const li = document.createElement('li');
+                li.className = 'list-group-item list-group-item-action d-flex align-items-center';
+                li.innerHTML = `
+                    <img src="${logoUrl}" alt="${club.name}" 
+                         style="width:30px; height:30px; object-fit:contain; margin-right:10px; border-radius:4px; border:1px solid #eee;">
+                    <span>${club.name}</span>
+                `;
+
+                li.addEventListener('click', () => {
+                    input.value = club.name;
+                    selectedClub = club.id;
+                    suggestions.innerHTML = '';
+                    addBtn.disabled = false;
+                });
+
+                suggestions.appendChild(li);
             });
-            suggestions.appendChild(li);
-        });
+        } catch (err) {
+            console.error('Erreur chargement clubs :', err);
+            suggestions.innerHTML = `<li class="list-group-item text-danger">Erreur de chargement</li>`;
+        }
     });
 
+    // --- AJOUT DU CLUB EN BDD ---
     addBtn.addEventListener('click', async () => {
         if (!selectedClub) return;
 
-        const response = await fetch('/api/add-visited', {
-            method: 'POST',
-            headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify({ clubId: selectedClub })
-        });
+        try {
+            const response = await fetch('/api/add-visited', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ clubId: selectedClub })
+            });
 
-        const data = await response.json();
+            const data = await response.json();
 
-        if (data.success) {
-            alert('✅ Club ajouté avec succès !');
-            input.value = '';
-            addBtn.disabled = true;
+            if (data.success) {
+                alert('✅ Club ajouté avec succès !');
+                input.value = '';
+                addBtn.disabled = true;
+                location.reload(); // met à jour la carte
+            } else {
+                alert('❌ Erreur : ' + (data.error || 'inconnue'));
+            }
+        } catch (err) {
+            console.error(err);
+            alert('Erreur lors de l’ajout du club.');
+        }
+    });
 
-            // Rechargement de la page pour mettre à jour la carte
-            location.reload();
-        } else {
-            alert('❌ Erreur : ' + (data.error || 'inconnue'));
+    // Fermer les suggestions si clic en dehors
+    document.addEventListener('click', e => {
+        if (!suggestions.contains(e.target) && e.target !== input) {
+            suggestions.innerHTML = '';
         }
     });
 });
 </script>
 {% endblock %}
+

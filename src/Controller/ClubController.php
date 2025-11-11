@@ -57,6 +57,7 @@ final class ClubController extends AbstractController
         $data = array_map(fn($c) => [
             'id' => $c->getId(),
             'name' => $c->getNomClub(),
+            'logo' => $c->getLogoClub(),
         ], $clubs);
 
         return new JsonResponse($data);
