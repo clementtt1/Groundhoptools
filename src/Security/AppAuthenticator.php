@@ -46,12 +46,10 @@ class AppAuthenticator extends AbstractLoginFormAuthenticator
 
     public function onAuthenticationSuccess(Request $request, TokenInterface $token, string $firewallName): ?Response
 {
-    // Redirection vers la page demandée avant login, si elle existe
     if ($targetPath = $this->getTargetPath($request->getSession(), $firewallName)) {
-        return new RedirectResponse($targetPath); // <-- juste ça, sans generate()
+        return new RedirectResponse($targetPath); 
     }
 
-    // Sinon, redirection vers l'accueil
     return new RedirectResponse('/');
 }
 

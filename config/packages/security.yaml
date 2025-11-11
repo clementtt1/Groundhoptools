@@ -20,7 +20,7 @@ security:
             custom_authenticator: App\Security\AppAuthenticator
             logout:
                 path: app_logout
-                target: app_login
+                target: club_map
             remember_me:
                 secret: '%kernel.secret%'
                 lifetime: 604800
