@@ -30,7 +30,6 @@
   padding: 2px;
 }
 
-/* largeur du bouton dans l'input password */
 .input-group .btn-password {
   width: 44px;
   display: inline-flex;
@@ -42,7 +41,7 @@
 
 <div class="container py-5 mt-5" style="max-width: 500px;">
 
-    {# Flash messages au-dessus des onglets #}
+    <!-- Flash messages au-dessus des onglets -->
     {% for label, messages in app.flashes %}
         {% for message in messages %}
             <div class="alert alert-{{ label == 'error' ? 'danger' : label }}">
@@ -150,7 +149,6 @@
     </div>
 </div>
 
-{# Script pour toggle show/hide password avec images #}
 <script>
 document.addEventListener('DOMContentLoaded', function () {
     document.querySelectorAll('.btn-password').forEach(btn => {
@@ -163,11 +161,11 @@ document.addEventListener('DOMContentLoaded', function () {
             const img = btn.querySelector('img');
             if (input.type === 'password') {
                 input.type = 'text';
-                img.src = "{{ asset('images/eye_crossed.png') }}"; // œil barré
+                img.src = "{{ asset('images/eye_crossed.png') }}"; 
                 btn.setAttribute('title', 'Masquer le mot de passe');
             } else {
                 input.type = 'password';
-                img.src = "{{ asset('images/eye.png') }}"; // œil normal
+                img.src = "{{ asset('images/eye.png') }}"; 
                 btn.setAttribute('title', 'Afficher le mot de passe');
             }
 

@@ -45,14 +45,15 @@ class AppAuthenticator extends AbstractLoginFormAuthenticator
     }
 
     public function onAuthenticationSuccess(Request $request, TokenInterface $token, string $firewallName): ?Response
-{
-    if ($targetPath = $this->getTargetPath($request->getSession(), $firewallName)) {
-        return new RedirectResponse($targetPath); 
+    {
+        // Redirection vers la page demandée avant login, si elle existe
+        if ($targetPath = $this->getTargetPath($request->getSession(), $firewallName)) {
+            return new RedirectResponse($targetPath);
+        }
+
+        // Sinon, redirection vers l'accueil
+        return new RedirectResponse('club_map');
     }
-
-    return new RedirectResponse('/');
-}
-
 
     protected function getLoginUrl(Request $request): string
     {
