@@ -1,34 +1,118 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Log in!{% endblock %}
+{% block title %}Connexion / Inscription{% endblock %}
 
 {% block body %}
-<form method="post">
-    {% if error %}
-        <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
-    {% endif %}
 
-    {% if app.user %}
-        <div class="mb-3">
-            You are logged in as {{ app.user.userIdentifier }}, <a href="{{ path('app_logout') }}">Logout</a>
+<style>
+.nav-pills .nav-link {
+  background-color: transparent !important;
+  color: #000 !important; 
+  border: 1px solid transparent;
+  border-radius: .5rem;
+  transition: background-color .15s ease, color .15s ease;
+}
+
+.nav-pills .nav-link:not(.active):hover,
+.nav-pills .nav-link:focus {
+  background-color: #f2f2f2 !important;
+  color: #000 !important;
+  text-decoration: none;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #000 !important;
+  color: #fff !important;
+  border-color: #000;
+}
+
+.nav-pills.nav-justified .nav-item {
+  padding: 2px;
+}
+</style>
+
+
+<div class="container py-5 mt-5" style="max-width: 500px;">
+
+
+    <!-- Pills navs -->
+    <ul class="nav nav-pills nav-justified mb-4" id="auth-tabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="tab-login" data-bs-toggle="pill" href="#pills-login" role="tab"
+               aria-controls="pills-login" aria-selected="true">Login</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="tab-register" data-bs-toggle="pill" href="#pills-register" role="tab"
+               aria-controls="pills-register" aria-selected="false">Register</a>
+        </li>
+    </ul>
+    <!-- Pills navs -->
+
+    <!-- Pills content -->
+    <div class="tab-content">
+        <!-- LOGIN TAB -->
+        <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+            <form method="post">
+                {% if error %}
+                    <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+                {% endif %}
+
+                {% if app.user %}
+                    <div class="mb-3">
+                        You are logged in as {{ app.user.userIdentifier }},
+                        <a href="{{ path('app_logout') }}">Logout</a>
+                    </div>
+                {% endif %}
+
+                <p class="text-center mb-3 fw-bold">Sign in</p>
+
+                <div class="form-outline mb-3">
+                    <label class="form-label" for="inputEmail">Email</label>
+                    <input type="email" value="{{ last_username }}" name="email" id="inputEmail" class="form-control" autocomplete="email" required autofocus>
+                </div>
+
+                <div class="form-outline mb-3">
+                    <label class="form-label" for="inputPassword">Password</label>
+                    <input type="password" name="password" id="inputPassword" class="form-control" autocomplete="current-password" required>
+                </div>
+
+                <input type="hidden" name="_csrf_token" value="{{ csrf_token('authenticate') }}">
+
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="_remember_me" id="rememberMe">
+                        <label class="form-check-label" for="rememberMe">Remember me</label>
+                    </div>
+                    <a href="#">Forgot password?</a>
+                </div>
+
+                <button class="btn btn-dark w-100 mb-3" type="submit">Sign in</button>
+            </form>
         </div>
-    {% endif %}
 
-    <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-    <label for="inputEmail">Email</label>
-    <input type="email" value="{{ last_username }}" name="email" id="inputEmail" class="form-control" autocomplete="email" required autofocus>
-    <label for="inputPassword">Password</label>
-    <input type="password" name="password" id="inputPassword" class="form-control" autocomplete="current-password" required>
-    <input type="hidden" name="_csrf_token" data-controller="csrf-protection" value="{{ csrf_token('authenticate') }}">
+        <!-- REGISTER TAB -->
+        <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
+            <form action="#" method="post">
+                <p class="text-center mb-3 fw-bold">Sign up</p>
 
-    <div class="checkbox mb-3">
-        <label>
-            <input type="checkbox" name="_remember_me"> Remember me
-        </label>
+                <div class="form-outline mb-3">
+                    <label class="form-label" for="registerUsername">Username</label>
+                    <input type="text" id="registerUsername" name="username" class="form-control" required>
+                </div>
+
+                <div class="form-outline mb-3">
+                    <label class="form-label" for="registerEmail">Email</label>
+                    <input type="email" id="registerEmail" name="email" class="form-control" required>
+                </div>
+
+                <div class="form-outline mb-3">
+                    <label class="form-label" for="registerPassword">Password</label>
+                    <input type="password" id="registerPassword" name="password" class="form-control" required>
+                </div>
+
+                <button type="submit" class="btn btn-dark w-100 mb-3">Create account</button>
+            </form>
+        </div>
     </div>
-
-    <button class="btn btn-lg btn-primary" type="submit">
-        Sign in
-    </button>
-</form>
+</div>
 {% endblock %}
