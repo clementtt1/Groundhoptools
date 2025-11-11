@@ -53,11 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => div.remove(), 2000);
     }
 
-    // --- Liste des clubs visités ---
-    const visitedList = document.createElement('ul');
-    visitedList.className = 'list-group mb-3';
-    document.querySelector('#map').insertAdjacentElement('beforebegin', visitedList);
-
     // --- Ajout des markers initiaux ---
     clubs.forEach(club => {
         if (club.latitude && club.longitude) {
@@ -84,35 +79,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (data.success) {
                         showSuccess('Club supprimé ✅');
                         markerLayer.removeLayer(marker);
-                        const li = visitedList.querySelector(`li[data-club-id="${club.id}"]`);
-                        if (li) li.remove();
+                        delete markers[club.id];
                     }
                 });
             });
 
             markers[club.id] = marker;
-
-            // Ajouter dans la liste
-            const li = document.createElement('li');
-            li.className = 'list-group-item d-flex justify-content-between align-items-center';
-            li.dataset.clubId = club.id;
-            li.innerHTML = `<span>${club.name}</span>
-                            <img src="/images/bin.png" alt="Supprimer" style="height:20px;cursor:pointer;">`;
-            visitedList.appendChild(li);
-
-            li.querySelector('img').addEventListener('click', async () => {
-                const res = await fetch('/api/remove-visited', {
-                    method: 'POST',
-                    headers: {'Content-Type':'application/json'},
-                    body: JSON.stringify({clubId: club.id})
-                });
-                const data = await res.json();
-                if (data.success) {
-                    showSuccess('Club supprimé ✅');
-                    markerLayer.removeLayer(marker);
-                    li.remove();
-                }
-            });
         }
     });
 
@@ -134,8 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const clubsRes = await response.json();
 
         clubsRes.forEach(club => {
-            // Vérifier doublon
-            if (visitedList.querySelector(`li[data-club-id="${club.id}"]`)) return;
+            if (markers[club.id]) return; // déjà sur la carte
 
             const li = document.createElement('li');
             li.className = 'list-group-item list-group-item-action d-flex align-items-center';
@@ -166,65 +137,39 @@ document.addEventListener('DOMContentLoaded', () => {
         input.value = '';
         addBtn.disabled = true;
 
-        // Récupérer le club complet depuis la réponse du backend
+        // Ajouter le marker en temps réel
         const club = clubs.find(c => c.id === selectedClub);
-        if (!club) return;
+        if (!club || !club.latitude || !club.longitude) return;
 
-        // Ajouter marker
-        if (club.latitude && club.longitude) {
-            const iconUrl = "{{ asset('images/logos/') }}" + club.logo;
-            const clubIcon = L.icon({ iconUrl, iconSize:[40,40], iconAnchor:[20,40], popupAnchor:[0,-40] });
-            const marker = L.marker([club.latitude, club.longitude], { icon: clubIcon }).addTo(markerLayer);
+        const iconUrl = "{{ asset('images/logos/') }}" + club.logo;
+        const clubIcon = L.icon({ iconUrl, iconSize:[40,40], iconAnchor:[20,40], popupAnchor:[0,-40] });
+        const marker = L.marker([club.latitude, club.longitude], { icon: clubIcon }).addTo(markerLayer);
 
-            const popupContent = document.createElement('div');
-            popupContent.innerHTML = `
-                <b>${club.name}</b><br>
-                <small>${club.stadium ?? 'Stade inconnu'}</small><br>
-                <img src="/images/bin.png" alt="Supprimer" style="height:20px;cursor:pointer;margin-top:5px;">
-            `;
-            marker.bindPopup(popupContent);
+        const popupContent = document.createElement('div');
+        popupContent.innerHTML = `
+            <b>${club.name}</b><br>
+            <small>${club.stadium ?? 'Stade inconnu'}</small><br>
+            <img src="/images/bin.png" alt="Supprimer" style="height:20px;cursor:pointer;margin-top:5px;">
+        `;
+        marker.bindPopup(popupContent);
 
-            marker.on('popupopen', () => {
-                popupContent.querySelector('img').addEventListener('click', async () => {
-                    const res = await fetch('/api/remove-visited', {
-                        method:'POST',
-                        headers:{'Content-Type':'application/json'},
-                        body:JSON.stringify({clubId: selectedClub})
-                    });
-                    const data = await res.json();
-                    if (data.success) {
-                        showSuccess('Club supprimé ✅');
-                        markerLayer.removeLayer(marker);
-                        const li = visitedList.querySelector(`li[data-club-id="${club.id}"]`);
-                        if (li) li.remove();
-                    }
+        marker.on('popupopen', () => {
+            popupContent.querySelector('img').addEventListener('click', async () => {
+                const res = await fetch('/api/remove-visited', {
+                    method:'POST',
+                    headers:{'Content-Type':'application/json'},
+                    body:JSON.stringify({clubId: club.id})
                 });
+                const data = await res.json();
+                if (data.success) {
+                    showSuccess('Club supprimé ✅');
+                    markerLayer.removeLayer(marker);
+                    delete markers[club.id];
+                }
             });
-
-            markers[club.id] = marker;
-        }
-
-        // Ajouter dans la liste
-        const li = document.createElement('li');
-        li.className = 'list-group-item d-flex justify-content-between align-items-center';
-        li.dataset.clubId = club.id;
-        li.innerHTML = `<span>${club.name}</span>
-                        <img src="/images/bin.png" alt="Supprimer" style="height:20px;cursor:pointer;">`;
-        visitedList.appendChild(li);
-
-        li.querySelector('img').addEventListener('click', async () => {
-            const res = await fetch('/api/remove-visited', {
-                method:'POST',
-                headers:{'Content-Type':'application/json'},
-                body:JSON.stringify({clubId: club.id})
-            });
-            const data = await res.json();
-            if (data.success) {
-                showSuccess('Club supprimé ✅');
-                markerLayer.removeLayer(markers[club.id]);
-                li.remove();
-            }
         });
+
+        markers[club.id] = marker;
     });
 });
 </script>
