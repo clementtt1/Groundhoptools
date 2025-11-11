@@ -52,32 +52,23 @@
     <div class="tab-content">
         <!-- LOGIN TAB -->
         <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
-            <form method="post">
+            <form method="post" action="{{ path('app_login') }}">
                 {% if error %}
                     <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
                 {% endif %}
-
-                {% if app.user %}
-                    <div class="mb-3">
-                        You are logged in as {{ app.user.userIdentifier }},
-                        <a href="{{ path('app_logout') }}">Logout</a>
-                    </div>
-                {% endif %}
-
-                <p class="text-center mb-3 fw-bold">Sign in</p>
-
+            
                 <div class="form-outline mb-3">
                     <label class="form-label" for="inputEmail">Email</label>
-                    <input type="email" value="{{ last_username }}" name="email" id="inputEmail" class="form-control" autocomplete="email" required autofocus>
+                    <input type="email" value="{{ last_username }}" name="_username" id="inputEmail" class="form-control" autocomplete="email" required autofocus>
                 </div>
-
+            
                 <div class="form-outline mb-3">
                     <label class="form-label" for="inputPassword">Password</label>
-                    <input type="password" name="password" id="inputPassword" class="form-control" autocomplete="current-password" required>
+                    <input type="password" name="_password" id="inputPassword" class="form-control" autocomplete="current-password" required>
                 </div>
-
+            
                 <input type="hidden" name="_csrf_token" value="{{ csrf_token('authenticate') }}">
-
+            
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" name="_remember_me" id="rememberMe">
@@ -85,34 +76,37 @@
                     </div>
                     <a href="#">Forgot password?</a>
                 </div>
-
+            
                 <button class="btn btn-dark w-100 mb-3" type="submit">Sign in</button>
             </form>
+            
+
         </div>
 
         <!-- REGISTER TAB -->
-        <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
-            <form action="#" method="post">
-                <p class="text-center mb-3 fw-bold">Sign up</p>
+            <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
+                <form action="{{ path('app_register') }}" method="post">
+                    <p class="text-center mb-3 fw-bold">Sign up</p>
+            
+                    <div class="form-outline mb-3">
+                        <label class="form-label" for="registerUsername">Username</label>
+                        <input type="text" id="registerUsername" name="username" class="form-control" required>
+                    </div>
+            
+                    <div class="form-outline mb-3">
+                        <label class="form-label" for="registerEmail">Email</label>
+                        <input type="email" id="registerEmail" name="email" class="form-control" required>
+                    </div>
+            
+                    <div class="form-outline mb-3">
+                        <label class="form-label" for="registerPassword">Password</label>
+                        <input type="password" id="registerPassword" name="password" class="form-control" required>
+                    </div>
+            
+                    <button type="submit" class="btn btn-dark w-100 mb-3">Create account</button>
+                </form>
+            </div>
 
-                <div class="form-outline mb-3">
-                    <label class="form-label" for="registerUsername">Username</label>
-                    <input type="text" id="registerUsername" name="username" class="form-control" required>
-                </div>
-
-                <div class="form-outline mb-3">
-                    <label class="form-label" for="registerEmail">Email</label>
-                    <input type="email" id="registerEmail" name="email" class="form-control" required>
-                </div>
-
-                <div class="form-outline mb-3">
-                    <label class="form-label" for="registerPassword">Password</label>
-                    <input type="password" id="registerPassword" name="password" class="form-control" required>
-                </div>
-
-                <button type="submit" class="btn btn-dark w-100 mb-3">Create account</button>
-            </form>
-        </div>
     </div>
 </div>
 {% endblock %}
