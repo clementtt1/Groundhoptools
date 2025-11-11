@@ -31,7 +31,7 @@ class SecurityController extends AbstractController
     }
 
 
-    #[Route('/register', name: 'app_register', methods: ['POST'])]
+   #[Route('/register', name: 'app_register', methods: ['POST'])]
 public function register(
     Request $request,
     EntityManagerInterface $em,
@@ -40,27 +40,31 @@ public function register(
     $username = $request->request->get('username');
     $email = $request->request->get('email');
     $password = $request->request->get('password');
+    $passwordConfirm = $request->request->get('password_confirm');
 
-    if (!$username || !$email || !$password) {
+    if (!$username || !$email || !$password || !$passwordConfirm) {
         $this->addFlash('error', 'Tous les champs sont obligatoires.');
         return $this->redirectToRoute('app_login');
     }
 
-    // Vérifier si le username existe déjà
-    $existingUserByUsername = $em->getRepository(User::class)->findOneBy(['username' => $username]);
-    if ($existingUserByUsername) {
+    if ($password !== $passwordConfirm) {
+        $this->addFlash('error', 'Les mots de passe ne correspondent pas.');
+        return $this->redirectToRoute('app_login');
+    }
+
+    // Vérifier si le username ou l'email existe déjà
+    $existingUser = $em->getRepository(User::class)->findOneBy(['username' => $username]);
+    if ($existingUser) {
         $this->addFlash('error', 'Ce nom d’utilisateur est déjà utilisé.');
         return $this->redirectToRoute('app_login');
     }
 
-    // Vérifier si l'email existe déjà
-    $existingUserByEmail = $em->getRepository(User::class)->findOneBy(['email' => $email]);
-    if ($existingUserByEmail) {
+    $existingEmail = $em->getRepository(User::class)->findOneBy(['email' => $email]);
+    if ($existingEmail) {
         $this->addFlash('error', 'Cet email est déjà utilisé.');
         return $this->redirectToRoute('app_login');
     }
 
-    // Création du nouvel utilisateur
     $user = new User();
     $user->setUsername($username);
     $user->setEmail($email);
@@ -73,6 +77,7 @@ public function register(
     $this->addFlash('success', 'Votre compte a bien été créé. Vous pouvez vous connecter !');
     return $this->redirectToRoute('app_login');
 }
+
 
 
     #[Route(path: '/logout', name: 'app_logout')]

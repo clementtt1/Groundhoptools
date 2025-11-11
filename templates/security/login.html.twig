@@ -29,12 +29,20 @@
 .nav-pills.nav-justified .nav-item {
   padding: 2px;
 }
-</style>
 
+/* largeur du bouton dans l'input password */
+.input-group .btn-password {
+  width: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: .375rem .5rem;
+}
+</style>
 
 <div class="container py-5 mt-5" style="max-width: 500px;">
 
-    {# 🔴 Flash messages au-dessus des onglets #}
+    {# Flash messages au-dessus des onglets #}
     {% for label, messages in app.flashes %}
         {% for message in messages %}
             <div class="alert alert-{{ label == 'error' ? 'danger' : label }}">
@@ -54,10 +62,10 @@
                aria-controls="pills-register" aria-selected="false">Register</a>
         </li>
     </ul>
-    <!-- Pills navs -->
 
     <!-- Pills content -->
     <div class="tab-content">
+
         <!-- LOGIN TAB -->
         <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
             <form method="post" action="{{ path('app_login') }}">
@@ -72,7 +80,14 @@
 
                 <div class="form-outline mb-3">
                     <label class="form-label" for="inputPassword">Password</label>
-                    <input type="password" name="_password" id="inputPassword" class="form-control" autocomplete="current-password" required>
+                    <div class="input-group">
+                        <input type="password" name="_password" id="inputPassword" class="form-control" autocomplete="current-password" required>
+                        <button class="btn btn-outline-secondary btn-password" type="button"
+                                aria-label="Afficher le mot de passe" title="Afficher / masquer"
+                                data-password-target="inputPassword">
+                            <img src="{{ asset('images/eye.png') }}" alt="Voir le mot de passe" width="20">
+                        </button>
+                    </div>
                 </div>
 
                 <input type="hidden" name="_csrf_token" value="{{ csrf_token('authenticate') }}">
@@ -106,12 +121,60 @@
 
                 <div class="form-outline mb-3">
                     <label class="form-label" for="registerPassword">Password</label>
-                    <input type="password" id="registerPassword" name="password" class="form-control" required>
+                    <div class="input-group">
+                        <input type="password" id="registerPassword" name="password" class="form-control" autocomplete="new-password" required>
+                        <button class="btn btn-outline-secondary btn-password" type="button"
+                                aria-label="Afficher le mot de passe" title="Afficher / masquer"
+                                data-password-target="registerPassword">
+                            <img src="{{ asset('images/eye.png') }}" alt="Voir le mot de passe" width="20">
+                        </button>
+                    </div>
+                    <div class="form-outline mb-3 mt-3">
+                    <label class="form-label" for="registerPasswordConfirm">Confirm Password</label>
+                    <div class="input-group">
+                        <input type="password" id="registerPasswordConfirm" name="password_confirm" class="form-control" autocomplete="new-password" required>
+                        <button class="btn btn-outline-secondary btn-password" type="button"
+                                aria-label="Afficher le mot de passe" title="Afficher / masquer"
+                                data-password-target="registerPasswordConfirm">
+                            <img src="{{ asset('images/eye.png') }}" alt="Voir le mot de passe" width="20">
+                        </button>
+                    </div>
+                </div>
+
                 </div>
 
                 <button type="submit" class="btn btn-dark w-100 mb-3">Create account</button>
             </form>
         </div>
+
     </div>
 </div>
+
+{# Script pour toggle show/hide password avec images #}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.btn-password').forEach(btn => {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = btn.getAttribute('data-password-target');
+            const input = document.getElementById(targetId);
+            if (!input) return;
+
+            const img = btn.querySelector('img');
+            if (input.type === 'password') {
+                input.type = 'text';
+                img.src = "{{ asset('images/eye_crossed.png') }}"; // œil barré
+                btn.setAttribute('title', 'Masquer le mot de passe');
+            } else {
+                input.type = 'password';
+                img.src = "{{ asset('images/eye.png') }}"; // œil normal
+                btn.setAttribute('title', 'Afficher le mot de passe');
+            }
+
+            input.focus();
+        });
+    });
+});
+</script>
+
 {% endblock %}
