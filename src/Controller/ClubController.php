@@ -87,4 +87,30 @@ final class ClubController extends AbstractController
 
         return new JsonResponse(['success' => true]);
     }
+
+    #[Route('/api/remove-visited', name: 'api_remove_visited', methods: ['POST'])]
+    public function removeVisited(Request $request, EntityManagerInterface $em, ClubRepository $clubRepo): JsonResponse
+    {
+        $user = $this->getUser();
+        if (!$user) {
+            return new JsonResponse(['error' => 'Non connecté'], 403);
+        }
+
+        $data = json_decode($request->getContent(), true);
+        $clubId = $data['clubId'] ?? null;
+
+        $club = $clubRepo->find($clubId);
+        if (!$club) {
+            return new JsonResponse(['error' => 'Club introuvable'], 404);
+        }
+
+        if ($user->getStadiumsVisited()->contains($club)) {
+            $user->removeStadiumsVisited($club);
+            $em->persist($user);
+            $em->flush();
+        }
+
+        return new JsonResponse(['success' => true]);
+    }
+
 }
