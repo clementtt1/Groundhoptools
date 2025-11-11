@@ -2,33 +2,34 @@
 
 namespace App\Controller;
 
+use App\Repository\ClubRepository;
+use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
-use App\Repository\ClubRepository; 
 
 final class ClubController extends AbstractController
 {
     #[Route('/', name: 'club_map')]
     public function index(ClubRepository $clubRepository): Response
-        {
-            $clubs = $clubRepository->findAll();
+    {
+        $clubs = $clubRepository->findAll();
 
-    // Transformer en tableau simple
-    $clubsArray = array_map(function($club) {
-        return [
-            'name' => $club->getNomClub(),
-            'logo' => $club->getLogoClub(),
-            'stadium' => $club->getNomStadeClub(),
-            'latitude' => $club->getLatitudeStadeClub(),
-            'longitude' => $club->getLongitudeStadeClub(),
-        ];
-    }, $clubs);
+        $clubsArray = array_map(function($club) {
+            return [
+                'name' => $club->getNomClub(),
+                'logo' => $club->getLogoClub(),
+                'stadium' => $club->getNomStadeClub(),
+                'latitude' => $club->getLatitudeStadeClub(),
+                'longitude' => $club->getLongitudeStadeClub(),
+            ];
+        }, $clubs);
 
-    return $this->render('club/index.html.twig', [
-        'clubs' => $clubsArray,
-    ]);
-
+        return $this->render('club/index.html.twig', [
+            'clubs' => $clubsArray,
+        ]);
     }
 
     #[Route('/api/clubs', name: 'api_clubs', methods: ['GET'])]
@@ -39,15 +40,19 @@ final class ClubController extends AbstractController
 
         $visited = $user ? $user->getStadiumsVisited()->map(fn($c) => $c->getId())->toArray() : [];
 
-        $clubs = $clubRepo->createQueryBuilder('c')
+        $qb = $clubRepo->createQueryBuilder('c')
             ->where('LOWER(c.nom_club) LIKE :q')
-            ->andWhere('c.id NOT IN (:visited)')
-            ->setParameter('q', '%' . $search . '%')
-            ->setParameter('visited', count($visited) ? $visited : [0])
-            ->orderBy('c.nom_club', 'ASC')
-            ->setMaxResults(10)
-            ->getQuery()
-            ->getResult();
+            ->setParameter('q', '%' . $search . '%');
+
+        if (!empty($visited)) {
+            $qb->andWhere('c.id NOT IN (:visited)')
+               ->setParameter('visited', $visited);
+        }
+
+        $clubs = $qb->orderBy('c.nom_club', 'ASC')
+                    ->setMaxResults(10)
+                    ->getQuery()
+                    ->getResult();
 
         $data = array_map(fn($c) => [
             'id' => $c->getId(),
@@ -56,7 +61,6 @@ final class ClubController extends AbstractController
 
         return new JsonResponse($data);
     }
-
 
     #[Route('/api/add-visited', name: 'api_add_visited', methods: ['POST'])]
     public function addVisited(Request $request, ClubRepository $clubRepo, EntityManagerInterface $em): JsonResponse
