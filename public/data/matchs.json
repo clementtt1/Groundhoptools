@@ -1,517 +1,6 @@
 {
-  "updatedAt": "2025-11-09T21:56:31.096Z",
+  "updatedAt": "2025-11-12T00:08:13.768Z",
   "fixtures": [
-    {
-      "date": "2025-11-09",
-      "league": "Bundesliga",
-      "homeTeam": "1. FC Union Berlin",
-      "awayTeam": "FC Bayern München",
-      "startTime": "2025-11-08T14:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Bundesliga",
-      "homeTeam": "Bayer 04 Leverkusen",
-      "awayTeam": "1. FC Heidenheim",
-      "startTime": "2025-11-08T14:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Bundesliga",
-      "homeTeam": "Hamburger SV",
-      "awayTeam": "Borussia Dortmund",
-      "startTime": "2025-11-08T14:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Bundesliga",
-      "homeTeam": "TSG Hoffenheim",
-      "awayTeam": "RB Leipzig",
-      "startTime": "2025-11-08T14:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Bundesliga",
-      "homeTeam": "Borussia M'gladbach",
-      "awayTeam": "1. FC Köln",
-      "startTime": "2025-11-08T17:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Bundesliga",
-      "homeTeam": "SC Freiburg",
-      "awayTeam": "FC St. Pauli",
-      "startTime": "2025-11-09T14:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Bundesliga",
-      "homeTeam": "VfB Stuttgart",
-      "awayTeam": "FC Augsburg",
-      "startTime": "2025-11-09T16:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Bundesliga",
-      "homeTeam": "Eintracht Frankfurt",
-      "awayTeam": "1. FSV Mainz 05",
-      "startTime": "2025-11-09T18:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "Olympique de Marseille",
-      "awayTeam": "Stade Brestois",
-      "startTime": "2025-11-08T16:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "Le Havre",
-      "awayTeam": "Nantes",
-      "startTime": "2025-11-08T18:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "AS Monaco",
-      "awayTeam": "RC Lens",
-      "startTime": "2025-11-08T20:05:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "Lorient",
-      "awayTeam": "Toulouse",
-      "startTime": "2025-11-09T14:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "Angers",
-      "awayTeam": "Auxerre",
-      "startTime": "2025-11-09T16:15:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "Metz",
-      "awayTeam": "Nice",
-      "startTime": "2025-11-09T16:15:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "RC Strasbourg",
-      "awayTeam": "Lille",
-      "startTime": "2025-11-09T16:15:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "Olympique Lyonnais",
-      "awayTeam": "Paris Saint-Germain",
-      "startTime": "2025-11-09T19:45:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "VriendenLoterij Eredivisie",
-      "homeTeam": "Excelsior",
-      "awayTeam": "Heracles Almelo",
-      "startTime": "2025-11-08T15:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "VriendenLoterij Eredivisie",
-      "homeTeam": "FC Volendam",
-      "awayTeam": "NAC Breda",
-      "startTime": "2025-11-08T17:45:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "VriendenLoterij Eredivisie",
-      "homeTeam": "Fortuna Sittard",
-      "awayTeam": "SC Heerenveen",
-      "startTime": "2025-11-08T19:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "VriendenLoterij Eredivisie",
-      "homeTeam": "PEC Zwolle",
-      "awayTeam": "Sparta Rotterdam",
-      "startTime": "2025-11-08T20:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "VriendenLoterij Eredivisie",
-      "homeTeam": "FC Utrecht",
-      "awayTeam": "AFC Ajax",
-      "startTime": "2025-11-09T11:15:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "VriendenLoterij Eredivisie",
-      "homeTeam": "NEC Nijmegen",
-      "awayTeam": "FC Groningen",
-      "startTime": "2025-11-09T13:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "VriendenLoterij Eredivisie",
-      "homeTeam": "AZ Alkmaar",
-      "awayTeam": "PSV Eindhoven",
-      "startTime": "2025-11-09T15:45:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "VriendenLoterij Eredivisie",
-      "homeTeam": "Go Ahead Eagles",
-      "awayTeam": "Feyenoord",
-      "startTime": "2025-11-09T19:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Pro League",
-      "homeTeam": "Cercle Brugge",
-      "awayTeam": "Oud-Heverlee Leuven",
-      "startTime": "2025-11-08T15:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Pro League",
-      "homeTeam": "RC Sporting Charleroi",
-      "awayTeam": "KVC Westerlo",
-      "startTime": "2025-11-08T17:15:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Pro League",
-      "homeTeam": "Royal Antwerp FC",
-      "awayTeam": "RAAL La Louvière",
-      "startTime": "2025-11-08T19:45:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Pro League",
-      "homeTeam": "RSC Anderlecht",
-      "awayTeam": "Club Brugge KV",
-      "startTime": "2025-11-09T12:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Pro League",
-      "homeTeam": "Sint-Truidense VV",
-      "awayTeam": "Standard Liège",
-      "startTime": "2025-11-09T15:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Pro League",
-      "homeTeam": "KAA Gent",
-      "awayTeam": "KRC Genk",
-      "startTime": "2025-11-09T17:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Pro League",
-      "homeTeam": "KV Mechelen",
-      "awayTeam": "Royale Union Saint-Gilloise",
-      "startTime": "2025-11-09T18:15:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "2. Bundesliga",
-      "homeTeam": "Arminia Bielefeld",
-      "awayTeam": "Karlsruher SC",
-      "startTime": "2025-11-08T12:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "2. Bundesliga",
-      "homeTeam": "FC Schalke 04",
-      "awayTeam": "SV 07 Elversberg",
-      "startTime": "2025-11-08T12:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "2. Bundesliga",
-      "homeTeam": "Hannover 96",
-      "awayTeam": "Darmstadt 98",
-      "startTime": "2025-11-08T12:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "2. Bundesliga",
-      "homeTeam": "1. FC Kaiserslautern",
-      "awayTeam": "Hertha BSC",
-      "startTime": "2025-11-08T19:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "2. Bundesliga",
-      "homeTeam": "1. FC Magdeburg",
-      "awayTeam": "SC Paderborn 07",
-      "startTime": "2025-11-09T12:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "2. Bundesliga",
-      "homeTeam": "Eintracht Braunschweig",
-      "awayTeam": "VfL Bochum 1848",
-      "startTime": "2025-11-09T12:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "2. Bundesliga",
-      "homeTeam": "Holstein Kiel",
-      "awayTeam": "Fortuna Düsseldorf",
-      "startTime": "2025-11-09T12:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 2",
-      "homeTeam": "Guingamp",
-      "awayTeam": "Pau FC",
-      "startTime": "2025-11-08T13:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 2",
-      "homeTeam": "Le Mans",
-      "awayTeam": "Red Star FC",
-      "startTime": "2025-11-08T13:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 2",
-      "homeTeam": "Troyes",
-      "awayTeam": "Saint-Étienne",
-      "startTime": "2025-11-08T19:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Swiss Super League",
-      "homeTeam": "FC Winterthur",
-      "awayTeam": "Grasshopper Club Zürich",
-      "startTime": "2025-11-08T17:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Swiss Super League",
-      "homeTeam": "FC Zürich",
-      "awayTeam": "FC Luzern",
-      "startTime": "2025-11-08T17:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Swiss Super League",
-      "homeTeam": "Servette FC",
-      "awayTeam": "FC Thun",
-      "startTime": "2025-11-08T19:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Swiss Super League",
-      "homeTeam": "Basel",
-      "awayTeam": "FC Lugano",
-      "startTime": "2025-11-09T13:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Swiss Super League",
-      "homeTeam": "FC Lausanne-Sport",
-      "awayTeam": "FC Sion",
-      "startTime": "2025-11-09T15:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Swiss Super League",
-      "homeTeam": "FC St. Gallen 1879",
-      "awayTeam": "Young Boys",
-      "startTime": "2025-11-09T15:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "CR Belouizdad",
-      "awayTeam": "USM Alger",
-      "startTime": "2025-11-08T13:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "USM Khenchela",
-      "awayTeam": "ES Mostaganem",
-      "startTime": "2025-11-08T13:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "MB Rouissat",
-      "awayTeam": "MC Oran",
-      "startTime": "2025-11-08T16:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "ES Sétif",
-      "awayTeam": "Olympique Akbou",
-      "startTime": "2025-11-08T17:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "MC El Bayadh",
-      "awayTeam": "MC Alger",
-      "startTime": "2025-11-09T13:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "ASO Chlef",
-      "awayTeam": "ES Ben Aknoun",
-      "startTime": "2025-11-09T16:45:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "CS Constantine",
-      "awayTeam": "JS Kabylie",
-      "startTime": "2025-11-09T16:45:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "JS Saoura",
-      "awayTeam": "Paradou AC",
-      "startTime": "2025-11-09T17:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "3. Liga",
-      "homeTeam": "1. FC Schweinfurt 05",
-      "awayTeam": "TSG Hoffenheim II U23",
-      "startTime": "2025-11-08T13:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "3. Liga",
-      "homeTeam": "Energie Cottbus",
-      "awayTeam": "VfL Osnabrück",
-      "startTime": "2025-11-08T13:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "3. Liga",
-      "homeTeam": "FC Ingolstadt 04",
-      "awayTeam": "Rot-Weiss Essen",
-      "startTime": "2025-11-08T13:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "3. Liga",
-      "homeTeam": "SC Verl",
-      "awayTeam": "Erzgebirge Aue",
-      "startTime": "2025-11-08T13:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "3. Liga",
-      "homeTeam": "SSV Ulm 1846",
-      "awayTeam": "F.C. Hansa Rostock",
-      "startTime": "2025-11-08T13:00:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "3. Liga",
-      "homeTeam": "1. FC Saarbrücken",
-      "awayTeam": "TSV Havelse",
-      "startTime": "2025-11-08T15:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "3. Liga",
-      "homeTeam": "VfB Stuttgart II U21",
-      "awayTeam": "Alemannia Aachen",
-      "startTime": "2025-11-09T12:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "3. Liga",
-      "homeTeam": "SSV Jahn Regensburg",
-      "awayTeam": "TSV 1860 München",
-      "startTime": "2025-11-09T15:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "3. Liga",
-      "homeTeam": "SV Wehen Wiesbaden",
-      "awayTeam": "FC Viktoria Köln",
-      "startTime": "2025-11-09T18:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Pro League",
-      "homeTeam": "Kheybar Khorramabad FC",
-      "awayTeam": "Tractor FC",
-      "startTime": "2025-11-08T13:15:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "Avenir Sportif De Gabes",
-      "awayTeam": "AS Soliman",
-      "startTime": "2025-11-08T13:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "CA Bizertin",
-      "awayTeam": "Etoile Sportive Du Sahel",
-      "startTime": "2025-11-08T13:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "CS Sfaxien",
-      "awayTeam": "Avenir Sportif De La Marsa",
-      "startTime": "2025-11-08T13:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "US Monastir",
-      "awayTeam": "JS Kairouanaise",
-      "startTime": "2025-11-08T13:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "Club Africain",
-      "awayTeam": "Espérance Tunis",
-      "startTime": "2025-11-09T13:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "ES Métlaoui",
-      "awayTeam": "ES Zarzis",
-      "startTime": "2025-11-09T13:30:00.000Z"
-    },
-    {
-      "date": "2025-11-09",
-      "league": "Ligue 1",
-      "homeTeam": "US Ben Guerdane",
-      "awayTeam": "Stade Tunisien",
-      "startTime": "2025-11-09T13:30:00.000Z"
-    },
-    {
-      "date": "2025-11-10",
-      "league": "Ligue 1",
-      "homeTeam": "JS Omrane",
-      "awayTeam": "Olympique Béja",
-      "startTime": "2025-11-10T13:30:00.000Z"
-    },
     {
       "date": "2025-11-15",
       "league": "Pro League",
@@ -520,11 +9,32 @@
       "startTime": "2025-11-15T13:00:00.000Z"
     },
     {
+      "date": "2025-11-17",
+      "league": "Ligue 1",
+      "homeTeam": "ES Mostaganem",
+      "awayTeam": "USM Alger",
+      "startTime": "2025-11-17T16:00:00.000Z"
+    },
+    {
       "date": "2025-11-20",
       "league": "Pro League",
       "homeTeam": "Khor Fakkan",
       "awayTeam": "Shabab Al-Ahli Dubai",
       "startTime": "2025-11-20T15:30:00.000Z"
+    },
+    {
+      "date": "2025-11-20",
+      "league": "Ligue 1",
+      "homeTeam": "MC Oran",
+      "awayTeam": "ES Sétif",
+      "startTime": "2025-11-20T16:00:00.000Z"
+    },
+    {
+      "date": "2025-11-20",
+      "league": "Ligue 1",
+      "homeTeam": "Paradou AC",
+      "awayTeam": "MC El Bayadh",
+      "startTime": "2025-11-20T16:00:00.000Z"
     },
     {
       "date": "2025-11-21",
@@ -560,6 +70,13 @@
       "homeTeam": "VfL Bochum 1848",
       "awayTeam": "SG Dynamo Dresden",
       "startTime": "2025-11-21T17:30:00.000Z"
+    },
+    {
+      "date": "2025-11-21",
+      "league": "Serie B",
+      "homeTeam": "Catanzaro",
+      "awayTeam": "Pescara",
+      "startTime": "2025-11-21T19:30:00.000Z"
     },
     {
       "date": "2025-11-21",
@@ -623,6 +140,13 @@
       "homeTeam": "Al-Sharjah",
       "awayTeam": "Baniyas",
       "startTime": "2025-11-21T15:30:00.000Z"
+    },
+    {
+      "date": "2025-11-21",
+      "league": "Ligue 1",
+      "homeTeam": "Olympique Akbou",
+      "awayTeam": "ASO Chlef",
+      "startTime": "2025-11-21T16:00:00.000Z"
     },
     {
       "date": "2025-11-21",
@@ -693,6 +217,41 @@
       "homeTeam": "TSG Hoffenheim II U23",
       "awayTeam": "MSV Duisburg",
       "startTime": "2025-11-21T18:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Serie A",
+      "homeTeam": "Cagliari",
+      "awayTeam": "Genoa",
+      "startTime": "2025-11-22T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Serie A",
+      "homeTeam": "Udinese",
+      "awayTeam": "Bologna",
+      "startTime": "2025-11-22T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Serie A",
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Juventus",
+      "startTime": "2025-11-22T17:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Serie A",
+      "homeTeam": "Napoli",
+      "awayTeam": "Atalanta",
+      "startTime": "2025-11-22T19:45:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Serie A",
+      "homeTeam": "Hellas Verona",
+      "awayTeam": "Parma",
+      "startTime": "2025-11-23T11:30:00.000Z"
     },
     {
       "date": "2025-11-22",
@@ -850,6 +409,41 @@
     },
     {
       "date": "2025-11-22",
+      "league": "Serie B",
+      "homeTeam": "Carrarese",
+      "awayTeam": "Reggiana",
+      "startTime": "2025-11-22T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Serie B",
+      "homeTeam": "US Avellino 1912",
+      "awayTeam": "Empoli",
+      "startTime": "2025-11-22T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Serie B",
+      "homeTeam": "Virtus Entella",
+      "awayTeam": "Palermo",
+      "startTime": "2025-11-22T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Serie B",
+      "homeTeam": "Padova",
+      "awayTeam": "Venezia",
+      "startTime": "2025-11-22T16:15:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
+      "league": "Serie B",
+      "homeTeam": "Bari",
+      "awayTeam": "Frosinone",
+      "startTime": "2025-11-22T18:30:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
       "league": "Ligue 2",
       "homeTeam": "Amiens SC",
       "awayTeam": "Guingamp",
@@ -913,6 +507,13 @@
     },
     {
       "date": "2025-11-22",
+      "league": "Ligue 1",
+      "homeTeam": "USM Khenchela",
+      "awayTeam": "JS Saoura",
+      "startTime": "2025-11-22T16:00:00.000Z"
+    },
+    {
+      "date": "2025-11-22",
       "league": "3. Liga",
       "homeTeam": "Alemannia Aachen",
       "awayTeam": "SSV Jahn Regensburg",
@@ -952,6 +553,27 @@
       "homeTeam": "VfL Osnabrück",
       "awayTeam": "FC Ingolstadt 04",
       "startTime": "2025-11-22T15:30:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "Serie A",
+      "homeTeam": "Cremonese",
+      "awayTeam": "Roma",
+      "startTime": "2025-11-23T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "Serie A",
+      "homeTeam": "Lazio",
+      "awayTeam": "Lecce",
+      "startTime": "2025-11-23T17:00:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "Serie A",
+      "homeTeam": "Inter",
+      "awayTeam": "Milan",
+      "startTime": "2025-11-23T19:45:00.000Z"
     },
     {
       "date": "2025-11-23",
@@ -1074,6 +696,27 @@
     },
     {
       "date": "2025-11-23",
+      "league": "Serie B",
+      "homeTeam": "Mantova",
+      "awayTeam": "Spezia",
+      "startTime": "2025-11-23T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "Serie B",
+      "homeTeam": "Modena",
+      "awayTeam": "Südtirol",
+      "startTime": "2025-11-23T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
+      "league": "Serie B",
+      "homeTeam": "Monza",
+      "awayTeam": "Cesena",
+      "startTime": "2025-11-23T16:15:00.000Z"
+    },
+    {
+      "date": "2025-11-23",
       "league": "Swiss Super League",
       "homeTeam": "FC Sion",
       "awayTeam": "FC Zürich",
@@ -1113,6 +756,27 @@
       "homeTeam": "Rot-Weiss Essen",
       "awayTeam": "Energie Cottbus",
       "startTime": "2025-11-23T18:30:00.000Z"
+    },
+    {
+      "date": "2025-11-24",
+      "league": "Serie A",
+      "homeTeam": "Torino",
+      "awayTeam": "Como",
+      "startTime": "2025-11-24T17:30:00.000Z"
+    },
+    {
+      "date": "2025-11-24",
+      "league": "Serie A",
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Pisa",
+      "startTime": "2025-11-24T19:45:00.000Z"
+    },
+    {
+      "date": "2025-11-24",
+      "league": "Serie B",
+      "homeTeam": "Sampdoria",
+      "awayTeam": "Juve Stabia",
+      "startTime": "2025-11-24T19:30:00.000Z"
     },
     {
       "date": "2025-11-24",
@@ -1515,6 +1179,13 @@
     },
     {
       "date": "2025-11-28",
+      "league": "Serie A",
+      "homeTeam": "Como",
+      "awayTeam": "Sassuolo",
+      "startTime": "2025-11-28T19:45:00.000Z"
+    },
+    {
+      "date": "2025-11-28",
       "league": "Bundesliga",
       "homeTeam": "Borussia M'gladbach",
       "awayTeam": "RB Leipzig",
@@ -1557,6 +1228,13 @@
     },
     {
       "date": "2025-11-28",
+      "league": "Serie B",
+      "homeTeam": "Cesena",
+      "awayTeam": "Modena",
+      "startTime": "2025-11-28T19:30:00.000Z"
+    },
+    {
+      "date": "2025-11-28",
       "league": "3. Liga",
       "homeTeam": "SV Wehen Wiesbaden",
       "awayTeam": "Erzgebirge Aue",
@@ -1589,6 +1267,41 @@
       "homeTeam": "Esteghlal Khuzestan",
       "awayTeam": "Gol Gohar Sirjan",
       "startTime": "2025-11-28T14:30:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Serie A",
+      "homeTeam": "Genoa",
+      "awayTeam": "Hellas Verona",
+      "startTime": "2025-11-29T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Serie A",
+      "homeTeam": "Parma",
+      "awayTeam": "Udinese",
+      "startTime": "2025-11-29T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Serie A",
+      "homeTeam": "Juventus",
+      "awayTeam": "Cagliari",
+      "startTime": "2025-11-29T17:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Serie A",
+      "homeTeam": "Milan",
+      "awayTeam": "Lazio",
+      "startTime": "2025-11-29T19:45:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Serie A",
+      "homeTeam": "Lecce",
+      "awayTeam": "Torino",
+      "startTime": "2025-11-30T11:30:00.000Z"
     },
     {
       "date": "2025-11-29",
@@ -1725,6 +1438,55 @@
     },
     {
       "date": "2025-11-29",
+      "league": "Serie B",
+      "homeTeam": "Empoli",
+      "awayTeam": "Bari",
+      "startTime": "2025-11-29T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Serie B",
+      "homeTeam": "Pescara",
+      "awayTeam": "Padova",
+      "startTime": "2025-11-29T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Serie B",
+      "homeTeam": "Reggiana",
+      "awayTeam": "Frosinone",
+      "startTime": "2025-11-29T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Serie B",
+      "homeTeam": "Südtirol",
+      "awayTeam": "US Avellino 1912",
+      "startTime": "2025-11-29T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Serie B",
+      "homeTeam": "Venezia",
+      "awayTeam": "Mantova",
+      "startTime": "2025-11-29T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Serie B",
+      "homeTeam": "Catanzaro",
+      "awayTeam": "Virtus Entella",
+      "startTime": "2025-11-29T16:15:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
+      "league": "Serie B",
+      "homeTeam": "Palermo",
+      "awayTeam": "Carrarese",
+      "startTime": "2025-11-29T18:30:00.000Z"
+    },
+    {
+      "date": "2025-11-29",
       "league": "Swiss Super League",
       "homeTeam": "FC Lugano",
       "awayTeam": "FC Sion",
@@ -1806,6 +1568,27 @@
       "homeTeam": "Shams Azar Qazvin",
       "awayTeam": "Sepahan S.C.",
       "startTime": "2025-11-29T14:30:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "Serie A",
+      "homeTeam": "Pisa",
+      "awayTeam": "Inter",
+      "startTime": "2025-11-30T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "Serie A",
+      "homeTeam": "Atalanta",
+      "awayTeam": "Fiorentina",
+      "startTime": "2025-11-30T17:00:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "Serie A",
+      "homeTeam": "Roma",
+      "awayTeam": "Napoli",
+      "startTime": "2025-11-30T19:45:00.000Z"
     },
     {
       "date": "2025-11-30",
@@ -1942,6 +1725,20 @@
     },
     {
       "date": "2025-11-30",
+      "league": "Serie B",
+      "homeTeam": "Juve Stabia",
+      "awayTeam": "Monza",
+      "startTime": "2025-11-30T14:00:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
+      "league": "Serie B",
+      "homeTeam": "Spezia",
+      "awayTeam": "Sampdoria",
+      "startTime": "2025-11-30T16:15:00.000Z"
+    },
+    {
+      "date": "2025-11-30",
       "league": "Swiss Super League",
       "homeTeam": "Servette FC",
       "awayTeam": "Young Boys",
@@ -1997,11 +1794,25 @@
       "startTime": "2025-11-30T14:00:00.000Z"
     },
     {
+      "date": "2025-12-01",
+      "league": "Serie A",
+      "homeTeam": "Bologna",
+      "awayTeam": "Cremonese",
+      "startTime": "2025-12-01T19:45:00.000Z"
+    },
+    {
       "date": "2025-12-03",
       "league": "Pro League",
       "homeTeam": "Kheybar Khorramabad FC",
       "awayTeam": "Shams Azar Qazvin",
       "startTime": "2025-12-04T11:45:00.000Z"
+    },
+    {
+      "date": "2025-12-04",
+      "league": "Serie B",
+      "homeTeam": "Juve Stabia",
+      "awayTeam": "Bari",
+      "startTime": "2025-12-04T18:30:00.000Z"
     },
     {
       "date": "2025-12-04",
@@ -2271,6 +2082,34 @@
     },
     {
       "date": "2025-12-06",
+      "league": "Serie A",
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Fiorentina",
+      "startTime": "2025-12-06T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Serie A",
+      "homeTeam": "Inter",
+      "awayTeam": "Como",
+      "startTime": "2025-12-06T17:00:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Serie A",
+      "homeTeam": "Hellas Verona",
+      "awayTeam": "Atalanta",
+      "startTime": "2025-12-06T19:45:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
+      "league": "Serie A",
+      "homeTeam": "Cremonese",
+      "awayTeam": "Lecce",
+      "startTime": "2025-12-07T11:30:00.000Z"
+    },
+    {
+      "date": "2025-12-06",
       "league": "Bundesliga",
       "homeTeam": "1. FC Heidenheim",
       "awayTeam": "SC Freiburg",
@@ -2467,6 +2306,27 @@
     },
     {
       "date": "2025-12-07",
+      "league": "Serie A",
+      "homeTeam": "Cagliari",
+      "awayTeam": "Roma",
+      "startTime": "2025-12-07T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
+      "league": "Serie A",
+      "homeTeam": "Lazio",
+      "awayTeam": "Bologna",
+      "startTime": "2025-12-07T17:00:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
+      "league": "Serie A",
+      "homeTeam": "Napoli",
+      "awayTeam": "Juventus",
+      "startTime": "2025-12-07T19:45:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
       "league": "Bundesliga",
       "homeTeam": "Hamburger SV",
       "awayTeam": "SV Werder Bremen",
@@ -2579,6 +2439,27 @@
     },
     {
       "date": "2025-12-07",
+      "league": "Serie B",
+      "homeTeam": "Empoli",
+      "awayTeam": "Palermo",
+      "startTime": "2025-12-07T16:15:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
+      "league": "Serie B",
+      "homeTeam": "Sampdoria",
+      "awayTeam": "Carrarese",
+      "startTime": "2025-12-07T18:30:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
+      "league": "Serie B",
+      "homeTeam": "Modena",
+      "awayTeam": "Catanzaro",
+      "startTime": "2025-12-08T11:30:00.000Z"
+    },
+    {
+      "date": "2025-12-07",
       "league": "Swiss Super League",
       "homeTeam": "FC Winterthur",
       "awayTeam": "Basel",
@@ -2597,6 +2478,76 @@
       "homeTeam": "FC Sion",
       "awayTeam": "Young Boys",
       "startTime": "2025-12-07T15:30:00.000Z"
+    },
+    {
+      "date": "2025-12-08",
+      "league": "Serie A",
+      "homeTeam": "Pisa",
+      "awayTeam": "Parma",
+      "startTime": "2025-12-08T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-08",
+      "league": "Serie A",
+      "homeTeam": "Udinese",
+      "awayTeam": "Genoa",
+      "startTime": "2025-12-08T17:00:00.000Z"
+    },
+    {
+      "date": "2025-12-08",
+      "league": "Serie A",
+      "homeTeam": "Torino",
+      "awayTeam": "Milan",
+      "startTime": "2025-12-08T19:45:00.000Z"
+    },
+    {
+      "date": "2025-12-08",
+      "league": "Serie B",
+      "homeTeam": "Frosinone",
+      "awayTeam": "Juve Stabia",
+      "startTime": "2025-12-08T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-08",
+      "league": "Serie B",
+      "homeTeam": "Mantova",
+      "awayTeam": "Reggiana",
+      "startTime": "2025-12-08T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-08",
+      "league": "Serie B",
+      "homeTeam": "Monza",
+      "awayTeam": "Südtirol",
+      "startTime": "2025-12-08T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-08",
+      "league": "Serie B",
+      "homeTeam": "Padova",
+      "awayTeam": "Cesena",
+      "startTime": "2025-12-08T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-08",
+      "league": "Serie B",
+      "homeTeam": "US Avellino 1912",
+      "awayTeam": "Venezia",
+      "startTime": "2025-12-08T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-08",
+      "league": "Serie B",
+      "homeTeam": "Bari",
+      "awayTeam": "Pescara",
+      "startTime": "2025-12-08T16:15:00.000Z"
+    },
+    {
+      "date": "2025-12-08",
+      "league": "Serie B",
+      "homeTeam": "Virtus Entella",
+      "awayTeam": "Spezia",
+      "startTime": "2025-12-08T18:30:00.000Z"
     },
     {
       "date": "2025-12-09",
@@ -3034,6 +2985,13 @@
     },
     {
       "date": "2025-12-12",
+      "league": "Serie A",
+      "homeTeam": "Lecce",
+      "awayTeam": "Pisa",
+      "startTime": "2025-12-12T19:45:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
       "league": "Bundesliga",
       "homeTeam": "1. FC Union Berlin",
       "awayTeam": "RB Leipzig",
@@ -3066,6 +3024,13 @@
       "homeTeam": "SpVgg Greuther Fürth",
       "awayTeam": "Hertha BSC",
       "startTime": "2025-12-12T17:30:00.000Z"
+    },
+    {
+      "date": "2025-12-12",
+      "league": "Serie B",
+      "homeTeam": "Palermo",
+      "awayTeam": "Sampdoria",
+      "startTime": "2025-12-12T19:30:00.000Z"
     },
     {
       "date": "2025-12-12",
@@ -3244,6 +3209,34 @@
     },
     {
       "date": "2025-12-13",
+      "league": "Serie A",
+      "homeTeam": "Torino",
+      "awayTeam": "Cremonese",
+      "startTime": "2025-12-13T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Serie A",
+      "homeTeam": "Parma",
+      "awayTeam": "Lazio",
+      "startTime": "2025-12-13T17:00:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Serie A",
+      "homeTeam": "Atalanta",
+      "awayTeam": "Cagliari",
+      "startTime": "2025-12-13T19:45:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Serie A",
+      "homeTeam": "Milan",
+      "awayTeam": "Sassuolo",
+      "startTime": "2025-12-14T11:30:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
       "league": "Bundesliga",
       "homeTeam": "Borussia M'gladbach",
       "awayTeam": "VfL Wolfsburg",
@@ -3384,6 +3377,55 @@
     },
     {
       "date": "2025-12-13",
+      "league": "Serie B",
+      "homeTeam": "Juve Stabia",
+      "awayTeam": "Empoli",
+      "startTime": "2025-12-13T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Serie B",
+      "homeTeam": "Reggiana",
+      "awayTeam": "Padova",
+      "startTime": "2025-12-13T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Serie B",
+      "homeTeam": "Spezia",
+      "awayTeam": "Modena",
+      "startTime": "2025-12-13T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Serie B",
+      "homeTeam": "Südtirol",
+      "awayTeam": "Bari",
+      "startTime": "2025-12-13T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Serie B",
+      "homeTeam": "Venezia",
+      "awayTeam": "Monza",
+      "startTime": "2025-12-13T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Serie B",
+      "homeTeam": "Catanzaro",
+      "awayTeam": "US Avellino 1912",
+      "startTime": "2025-12-13T16:15:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
+      "league": "Serie B",
+      "homeTeam": "Cesena",
+      "awayTeam": "Mantova",
+      "startTime": "2025-12-13T18:30:00.000Z"
+    },
+    {
+      "date": "2025-12-13",
       "league": "Ligue 2",
       "homeTeam": "Grenoble Foot 38",
       "awayTeam": "Montpellier",
@@ -3423,6 +3465,34 @@
       "homeTeam": "FC Thun",
       "awayTeam": "FC St. Gallen 1879",
       "startTime": "2025-12-13T19:30:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "Serie A",
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Hellas Verona",
+      "startTime": "2025-12-14T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "Serie A",
+      "homeTeam": "Udinese",
+      "awayTeam": "Napoli",
+      "startTime": "2025-12-14T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "Serie A",
+      "homeTeam": "Genoa",
+      "awayTeam": "Inter",
+      "startTime": "2025-12-14T17:00:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "Serie A",
+      "homeTeam": "Bologna",
+      "awayTeam": "Juventus",
+      "startTime": "2025-12-14T19:45:00.000Z"
     },
     {
       "date": "2025-12-14",
@@ -3559,6 +3629,20 @@
     },
     {
       "date": "2025-12-14",
+      "league": "Serie B",
+      "homeTeam": "Carrarese",
+      "awayTeam": "Virtus Entella",
+      "startTime": "2025-12-14T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
+      "league": "Serie B",
+      "homeTeam": "Pescara",
+      "awayTeam": "Frosinone",
+      "startTime": "2025-12-14T16:15:00.000Z"
+    },
+    {
+      "date": "2025-12-14",
       "league": "Swiss Super League",
       "homeTeam": "Young Boys",
       "awayTeam": "FC Luzern",
@@ -3580,6 +3664,13 @@
     },
     {
       "date": "2025-12-15",
+      "league": "Serie A",
+      "homeTeam": "Roma",
+      "awayTeam": "Como",
+      "startTime": "2025-12-15T19:45:00.000Z"
+    },
+    {
+      "date": "2025-12-15",
       "league": "Ligue 2",
       "homeTeam": "US Boulogne Côte-d'Opale",
       "awayTeam": "Troyes",
@@ -3598,13 +3689,6 @@
       "homeTeam": "FC Winterthur",
       "awayTeam": "FC Thun",
       "startTime": "2025-12-16T19:30:00.000Z"
-    },
-    {
-      "date": "2025-12-17",
-      "league": "Swiss Super League",
-      "homeTeam": "Servette FC",
-      "awayTeam": "FC Lausanne-Sport",
-      "startTime": "2025-12-17T14:00:00.000Z"
     },
     {
       "date": "2025-12-17",
@@ -3790,6 +3874,13 @@
     },
     {
       "date": "2025-12-19",
+      "league": "Serie B",
+      "homeTeam": "Bari",
+      "awayTeam": "Catanzaro",
+      "startTime": "2025-12-19T19:30:00.000Z"
+    },
+    {
+      "date": "2025-12-19",
       "league": "3. Liga",
       "homeTeam": "Energie Cottbus",
       "awayTeam": "SSV Jahn Regensburg",
@@ -3857,6 +3948,27 @@
       "homeTeam": "VfL Osnabrück",
       "awayTeam": "VfB Stuttgart II U21",
       "startTime": "2025-12-19T13:00:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Serie A",
+      "homeTeam": "Lazio",
+      "awayTeam": "Cremonese",
+      "startTime": "2025-12-20T17:00:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Serie A",
+      "homeTeam": "Juventus",
+      "awayTeam": "Roma",
+      "startTime": "2025-12-20T19:45:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Serie A",
+      "homeTeam": "Cagliari",
+      "awayTeam": "Pisa",
+      "startTime": "2025-12-21T11:30:00.000Z"
     },
     {
       "date": "2025-12-20",
@@ -3986,6 +4098,55 @@
     },
     {
       "date": "2025-12-20",
+      "league": "Serie B",
+      "homeTeam": "Cesena",
+      "awayTeam": "Juve Stabia",
+      "startTime": "2025-12-20T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Serie B",
+      "homeTeam": "Frosinone",
+      "awayTeam": "Spezia",
+      "startTime": "2025-12-20T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Serie B",
+      "homeTeam": "Modena",
+      "awayTeam": "Venezia",
+      "startTime": "2025-12-20T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Serie B",
+      "homeTeam": "Monza",
+      "awayTeam": "Carrarese",
+      "startTime": "2025-12-20T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Serie B",
+      "homeTeam": "Padova",
+      "awayTeam": "Sampdoria",
+      "startTime": "2025-12-20T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Serie B",
+      "homeTeam": "US Avellino 1912",
+      "awayTeam": "Palermo",
+      "startTime": "2025-12-20T16:15:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
+      "league": "Serie B",
+      "homeTeam": "Pescara",
+      "awayTeam": "Reggiana",
+      "startTime": "2025-12-20T18:30:00.000Z"
+    },
+    {
+      "date": "2025-12-20",
       "league": "Swiss Super League",
       "homeTeam": "FC Sion",
       "awayTeam": "FC Winterthur",
@@ -4025,6 +4186,55 @@
       "homeTeam": "Al-Ain",
       "awayTeam": "Al-Ittihad Kalba",
       "startTime": "2025-12-20T15:30:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
+      "league": "Serie A",
+      "homeTeam": "Como",
+      "awayTeam": "Milan",
+      "startTime": "2025-12-21T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
+      "league": "Serie A",
+      "homeTeam": "Hellas Verona",
+      "awayTeam": "Bologna",
+      "startTime": "2025-12-21T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
+      "league": "Serie A",
+      "homeTeam": "Inter",
+      "awayTeam": "Lecce",
+      "startTime": "2025-12-21T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
+      "league": "Serie A",
+      "homeTeam": "Napoli",
+      "awayTeam": "Parma",
+      "startTime": "2025-12-21T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
+      "league": "Serie A",
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Torino",
+      "startTime": "2025-12-21T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
+      "league": "Serie A",
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Udinese",
+      "startTime": "2025-12-21T17:00:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
+      "league": "Serie A",
+      "homeTeam": "Genoa",
+      "awayTeam": "Atalanta",
+      "startTime": "2025-12-21T19:45:00.000Z"
     },
     {
       "date": "2025-12-21",
@@ -4112,6 +4322,20 @@
     },
     {
       "date": "2025-12-21",
+      "league": "Serie B",
+      "homeTeam": "Virtus Entella",
+      "awayTeam": "Südtirol",
+      "startTime": "2025-12-21T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
+      "league": "Serie B",
+      "homeTeam": "Mantova",
+      "awayTeam": "Empoli",
+      "startTime": "2025-12-21T16:15:00.000Z"
+    },
+    {
+      "date": "2025-12-21",
       "league": "Swiss Super League",
       "homeTeam": "FC Lausanne-Sport",
       "awayTeam": "FC Luzern",
@@ -4147,6 +4371,13 @@
     },
     {
       "date": "2025-12-26",
+      "league": "Serie A",
+      "homeTeam": "Parma",
+      "awayTeam": "Fiorentina",
+      "startTime": "2025-12-27T11:30:00.000Z"
+    },
+    {
+      "date": "2025-12-26",
       "league": "Pro League",
       "homeTeam": "KRC Genk",
       "awayTeam": "Club Brugge KV",
@@ -4172,6 +4403,55 @@
       "homeTeam": "RSC Anderlecht",
       "awayTeam": "RC Sporting Charleroi",
       "startTime": "2025-12-26T19:45:00.000Z"
+    },
+    {
+      "date": "2025-12-26",
+      "league": "Serie B",
+      "homeTeam": "Modena",
+      "awayTeam": "Monza",
+      "startTime": "2025-12-26T16:15:00.000Z"
+    },
+    {
+      "date": "2025-12-26",
+      "league": "Serie B",
+      "homeTeam": "Spezia",
+      "awayTeam": "Pescara",
+      "startTime": "2025-12-27T11:30:00.000Z"
+    },
+    {
+      "date": "2025-12-27",
+      "league": "Serie A",
+      "homeTeam": "Lecce",
+      "awayTeam": "Como",
+      "startTime": "2025-12-27T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-27",
+      "league": "Serie A",
+      "homeTeam": "Torino",
+      "awayTeam": "Cagliari",
+      "startTime": "2025-12-27T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-27",
+      "league": "Serie A",
+      "homeTeam": "Udinese",
+      "awayTeam": "Lazio",
+      "startTime": "2025-12-27T17:00:00.000Z"
+    },
+    {
+      "date": "2025-12-27",
+      "league": "Serie A",
+      "homeTeam": "Pisa",
+      "awayTeam": "Juventus",
+      "startTime": "2025-12-27T19:45:00.000Z"
+    },
+    {
+      "date": "2025-12-27",
+      "league": "Serie A",
+      "homeTeam": "Milan",
+      "awayTeam": "Hellas Verona",
+      "startTime": "2025-12-28T11:30:00.000Z"
     },
     {
       "date": "2025-12-27",
@@ -4200,6 +4480,83 @@
       "homeTeam": "KAA Gent",
       "awayTeam": "KVC Westerlo",
       "startTime": "2025-12-27T19:45:00.000Z"
+    },
+    {
+      "date": "2025-12-27",
+      "league": "Serie B",
+      "homeTeam": "Carrarese",
+      "awayTeam": "Mantova",
+      "startTime": "2025-12-27T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-27",
+      "league": "Serie B",
+      "homeTeam": "Catanzaro",
+      "awayTeam": "Cesena",
+      "startTime": "2025-12-27T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-27",
+      "league": "Serie B",
+      "homeTeam": "Empoli",
+      "awayTeam": "Frosinone",
+      "startTime": "2025-12-27T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-27",
+      "league": "Serie B",
+      "homeTeam": "Juve Stabia",
+      "awayTeam": "Südtirol",
+      "startTime": "2025-12-27T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-27",
+      "league": "Serie B",
+      "homeTeam": "Sampdoria",
+      "awayTeam": "Reggiana",
+      "startTime": "2025-12-27T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-27",
+      "league": "Serie B",
+      "homeTeam": "Venezia",
+      "awayTeam": "Virtus Entella",
+      "startTime": "2025-12-27T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-27",
+      "league": "Serie B",
+      "homeTeam": "Palermo",
+      "awayTeam": "Padova",
+      "startTime": "2025-12-27T16:15:00.000Z"
+    },
+    {
+      "date": "2025-12-27",
+      "league": "Serie B",
+      "homeTeam": "Bari",
+      "awayTeam": "US Avellino 1912",
+      "startTime": "2025-12-27T18:30:00.000Z"
+    },
+    {
+      "date": "2025-12-28",
+      "league": "Serie A",
+      "homeTeam": "Cremonese",
+      "awayTeam": "Napoli",
+      "startTime": "2025-12-28T14:00:00.000Z"
+    },
+    {
+      "date": "2025-12-28",
+      "league": "Serie A",
+      "homeTeam": "Bologna",
+      "awayTeam": "Sassuolo",
+      "startTime": "2025-12-28T17:00:00.000Z"
+    },
+    {
+      "date": "2025-12-28",
+      "league": "Serie A",
+      "homeTeam": "Atalanta",
+      "awayTeam": "Inter",
+      "startTime": "2025-12-28T19:45:00.000Z"
     },
     {
       "date": "2025-12-28",
@@ -4231,10 +4588,31 @@
     },
     {
       "date": "2025-12-29",
+      "league": "Serie A",
+      "homeTeam": "Roma",
+      "awayTeam": "Genoa",
+      "startTime": "2025-12-29T19:45:00.000Z"
+    },
+    {
+      "date": "2025-12-29",
       "league": "Pro League",
       "homeTeam": "Al-Dhafra",
       "awayTeam": "Baniyas",
       "startTime": "2025-12-29T15:45:00.000Z"
+    },
+    {
+      "date": "2026-01-02",
+      "league": "Serie A",
+      "homeTeam": "Cagliari",
+      "awayTeam": "Milan",
+      "startTime": "2026-01-02T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-02",
+      "league": "Serie A",
+      "homeTeam": "Como",
+      "awayTeam": "Udinese",
+      "startTime": "2026-01-03T11:30:00.000Z"
     },
     {
       "date": "2026-01-02",
@@ -4277,6 +4655,41 @@
       "homeTeam": "Baniyas",
       "awayTeam": "Al-Nasr Dubai",
       "startTime": "2026-01-02T15:45:00.000Z"
+    },
+    {
+      "date": "2026-01-03",
+      "league": "Serie A",
+      "homeTeam": "Genoa",
+      "awayTeam": "Pisa",
+      "startTime": "2026-01-03T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-03",
+      "league": "Serie A",
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Parma",
+      "startTime": "2026-01-03T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-03",
+      "league": "Serie A",
+      "homeTeam": "Juventus",
+      "awayTeam": "Lecce",
+      "startTime": "2026-01-03T17:00:00.000Z"
+    },
+    {
+      "date": "2026-01-03",
+      "league": "Serie A",
+      "homeTeam": "Atalanta",
+      "awayTeam": "Roma",
+      "startTime": "2026-01-03T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-03",
+      "league": "Serie A",
+      "homeTeam": "Lazio",
+      "awayTeam": "Napoli",
+      "startTime": "2026-01-04T11:30:00.000Z"
     },
     {
       "date": "2026-01-03",
@@ -4378,6 +4791,27 @@
     },
     {
       "date": "2026-01-04",
+      "league": "Serie A",
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Cremonese",
+      "startTime": "2026-01-04T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-04",
+      "league": "Serie A",
+      "homeTeam": "Hellas Verona",
+      "awayTeam": "Torino",
+      "startTime": "2026-01-04T17:00:00.000Z"
+    },
+    {
+      "date": "2026-01-04",
+      "league": "Serie A",
+      "homeTeam": "Inter",
+      "awayTeam": "Bologna",
+      "startTime": "2026-01-04T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-04",
       "league": "Ligue 1",
       "homeTeam": "Olympique de Marseille",
       "awayTeam": "Nantes",
@@ -4420,6 +4854,41 @@
     },
     {
       "date": "2026-01-06",
+      "league": "Serie A",
+      "homeTeam": "Cremonese",
+      "awayTeam": "Cagliari",
+      "startTime": "2026-01-06T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-06",
+      "league": "Serie A",
+      "homeTeam": "Milan",
+      "awayTeam": "Genoa",
+      "startTime": "2026-01-06T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-06",
+      "league": "Serie A",
+      "homeTeam": "Pisa",
+      "awayTeam": "Como",
+      "startTime": "2026-01-06T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-06",
+      "league": "Serie A",
+      "homeTeam": "Lecce",
+      "awayTeam": "Roma",
+      "startTime": "2026-01-06T17:00:00.000Z"
+    },
+    {
+      "date": "2026-01-06",
+      "league": "Serie A",
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Juventus",
+      "startTime": "2026-01-06T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-06",
       "league": "Pro League",
       "homeTeam": "Al-Nasr Dubai",
       "awayTeam": "Al-Sharjah",
@@ -4434,6 +4903,41 @@
     },
     {
       "date": "2026-01-07",
+      "league": "Serie A",
+      "homeTeam": "Bologna",
+      "awayTeam": "Atalanta",
+      "startTime": "2026-01-07T17:30:00.000Z"
+    },
+    {
+      "date": "2026-01-07",
+      "league": "Serie A",
+      "homeTeam": "Napoli",
+      "awayTeam": "Hellas Verona",
+      "startTime": "2026-01-07T17:30:00.000Z"
+    },
+    {
+      "date": "2026-01-07",
+      "league": "Serie A",
+      "homeTeam": "Lazio",
+      "awayTeam": "Fiorentina",
+      "startTime": "2026-01-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-07",
+      "league": "Serie A",
+      "homeTeam": "Parma",
+      "awayTeam": "Inter",
+      "startTime": "2026-01-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-07",
+      "league": "Serie A",
+      "homeTeam": "Torino",
+      "awayTeam": "Udinese",
+      "startTime": "2026-01-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-07",
       "league": "Pro League",
       "homeTeam": "Al-Ittihad Kalba",
       "awayTeam": "Al Wasl",
@@ -4445,6 +4949,20 @@
       "homeTeam": "Al Bataeh",
       "awayTeam": "Shabab Al-Ahli Dubai",
       "startTime": "2026-01-07T15:45:00.000Z"
+    },
+    {
+      "date": "2026-01-08",
+      "league": "Serie A",
+      "homeTeam": "Cremonese",
+      "awayTeam": "Cagliari",
+      "startTime": "2026-01-08T17:30:00.000Z"
+    },
+    {
+      "date": "2026-01-08",
+      "league": "Serie A",
+      "homeTeam": "Milan",
+      "awayTeam": "Genoa",
+      "startTime": "2026-01-08T19:45:00.000Z"
     },
     {
       "date": "2026-01-08",
@@ -4480,6 +4998,41 @@
       "homeTeam": "NEC Nijmegen",
       "awayTeam": "FC Utrecht",
       "startTime": "2026-01-09T19:00:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Serie A",
+      "homeTeam": "Como",
+      "awayTeam": "Bologna",
+      "startTime": "2026-01-10T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Serie A",
+      "homeTeam": "Udinese",
+      "awayTeam": "Pisa",
+      "startTime": "2026-01-10T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Serie A",
+      "homeTeam": "Roma",
+      "awayTeam": "Sassuolo",
+      "startTime": "2026-01-10T17:00:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Serie A",
+      "homeTeam": "Atalanta",
+      "awayTeam": "Torino",
+      "startTime": "2026-01-10T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Serie A",
+      "homeTeam": "Lecce",
+      "awayTeam": "Parma",
+      "startTime": "2026-01-11T11:30:00.000Z"
     },
     {
       "date": "2026-01-10",
@@ -4560,10 +5113,101 @@
     },
     {
       "date": "2026-01-10",
+      "league": "Serie B",
+      "homeTeam": "Carrarese",
+      "awayTeam": "Bari",
+      "startTime": "2026-01-10T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Serie B",
+      "homeTeam": "Cesena",
+      "awayTeam": "Empoli",
+      "startTime": "2026-01-10T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Serie B",
+      "homeTeam": "Frosinone",
+      "awayTeam": "Catanzaro",
+      "startTime": "2026-01-10T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Serie B",
+      "homeTeam": "Juve Stabia",
+      "awayTeam": "Pescara",
+      "startTime": "2026-01-10T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Serie B",
+      "homeTeam": "Mantova",
+      "awayTeam": "Palermo",
+      "startTime": "2026-01-10T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Serie B",
+      "homeTeam": "Padova",
+      "awayTeam": "Modena",
+      "startTime": "2026-01-10T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Serie B",
+      "homeTeam": "Reggiana",
+      "awayTeam": "Venezia",
+      "startTime": "2026-01-10T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Serie B",
+      "homeTeam": "Südtirol",
+      "awayTeam": "Spezia",
+      "startTime": "2026-01-10T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Serie B",
+      "homeTeam": "US Avellino 1912",
+      "awayTeam": "Sampdoria",
+      "startTime": "2026-01-10T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
+      "league": "Serie B",
+      "homeTeam": "Virtus Entella",
+      "awayTeam": "Monza",
+      "startTime": "2026-01-10T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-10",
       "league": "Pro League",
       "homeTeam": "Al-Wahda FC",
       "awayTeam": "Al-Sharjah",
       "startTime": "2026-01-10T15:45:00.000Z"
+    },
+    {
+      "date": "2026-01-11",
+      "league": "Serie A",
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Milan",
+      "startTime": "2026-01-11T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-11",
+      "league": "Serie A",
+      "homeTeam": "Hellas Verona",
+      "awayTeam": "Lazio",
+      "startTime": "2026-01-11T17:00:00.000Z"
+    },
+    {
+      "date": "2026-01-11",
+      "league": "Serie A",
+      "homeTeam": "Inter",
+      "awayTeam": "Napoli",
+      "startTime": "2026-01-11T19:45:00.000Z"
     },
     {
       "date": "2026-01-11",
@@ -4608,6 +5252,20 @@
       "startTime": "2026-01-11T15:45:00.000Z"
     },
     {
+      "date": "2026-01-12",
+      "league": "Serie A",
+      "homeTeam": "Genoa",
+      "awayTeam": "Cagliari",
+      "startTime": "2026-01-12T17:30:00.000Z"
+    },
+    {
+      "date": "2026-01-12",
+      "league": "Serie A",
+      "homeTeam": "Juventus",
+      "awayTeam": "Cremonese",
+      "startTime": "2026-01-12T19:45:00.000Z"
+    },
+    {
       "date": "2026-01-13",
       "league": "Bundesliga",
       "homeTeam": "VfB Stuttgart",
@@ -4634,6 +5292,20 @@
       "homeTeam": "Hamburger SV",
       "awayTeam": "Bayer 04 Leverkusen",
       "startTime": "2026-01-13T19:30:00.000Z"
+    },
+    {
+      "date": "2026-01-14",
+      "league": "Serie A",
+      "homeTeam": "Napoli",
+      "awayTeam": "Parma",
+      "startTime": "2026-01-14T17:30:00.000Z"
+    },
+    {
+      "date": "2026-01-14",
+      "league": "Serie A",
+      "homeTeam": "Inter",
+      "awayTeam": "Lecce",
+      "startTime": "2026-01-14T19:45:00.000Z"
     },
     {
       "date": "2026-01-14",
@@ -4665,10 +5337,31 @@
     },
     {
       "date": "2026-01-14",
+      "league": "Swiss Super League",
+      "homeTeam": "Servette FC",
+      "awayTeam": "FC Lausanne-Sport",
+      "startTime": "2026-01-14T19:30:00.000Z"
+    },
+    {
+      "date": "2026-01-14",
       "league": "Pro League",
       "homeTeam": "Al-Sharjah",
       "awayTeam": "Al Bataeh",
       "startTime": "2026-01-14T15:45:00.000Z"
+    },
+    {
+      "date": "2026-01-15",
+      "league": "Serie A",
+      "homeTeam": "Hellas Verona",
+      "awayTeam": "Bologna",
+      "startTime": "2026-01-15T17:30:00.000Z"
+    },
+    {
+      "date": "2026-01-15",
+      "league": "Serie A",
+      "homeTeam": "Como",
+      "awayTeam": "Milan",
+      "startTime": "2026-01-15T19:45:00.000Z"
     },
     {
       "date": "2026-01-15",
@@ -4683,6 +5376,13 @@
       "homeTeam": "Shabab Al-Ahli Dubai",
       "awayTeam": "Ajman",
       "startTime": "2026-01-15T15:45:00.000Z"
+    },
+    {
+      "date": "2026-01-16",
+      "league": "Serie A",
+      "homeTeam": "Pisa",
+      "awayTeam": "Atalanta",
+      "startTime": "2026-01-16T19:45:00.000Z"
     },
     {
       "date": "2026-01-16",
@@ -4924,6 +5624,34 @@
     },
     {
       "date": "2026-01-17",
+      "league": "Serie A",
+      "homeTeam": "Udinese",
+      "awayTeam": "Inter",
+      "startTime": "2026-01-17T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Serie A",
+      "homeTeam": "Napoli",
+      "awayTeam": "Sassuolo",
+      "startTime": "2026-01-17T17:00:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Serie A",
+      "homeTeam": "Cagliari",
+      "awayTeam": "Juventus",
+      "startTime": "2026-01-17T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Serie A",
+      "homeTeam": "Parma",
+      "awayTeam": "Genoa",
+      "startTime": "2026-01-18T11:30:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
       "league": "Bundesliga",
       "homeTeam": "1. FC Köln",
       "awayTeam": "1. FSV Mainz 05",
@@ -5106,6 +5834,76 @@
     },
     {
       "date": "2026-01-17",
+      "league": "Serie B",
+      "homeTeam": "Bari",
+      "awayTeam": "Juve Stabia",
+      "startTime": "2026-01-17T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Serie B",
+      "homeTeam": "Empoli",
+      "awayTeam": "Südtirol",
+      "startTime": "2026-01-17T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Serie B",
+      "homeTeam": "Monza",
+      "awayTeam": "Frosinone",
+      "startTime": "2026-01-17T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Serie B",
+      "homeTeam": "Padova",
+      "awayTeam": "Mantova",
+      "startTime": "2026-01-17T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Serie B",
+      "homeTeam": "Palermo",
+      "awayTeam": "Spezia",
+      "startTime": "2026-01-17T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Serie B",
+      "homeTeam": "Pescara",
+      "awayTeam": "Modena",
+      "startTime": "2026-01-17T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Serie B",
+      "homeTeam": "Reggiana",
+      "awayTeam": "Cesena",
+      "startTime": "2026-01-17T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Serie B",
+      "homeTeam": "Sampdoria",
+      "awayTeam": "Virtus Entella",
+      "startTime": "2026-01-17T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Serie B",
+      "homeTeam": "US Avellino 1912",
+      "awayTeam": "Carrarese",
+      "startTime": "2026-01-17T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
+      "league": "Serie B",
+      "homeTeam": "Venezia",
+      "awayTeam": "Catanzaro",
+      "startTime": "2026-01-17T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-17",
       "league": "Swiss Super League",
       "homeTeam": "FC Luzern",
       "awayTeam": "FC Lugano",
@@ -5145,6 +5943,27 @@
       "homeTeam": "Al-Ain",
       "awayTeam": "Al-Wahda FC",
       "startTime": "2026-01-17T15:45:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "Serie A",
+      "homeTeam": "Bologna",
+      "awayTeam": "Fiorentina",
+      "startTime": "2026-01-18T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "Serie A",
+      "homeTeam": "Torino",
+      "awayTeam": "Roma",
+      "startTime": "2026-01-18T17:00:00.000Z"
+    },
+    {
+      "date": "2026-01-18",
+      "league": "Serie A",
+      "homeTeam": "Milan",
+      "awayTeam": "Lecce",
+      "startTime": "2026-01-18T19:45:00.000Z"
     },
     {
       "date": "2026-01-18",
@@ -5264,6 +6083,20 @@
       "homeTeam": "Al-Sharjah",
       "awayTeam": "Al-Ittihad Kalba",
       "startTime": "2026-01-18T15:45:00.000Z"
+    },
+    {
+      "date": "2026-01-19",
+      "league": "Serie A",
+      "homeTeam": "Cremonese",
+      "awayTeam": "Hellas Verona",
+      "startTime": "2026-01-19T17:30:00.000Z"
+    },
+    {
+      "date": "2026-01-19",
+      "league": "Serie A",
+      "homeTeam": "Lazio",
+      "awayTeam": "Como",
+      "startTime": "2026-01-19T19:45:00.000Z"
     },
     {
       "date": "2026-01-19",
@@ -5533,6 +6366,13 @@
     },
     {
       "date": "2026-01-23",
+      "league": "Serie A",
+      "homeTeam": "Inter",
+      "awayTeam": "Pisa",
+      "startTime": "2026-01-23T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-23",
       "league": "Bundesliga",
       "homeTeam": "FC St. Pauli",
       "awayTeam": "Hamburger SV",
@@ -5757,6 +6597,34 @@
     },
     {
       "date": "2026-01-24",
+      "league": "Serie A",
+      "homeTeam": "Como",
+      "awayTeam": "Torino",
+      "startTime": "2026-01-24T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Serie A",
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Cagliari",
+      "startTime": "2026-01-24T17:00:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Serie A",
+      "homeTeam": "Lecce",
+      "awayTeam": "Lazio",
+      "startTime": "2026-01-24T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Serie A",
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Cremonese",
+      "startTime": "2026-01-25T11:30:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
       "league": "Bundesliga",
       "homeTeam": "1. FC Heidenheim",
       "awayTeam": "RB Leipzig",
@@ -5939,6 +6807,76 @@
     },
     {
       "date": "2026-01-24",
+      "league": "Serie B",
+      "homeTeam": "Carrarese",
+      "awayTeam": "Empoli",
+      "startTime": "2026-01-24T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Serie B",
+      "homeTeam": "Catanzaro",
+      "awayTeam": "Sampdoria",
+      "startTime": "2026-01-24T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Serie B",
+      "homeTeam": "Cesena",
+      "awayTeam": "Bari",
+      "startTime": "2026-01-24T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Serie B",
+      "homeTeam": "Frosinone",
+      "awayTeam": "Reggiana",
+      "startTime": "2026-01-24T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Serie B",
+      "homeTeam": "Juve Stabia",
+      "awayTeam": "Virtus Entella",
+      "startTime": "2026-01-24T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Serie B",
+      "homeTeam": "Mantova",
+      "awayTeam": "Venezia",
+      "startTime": "2026-01-24T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Serie B",
+      "homeTeam": "Modena",
+      "awayTeam": "Palermo",
+      "startTime": "2026-01-24T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Serie B",
+      "homeTeam": "Monza",
+      "awayTeam": "Pescara",
+      "startTime": "2026-01-24T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Serie B",
+      "homeTeam": "Spezia",
+      "awayTeam": "US Avellino 1912",
+      "startTime": "2026-01-24T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
+      "league": "Serie B",
+      "homeTeam": "Südtirol",
+      "awayTeam": "Padova",
+      "startTime": "2026-01-24T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-24",
       "league": "Swiss Super League",
       "homeTeam": "FC Lausanne-Sport",
       "awayTeam": "Grasshopper Club Zürich",
@@ -5957,6 +6895,34 @@
       "homeTeam": "FC Sion",
       "awayTeam": "FC Luzern",
       "startTime": "2026-01-24T19:30:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "Serie A",
+      "homeTeam": "Atalanta",
+      "awayTeam": "Parma",
+      "startTime": "2026-01-25T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "Serie A",
+      "homeTeam": "Genoa",
+      "awayTeam": "Bologna",
+      "startTime": "2026-01-25T14:00:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "Serie A",
+      "homeTeam": "Juventus",
+      "awayTeam": "Napoli",
+      "startTime": "2026-01-25T17:00:00.000Z"
+    },
+    {
+      "date": "2026-01-25",
+      "league": "Serie A",
+      "homeTeam": "Roma",
+      "awayTeam": "Milan",
+      "startTime": "2026-01-25T19:45:00.000Z"
     },
     {
       "date": "2026-01-25",
@@ -6076,6 +7042,13 @@
       "homeTeam": "FC Zürich",
       "awayTeam": "Basel",
       "startTime": "2026-01-25T15:30:00.000Z"
+    },
+    {
+      "date": "2026-01-26",
+      "league": "Serie A",
+      "homeTeam": "Hellas Verona",
+      "awayTeam": "Udinese",
+      "startTime": "2026-01-26T19:45:00.000Z"
     },
     {
       "date": "2026-01-28",
@@ -6709,6 +7682,76 @@
     },
     {
       "date": "2026-01-31",
+      "league": "Serie B",
+      "homeTeam": "Bari",
+      "awayTeam": "Palermo",
+      "startTime": "2026-01-31T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Serie B",
+      "homeTeam": "Empoli",
+      "awayTeam": "Modena",
+      "startTime": "2026-01-31T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Serie B",
+      "homeTeam": "Padova",
+      "awayTeam": "Monza",
+      "startTime": "2026-01-31T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Serie B",
+      "homeTeam": "Pescara",
+      "awayTeam": "Mantova",
+      "startTime": "2026-01-31T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Serie B",
+      "homeTeam": "Reggiana",
+      "awayTeam": "Juve Stabia",
+      "startTime": "2026-01-31T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Serie B",
+      "homeTeam": "Sampdoria",
+      "awayTeam": "Spezia",
+      "startTime": "2026-01-31T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Serie B",
+      "homeTeam": "Südtirol",
+      "awayTeam": "Catanzaro",
+      "startTime": "2026-01-31T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Serie B",
+      "homeTeam": "US Avellino 1912",
+      "awayTeam": "Cesena",
+      "startTime": "2026-01-31T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Serie B",
+      "homeTeam": "Venezia",
+      "awayTeam": "Carrarese",
+      "startTime": "2026-01-31T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
+      "league": "Serie B",
+      "homeTeam": "Virtus Entella",
+      "awayTeam": "Frosinone",
+      "startTime": "2026-01-31T19:45:00.000Z"
+    },
+    {
+      "date": "2026-01-31",
       "league": "Swiss Super League",
       "homeTeam": "FC Winterthur",
       "awayTeam": "FC Lausanne-Sport",
@@ -6727,6 +7770,76 @@
       "homeTeam": "Grasshopper Club Zürich",
       "awayTeam": "FC Lugano",
       "startTime": "2026-01-31T19:30:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "Serie A",
+      "homeTeam": "Bologna",
+      "awayTeam": "Milan",
+      "startTime": "2026-02-01T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "Serie A",
+      "homeTeam": "Cagliari",
+      "awayTeam": "Hellas Verona",
+      "startTime": "2026-02-01T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "Serie A",
+      "homeTeam": "Como",
+      "awayTeam": "Atalanta",
+      "startTime": "2026-02-01T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "Serie A",
+      "homeTeam": "Cremonese",
+      "awayTeam": "Inter",
+      "startTime": "2026-02-01T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "Serie A",
+      "homeTeam": "Lazio",
+      "awayTeam": "Genoa",
+      "startTime": "2026-02-01T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "Serie A",
+      "homeTeam": "Napoli",
+      "awayTeam": "Fiorentina",
+      "startTime": "2026-02-01T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "Serie A",
+      "homeTeam": "Parma",
+      "awayTeam": "Juventus",
+      "startTime": "2026-02-01T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "Serie A",
+      "homeTeam": "Pisa",
+      "awayTeam": "Sassuolo",
+      "startTime": "2026-02-01T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "Serie A",
+      "homeTeam": "Torino",
+      "awayTeam": "Lecce",
+      "startTime": "2026-02-01T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-01",
+      "league": "Serie A",
+      "homeTeam": "Udinese",
+      "awayTeam": "Roma",
+      "startTime": "2026-02-01T14:00:00.000Z"
     },
     {
       "date": "2026-02-01",
@@ -7254,6 +8367,146 @@
       "startTime": "2026-02-07T16:00:00.000Z"
     },
     {
+      "date": "2026-02-07",
+      "league": "Serie B",
+      "homeTeam": "Carrarese",
+      "awayTeam": "Südtirol",
+      "startTime": "2026-02-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-07",
+      "league": "Serie B",
+      "homeTeam": "Catanzaro",
+      "awayTeam": "Reggiana",
+      "startTime": "2026-02-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-07",
+      "league": "Serie B",
+      "homeTeam": "Cesena",
+      "awayTeam": "Pescara",
+      "startTime": "2026-02-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-07",
+      "league": "Serie B",
+      "homeTeam": "Frosinone",
+      "awayTeam": "Venezia",
+      "startTime": "2026-02-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-07",
+      "league": "Serie B",
+      "homeTeam": "Juve Stabia",
+      "awayTeam": "Padova",
+      "startTime": "2026-02-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-07",
+      "league": "Serie B",
+      "homeTeam": "Mantova",
+      "awayTeam": "Bari",
+      "startTime": "2026-02-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-07",
+      "league": "Serie B",
+      "homeTeam": "Modena",
+      "awayTeam": "Sampdoria",
+      "startTime": "2026-02-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-07",
+      "league": "Serie B",
+      "homeTeam": "Monza",
+      "awayTeam": "US Avellino 1912",
+      "startTime": "2026-02-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-07",
+      "league": "Serie B",
+      "homeTeam": "Palermo",
+      "awayTeam": "Empoli",
+      "startTime": "2026-02-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-07",
+      "league": "Serie B",
+      "homeTeam": "Spezia",
+      "awayTeam": "Virtus Entella",
+      "startTime": "2026-02-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-08",
+      "league": "Serie A",
+      "homeTeam": "Atalanta",
+      "awayTeam": "Cremonese",
+      "startTime": "2026-02-08T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-08",
+      "league": "Serie A",
+      "homeTeam": "Bologna",
+      "awayTeam": "Parma",
+      "startTime": "2026-02-08T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-08",
+      "league": "Serie A",
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Torino",
+      "startTime": "2026-02-08T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-08",
+      "league": "Serie A",
+      "homeTeam": "Genoa",
+      "awayTeam": "Napoli",
+      "startTime": "2026-02-08T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-08",
+      "league": "Serie A",
+      "homeTeam": "Hellas Verona",
+      "awayTeam": "Pisa",
+      "startTime": "2026-02-08T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-08",
+      "league": "Serie A",
+      "homeTeam": "Juventus",
+      "awayTeam": "Lazio",
+      "startTime": "2026-02-08T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-08",
+      "league": "Serie A",
+      "homeTeam": "Lecce",
+      "awayTeam": "Udinese",
+      "startTime": "2026-02-08T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-08",
+      "league": "Serie A",
+      "homeTeam": "Milan",
+      "awayTeam": "Como",
+      "startTime": "2026-02-08T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-08",
+      "league": "Serie A",
+      "homeTeam": "Roma",
+      "awayTeam": "Cagliari",
+      "startTime": "2026-02-08T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-08",
+      "league": "Serie A",
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Inter",
+      "startTime": "2026-02-08T14:00:00.000Z"
+    },
+    {
       "date": "2026-02-08",
       "league": "Ligue 1",
       "homeTeam": "Angers",
@@ -7378,6 +8631,76 @@
       "homeTeam": "SV 07 Elversberg",
       "awayTeam": "Hertha BSC",
       "startTime": "2026-02-08T12:30:00.000Z"
+    },
+    {
+      "date": "2026-02-10",
+      "league": "Serie B",
+      "homeTeam": "Bari",
+      "awayTeam": "Spezia",
+      "startTime": "2026-02-10T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-10",
+      "league": "Serie B",
+      "homeTeam": "Empoli",
+      "awayTeam": "Juve Stabia",
+      "startTime": "2026-02-10T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-10",
+      "league": "Serie B",
+      "homeTeam": "Padova",
+      "awayTeam": "Carrarese",
+      "startTime": "2026-02-10T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-10",
+      "league": "Serie B",
+      "homeTeam": "Pescara",
+      "awayTeam": "Catanzaro",
+      "startTime": "2026-02-10T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-10",
+      "league": "Serie B",
+      "homeTeam": "Reggiana",
+      "awayTeam": "Mantova",
+      "startTime": "2026-02-10T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-10",
+      "league": "Serie B",
+      "homeTeam": "Sampdoria",
+      "awayTeam": "Palermo",
+      "startTime": "2026-02-10T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-10",
+      "league": "Serie B",
+      "homeTeam": "Südtirol",
+      "awayTeam": "Monza",
+      "startTime": "2026-02-10T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-10",
+      "league": "Serie B",
+      "homeTeam": "US Avellino 1912",
+      "awayTeam": "Frosinone",
+      "startTime": "2026-02-10T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-10",
+      "league": "Serie B",
+      "homeTeam": "Venezia",
+      "awayTeam": "Modena",
+      "startTime": "2026-02-10T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-10",
+      "league": "Serie B",
+      "homeTeam": "Virtus Entella",
+      "awayTeam": "Cesena",
+      "startTime": "2026-02-10T19:45:00.000Z"
     },
     {
       "date": "2026-02-13",
@@ -7756,6 +9079,146 @@
       "homeTeam": "Standard Liège",
       "awayTeam": "Royale Union Saint-Gilloise",
       "startTime": "2026-02-14T16:00:00.000Z"
+    },
+    {
+      "date": "2026-02-14",
+      "league": "Serie B",
+      "homeTeam": "Bari",
+      "awayTeam": "Südtirol",
+      "startTime": "2026-02-14T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-14",
+      "league": "Serie B",
+      "homeTeam": "Catanzaro",
+      "awayTeam": "Mantova",
+      "startTime": "2026-02-14T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-14",
+      "league": "Serie B",
+      "homeTeam": "Cesena",
+      "awayTeam": "Venezia",
+      "startTime": "2026-02-14T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-14",
+      "league": "Serie B",
+      "homeTeam": "Empoli",
+      "awayTeam": "Reggiana",
+      "startTime": "2026-02-14T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-14",
+      "league": "Serie B",
+      "homeTeam": "Modena",
+      "awayTeam": "Carrarese",
+      "startTime": "2026-02-14T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-14",
+      "league": "Serie B",
+      "homeTeam": "Monza",
+      "awayTeam": "Juve Stabia",
+      "startTime": "2026-02-14T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-14",
+      "league": "Serie B",
+      "homeTeam": "Palermo",
+      "awayTeam": "Virtus Entella",
+      "startTime": "2026-02-14T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-14",
+      "league": "Serie B",
+      "homeTeam": "Sampdoria",
+      "awayTeam": "Padova",
+      "startTime": "2026-02-14T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-14",
+      "league": "Serie B",
+      "homeTeam": "Spezia",
+      "awayTeam": "Frosinone",
+      "startTime": "2026-02-14T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-14",
+      "league": "Serie B",
+      "homeTeam": "US Avellino 1912",
+      "awayTeam": "Pescara",
+      "startTime": "2026-02-14T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-15",
+      "league": "Serie A",
+      "homeTeam": "Cagliari",
+      "awayTeam": "Lecce",
+      "startTime": "2026-02-15T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-15",
+      "league": "Serie A",
+      "homeTeam": "Como",
+      "awayTeam": "Fiorentina",
+      "startTime": "2026-02-15T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-15",
+      "league": "Serie A",
+      "homeTeam": "Cremonese",
+      "awayTeam": "Genoa",
+      "startTime": "2026-02-15T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-15",
+      "league": "Serie A",
+      "homeTeam": "Inter",
+      "awayTeam": "Juventus",
+      "startTime": "2026-02-15T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-15",
+      "league": "Serie A",
+      "homeTeam": "Lazio",
+      "awayTeam": "Atalanta",
+      "startTime": "2026-02-15T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-15",
+      "league": "Serie A",
+      "homeTeam": "Napoli",
+      "awayTeam": "Roma",
+      "startTime": "2026-02-15T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-15",
+      "league": "Serie A",
+      "homeTeam": "Parma",
+      "awayTeam": "Hellas Verona",
+      "startTime": "2026-02-15T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-15",
+      "league": "Serie A",
+      "homeTeam": "Pisa",
+      "awayTeam": "Milan",
+      "startTime": "2026-02-15T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-15",
+      "league": "Serie A",
+      "homeTeam": "Torino",
+      "awayTeam": "Bologna",
+      "startTime": "2026-02-15T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-15",
+      "league": "Serie A",
+      "homeTeam": "Udinese",
+      "awayTeam": "Sassuolo",
+      "startTime": "2026-02-15T14:00:00.000Z"
     },
     {
       "date": "2026-02-15",
@@ -8262,6 +9725,146 @@
       "startTime": "2026-02-21T16:00:00.000Z"
     },
     {
+      "date": "2026-02-21",
+      "league": "Serie B",
+      "homeTeam": "Carrarese",
+      "awayTeam": "Monza",
+      "startTime": "2026-02-21T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-21",
+      "league": "Serie B",
+      "homeTeam": "Cesena",
+      "awayTeam": "Spezia",
+      "startTime": "2026-02-21T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-21",
+      "league": "Serie B",
+      "homeTeam": "Frosinone",
+      "awayTeam": "Empoli",
+      "startTime": "2026-02-21T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-21",
+      "league": "Serie B",
+      "homeTeam": "Juve Stabia",
+      "awayTeam": "Modena",
+      "startTime": "2026-02-21T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-21",
+      "league": "Serie B",
+      "homeTeam": "Mantova",
+      "awayTeam": "Sampdoria",
+      "startTime": "2026-02-21T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-21",
+      "league": "Serie B",
+      "homeTeam": "Padova",
+      "awayTeam": "Bari",
+      "startTime": "2026-02-21T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-21",
+      "league": "Serie B",
+      "homeTeam": "Palermo",
+      "awayTeam": "Südtirol",
+      "startTime": "2026-02-21T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-21",
+      "league": "Serie B",
+      "homeTeam": "Reggiana",
+      "awayTeam": "US Avellino 1912",
+      "startTime": "2026-02-21T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-21",
+      "league": "Serie B",
+      "homeTeam": "Venezia",
+      "awayTeam": "Pescara",
+      "startTime": "2026-02-21T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-21",
+      "league": "Serie B",
+      "homeTeam": "Virtus Entella",
+      "awayTeam": "Catanzaro",
+      "startTime": "2026-02-21T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-22",
+      "league": "Serie A",
+      "homeTeam": "Atalanta",
+      "awayTeam": "Napoli",
+      "startTime": "2026-02-22T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-22",
+      "league": "Serie A",
+      "homeTeam": "Bologna",
+      "awayTeam": "Udinese",
+      "startTime": "2026-02-22T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-22",
+      "league": "Serie A",
+      "homeTeam": "Cagliari",
+      "awayTeam": "Lazio",
+      "startTime": "2026-02-22T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-22",
+      "league": "Serie A",
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Pisa",
+      "startTime": "2026-02-22T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-22",
+      "league": "Serie A",
+      "homeTeam": "Genoa",
+      "awayTeam": "Torino",
+      "startTime": "2026-02-22T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-22",
+      "league": "Serie A",
+      "homeTeam": "Juventus",
+      "awayTeam": "Como",
+      "startTime": "2026-02-22T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-22",
+      "league": "Serie A",
+      "homeTeam": "Lecce",
+      "awayTeam": "Inter",
+      "startTime": "2026-02-22T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-22",
+      "league": "Serie A",
+      "homeTeam": "Milan",
+      "awayTeam": "Parma",
+      "startTime": "2026-02-22T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-22",
+      "league": "Serie A",
+      "homeTeam": "Roma",
+      "awayTeam": "Cremonese",
+      "startTime": "2026-02-22T14:00:00.000Z"
+    },
+    {
+      "date": "2026-02-22",
+      "league": "Serie A",
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Hellas Verona",
+      "startTime": "2026-02-22T14:00:00.000Z"
+    },
+    {
       "date": "2026-02-22",
       "league": "Ligue 1",
       "homeTeam": "Angers",
@@ -8780,6 +10383,146 @@
       "startTime": "2026-02-28T16:00:00.000Z"
     },
     {
+      "date": "2026-02-28",
+      "league": "Serie B",
+      "homeTeam": "Catanzaro",
+      "awayTeam": "Frosinone",
+      "startTime": "2026-02-28T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-28",
+      "league": "Serie B",
+      "homeTeam": "Empoli",
+      "awayTeam": "Cesena",
+      "startTime": "2026-02-28T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-28",
+      "league": "Serie B",
+      "homeTeam": "Mantova",
+      "awayTeam": "Carrarese",
+      "startTime": "2026-02-28T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-28",
+      "league": "Serie B",
+      "homeTeam": "Modena",
+      "awayTeam": "Padova",
+      "startTime": "2026-02-28T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-28",
+      "league": "Serie B",
+      "homeTeam": "Monza",
+      "awayTeam": "Virtus Entella",
+      "startTime": "2026-02-28T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-28",
+      "league": "Serie B",
+      "homeTeam": "Pescara",
+      "awayTeam": "Palermo",
+      "startTime": "2026-02-28T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-28",
+      "league": "Serie B",
+      "homeTeam": "Sampdoria",
+      "awayTeam": "Bari",
+      "startTime": "2026-02-28T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-28",
+      "league": "Serie B",
+      "homeTeam": "Spezia",
+      "awayTeam": "Reggiana",
+      "startTime": "2026-02-28T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-28",
+      "league": "Serie B",
+      "homeTeam": "Südtirol",
+      "awayTeam": "Venezia",
+      "startTime": "2026-02-28T19:45:00.000Z"
+    },
+    {
+      "date": "2026-02-28",
+      "league": "Serie B",
+      "homeTeam": "US Avellino 1912",
+      "awayTeam": "Juve Stabia",
+      "startTime": "2026-02-28T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-01",
+      "league": "Serie A",
+      "homeTeam": "Como",
+      "awayTeam": "Lecce",
+      "startTime": "2026-03-01T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-01",
+      "league": "Serie A",
+      "homeTeam": "Cremonese",
+      "awayTeam": "Milan",
+      "startTime": "2026-03-01T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-01",
+      "league": "Serie A",
+      "homeTeam": "Hellas Verona",
+      "awayTeam": "Napoli",
+      "startTime": "2026-03-01T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-01",
+      "league": "Serie A",
+      "homeTeam": "Inter",
+      "awayTeam": "Genoa",
+      "startTime": "2026-03-01T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-01",
+      "league": "Serie A",
+      "homeTeam": "Parma",
+      "awayTeam": "Cagliari",
+      "startTime": "2026-03-01T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-01",
+      "league": "Serie A",
+      "homeTeam": "Pisa",
+      "awayTeam": "Bologna",
+      "startTime": "2026-03-01T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-01",
+      "league": "Serie A",
+      "homeTeam": "Roma",
+      "awayTeam": "Juventus",
+      "startTime": "2026-03-01T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-01",
+      "league": "Serie A",
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Atalanta",
+      "startTime": "2026-03-01T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-01",
+      "league": "Serie A",
+      "homeTeam": "Torino",
+      "awayTeam": "Lazio",
+      "startTime": "2026-03-01T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-01",
+      "league": "Serie A",
+      "homeTeam": "Udinese",
+      "awayTeam": "Fiorentina",
+      "startTime": "2026-03-01T14:00:00.000Z"
+    },
+    {
       "date": "2026-03-01",
       "league": "Ligue 1",
       "homeTeam": "AS Monaco",
@@ -8890,6 +10633,76 @@
       "homeTeam": "SpVgg Greuther Fürth",
       "awayTeam": "FC Schalke 04",
       "startTime": "2026-03-01T12:30:00.000Z"
+    },
+    {
+      "date": "2026-03-03",
+      "league": "Serie B",
+      "homeTeam": "Bari",
+      "awayTeam": "Empoli",
+      "startTime": "2026-03-03T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-03",
+      "league": "Serie B",
+      "homeTeam": "Carrarese",
+      "awayTeam": "Catanzaro",
+      "startTime": "2026-03-03T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-03",
+      "league": "Serie B",
+      "homeTeam": "Cesena",
+      "awayTeam": "Monza",
+      "startTime": "2026-03-03T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-03",
+      "league": "Serie B",
+      "homeTeam": "Frosinone",
+      "awayTeam": "Pescara",
+      "startTime": "2026-03-03T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-03",
+      "league": "Serie B",
+      "homeTeam": "Juve Stabia",
+      "awayTeam": "Sampdoria",
+      "startTime": "2026-03-03T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-03",
+      "league": "Serie B",
+      "homeTeam": "Padova",
+      "awayTeam": "Spezia",
+      "startTime": "2026-03-03T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-03",
+      "league": "Serie B",
+      "homeTeam": "Palermo",
+      "awayTeam": "Mantova",
+      "startTime": "2026-03-03T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-03",
+      "league": "Serie B",
+      "homeTeam": "Reggiana",
+      "awayTeam": "Südtirol",
+      "startTime": "2026-03-03T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-03",
+      "league": "Serie B",
+      "homeTeam": "Venezia",
+      "awayTeam": "US Avellino 1912",
+      "startTime": "2026-03-03T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-03",
+      "league": "Serie B",
+      "homeTeam": "Virtus Entella",
+      "awayTeam": "Modena",
+      "startTime": "2026-03-03T19:45:00.000Z"
     },
     {
       "date": "2026-03-03",
@@ -9338,6 +11151,146 @@
       "homeTeam": "SV Zulte Waregem",
       "awayTeam": "Standard Liège",
       "startTime": "2026-03-07T16:00:00.000Z"
+    },
+    {
+      "date": "2026-03-07",
+      "league": "Serie B",
+      "homeTeam": "Carrarese",
+      "awayTeam": "Palermo",
+      "startTime": "2026-03-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-07",
+      "league": "Serie B",
+      "homeTeam": "Catanzaro",
+      "awayTeam": "Empoli",
+      "startTime": "2026-03-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-07",
+      "league": "Serie B",
+      "homeTeam": "Frosinone",
+      "awayTeam": "Sampdoria",
+      "startTime": "2026-03-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-07",
+      "league": "Serie B",
+      "homeTeam": "Mantova",
+      "awayTeam": "Juve Stabia",
+      "startTime": "2026-03-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-07",
+      "league": "Serie B",
+      "homeTeam": "Modena",
+      "awayTeam": "Cesena",
+      "startTime": "2026-03-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-07",
+      "league": "Serie B",
+      "homeTeam": "Pescara",
+      "awayTeam": "Bari",
+      "startTime": "2026-03-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-07",
+      "league": "Serie B",
+      "homeTeam": "Spezia",
+      "awayTeam": "Monza",
+      "startTime": "2026-03-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-07",
+      "league": "Serie B",
+      "homeTeam": "Südtirol",
+      "awayTeam": "Virtus Entella",
+      "startTime": "2026-03-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-07",
+      "league": "Serie B",
+      "homeTeam": "US Avellino 1912",
+      "awayTeam": "Padova",
+      "startTime": "2026-03-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-07",
+      "league": "Serie B",
+      "homeTeam": "Venezia",
+      "awayTeam": "Reggiana",
+      "startTime": "2026-03-07T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-08",
+      "league": "Serie A",
+      "homeTeam": "Atalanta",
+      "awayTeam": "Udinese",
+      "startTime": "2026-03-08T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-08",
+      "league": "Serie A",
+      "homeTeam": "Bologna",
+      "awayTeam": "Hellas Verona",
+      "startTime": "2026-03-08T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-08",
+      "league": "Serie A",
+      "homeTeam": "Cagliari",
+      "awayTeam": "Como",
+      "startTime": "2026-03-08T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-08",
+      "league": "Serie A",
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Parma",
+      "startTime": "2026-03-08T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-08",
+      "league": "Serie A",
+      "homeTeam": "Genoa",
+      "awayTeam": "Roma",
+      "startTime": "2026-03-08T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-08",
+      "league": "Serie A",
+      "homeTeam": "Juventus",
+      "awayTeam": "Pisa",
+      "startTime": "2026-03-08T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-08",
+      "league": "Serie A",
+      "homeTeam": "Lazio",
+      "awayTeam": "Sassuolo",
+      "startTime": "2026-03-08T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-08",
+      "league": "Serie A",
+      "homeTeam": "Lecce",
+      "awayTeam": "Cremonese",
+      "startTime": "2026-03-08T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-08",
+      "league": "Serie A",
+      "homeTeam": "Milan",
+      "awayTeam": "Inter",
+      "startTime": "2026-03-08T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-08",
+      "league": "Serie A",
+      "homeTeam": "Napoli",
+      "awayTeam": "Torino",
+      "startTime": "2026-03-08T14:00:00.000Z"
     },
     {
       "date": "2026-03-08",
@@ -9844,6 +11797,146 @@
       "startTime": "2026-03-14T16:00:00.000Z"
     },
     {
+      "date": "2026-03-14",
+      "league": "Serie B",
+      "homeTeam": "Bari",
+      "awayTeam": "Reggiana",
+      "startTime": "2026-03-14T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-14",
+      "league": "Serie B",
+      "homeTeam": "Cesena",
+      "awayTeam": "Frosinone",
+      "startTime": "2026-03-14T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-14",
+      "league": "Serie B",
+      "homeTeam": "Empoli",
+      "awayTeam": "Mantova",
+      "startTime": "2026-03-14T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-14",
+      "league": "Serie B",
+      "homeTeam": "Juve Stabia",
+      "awayTeam": "Carrarese",
+      "startTime": "2026-03-14T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-14",
+      "league": "Serie B",
+      "homeTeam": "Modena",
+      "awayTeam": "Spezia",
+      "startTime": "2026-03-14T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-14",
+      "league": "Serie B",
+      "homeTeam": "Monza",
+      "awayTeam": "Palermo",
+      "startTime": "2026-03-14T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-14",
+      "league": "Serie B",
+      "homeTeam": "Padova",
+      "awayTeam": "Catanzaro",
+      "startTime": "2026-03-14T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-14",
+      "league": "Serie B",
+      "homeTeam": "Sampdoria",
+      "awayTeam": "Venezia",
+      "startTime": "2026-03-14T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-14",
+      "league": "Serie B",
+      "homeTeam": "Südtirol",
+      "awayTeam": "Pescara",
+      "startTime": "2026-03-14T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-14",
+      "league": "Serie B",
+      "homeTeam": "Virtus Entella",
+      "awayTeam": "US Avellino 1912",
+      "startTime": "2026-03-14T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-15",
+      "league": "Serie A",
+      "homeTeam": "Como",
+      "awayTeam": "Roma",
+      "startTime": "2026-03-15T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-15",
+      "league": "Serie A",
+      "homeTeam": "Cremonese",
+      "awayTeam": "Fiorentina",
+      "startTime": "2026-03-15T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-15",
+      "league": "Serie A",
+      "homeTeam": "Hellas Verona",
+      "awayTeam": "Genoa",
+      "startTime": "2026-03-15T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-15",
+      "league": "Serie A",
+      "homeTeam": "Inter",
+      "awayTeam": "Atalanta",
+      "startTime": "2026-03-15T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-15",
+      "league": "Serie A",
+      "homeTeam": "Lazio",
+      "awayTeam": "Milan",
+      "startTime": "2026-03-15T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-15",
+      "league": "Serie A",
+      "homeTeam": "Napoli",
+      "awayTeam": "Lecce",
+      "startTime": "2026-03-15T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-15",
+      "league": "Serie A",
+      "homeTeam": "Pisa",
+      "awayTeam": "Cagliari",
+      "startTime": "2026-03-15T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-15",
+      "league": "Serie A",
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Bologna",
+      "startTime": "2026-03-15T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-15",
+      "league": "Serie A",
+      "homeTeam": "Torino",
+      "awayTeam": "Parma",
+      "startTime": "2026-03-15T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-15",
+      "league": "Serie A",
+      "homeTeam": "Udinese",
+      "awayTeam": "Juventus",
+      "startTime": "2026-03-15T14:00:00.000Z"
+    },
+    {
       "date": "2026-03-15",
       "league": "Ligue 1",
       "homeTeam": "Angers",
@@ -9968,6 +12061,76 @@
       "homeTeam": "SpVgg Greuther Fürth",
       "awayTeam": "SV 07 Elversberg",
       "startTime": "2026-03-15T12:30:00.000Z"
+    },
+    {
+      "date": "2026-03-17",
+      "league": "Serie B",
+      "homeTeam": "Carrarese",
+      "awayTeam": "Sampdoria",
+      "startTime": "2026-03-17T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-17",
+      "league": "Serie B",
+      "homeTeam": "Catanzaro",
+      "awayTeam": "Modena",
+      "startTime": "2026-03-17T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-17",
+      "league": "Serie B",
+      "homeTeam": "Frosinone",
+      "awayTeam": "Bari",
+      "startTime": "2026-03-17T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-17",
+      "league": "Serie B",
+      "homeTeam": "Mantova",
+      "awayTeam": "Cesena",
+      "startTime": "2026-03-17T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-17",
+      "league": "Serie B",
+      "homeTeam": "Palermo",
+      "awayTeam": "Juve Stabia",
+      "startTime": "2026-03-17T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-17",
+      "league": "Serie B",
+      "homeTeam": "Pescara",
+      "awayTeam": "Virtus Entella",
+      "startTime": "2026-03-17T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-17",
+      "league": "Serie B",
+      "homeTeam": "Reggiana",
+      "awayTeam": "Monza",
+      "startTime": "2026-03-17T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-17",
+      "league": "Serie B",
+      "homeTeam": "Spezia",
+      "awayTeam": "Empoli",
+      "startTime": "2026-03-17T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-17",
+      "league": "Serie B",
+      "homeTeam": "US Avellino 1912",
+      "awayTeam": "Südtirol",
+      "startTime": "2026-03-17T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-17",
+      "league": "Serie B",
+      "homeTeam": "Venezia",
+      "awayTeam": "Padova",
+      "startTime": "2026-03-17T19:45:00.000Z"
     },
     {
       "date": "2026-03-20",
@@ -10346,6 +12509,146 @@
       "homeTeam": "SV Zulte Waregem",
       "awayTeam": "RC Sporting Charleroi",
       "startTime": "2026-03-21T16:00:00.000Z"
+    },
+    {
+      "date": "2026-03-21",
+      "league": "Serie B",
+      "homeTeam": "Bari",
+      "awayTeam": "Carrarese",
+      "startTime": "2026-03-21T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-21",
+      "league": "Serie B",
+      "homeTeam": "Cesena",
+      "awayTeam": "Catanzaro",
+      "startTime": "2026-03-21T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-21",
+      "league": "Serie B",
+      "homeTeam": "Empoli",
+      "awayTeam": "Pescara",
+      "startTime": "2026-03-21T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-21",
+      "league": "Serie B",
+      "homeTeam": "Juve Stabia",
+      "awayTeam": "Spezia",
+      "startTime": "2026-03-21T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-21",
+      "league": "Serie B",
+      "homeTeam": "Modena",
+      "awayTeam": "Mantova",
+      "startTime": "2026-03-21T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-21",
+      "league": "Serie B",
+      "homeTeam": "Monza",
+      "awayTeam": "Venezia",
+      "startTime": "2026-03-21T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-21",
+      "league": "Serie B",
+      "homeTeam": "Padova",
+      "awayTeam": "Palermo",
+      "startTime": "2026-03-21T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-21",
+      "league": "Serie B",
+      "homeTeam": "Sampdoria",
+      "awayTeam": "US Avellino 1912",
+      "startTime": "2026-03-21T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-21",
+      "league": "Serie B",
+      "homeTeam": "Südtirol",
+      "awayTeam": "Frosinone",
+      "startTime": "2026-03-21T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-21",
+      "league": "Serie B",
+      "homeTeam": "Virtus Entella",
+      "awayTeam": "Reggiana",
+      "startTime": "2026-03-21T19:45:00.000Z"
+    },
+    {
+      "date": "2026-03-22",
+      "league": "Serie A",
+      "homeTeam": "Atalanta",
+      "awayTeam": "Hellas Verona",
+      "startTime": "2026-03-22T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-22",
+      "league": "Serie A",
+      "homeTeam": "Bologna",
+      "awayTeam": "Lazio",
+      "startTime": "2026-03-22T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-22",
+      "league": "Serie A",
+      "homeTeam": "Cagliari",
+      "awayTeam": "Napoli",
+      "startTime": "2026-03-22T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-22",
+      "league": "Serie A",
+      "homeTeam": "Como",
+      "awayTeam": "Pisa",
+      "startTime": "2026-03-22T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-22",
+      "league": "Serie A",
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Inter",
+      "startTime": "2026-03-22T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-22",
+      "league": "Serie A",
+      "homeTeam": "Genoa",
+      "awayTeam": "Udinese",
+      "startTime": "2026-03-22T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-22",
+      "league": "Serie A",
+      "homeTeam": "Juventus",
+      "awayTeam": "Sassuolo",
+      "startTime": "2026-03-22T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-22",
+      "league": "Serie A",
+      "homeTeam": "Milan",
+      "awayTeam": "Torino",
+      "startTime": "2026-03-22T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-22",
+      "league": "Serie A",
+      "homeTeam": "Parma",
+      "awayTeam": "Cremonese",
+      "startTime": "2026-03-22T14:00:00.000Z"
+    },
+    {
+      "date": "2026-03-22",
+      "league": "Serie A",
+      "homeTeam": "Roma",
+      "awayTeam": "Lecce",
+      "startTime": "2026-03-22T14:00:00.000Z"
     },
     {
       "date": "2026-03-22",
@@ -10671,6 +12974,76 @@
     },
     {
       "date": "2026-04-04",
+      "league": "Serie A",
+      "homeTeam": "Cremonese",
+      "awayTeam": "Bologna",
+      "startTime": "2026-04-04T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-04",
+      "league": "Serie A",
+      "homeTeam": "Hellas Verona",
+      "awayTeam": "Fiorentina",
+      "startTime": "2026-04-04T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-04",
+      "league": "Serie A",
+      "homeTeam": "Inter",
+      "awayTeam": "Roma",
+      "startTime": "2026-04-04T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-04",
+      "league": "Serie A",
+      "homeTeam": "Juventus",
+      "awayTeam": "Genoa",
+      "startTime": "2026-04-04T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-04",
+      "league": "Serie A",
+      "homeTeam": "Lazio",
+      "awayTeam": "Parma",
+      "startTime": "2026-04-04T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-04",
+      "league": "Serie A",
+      "homeTeam": "Lecce",
+      "awayTeam": "Atalanta",
+      "startTime": "2026-04-04T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-04",
+      "league": "Serie A",
+      "homeTeam": "Napoli",
+      "awayTeam": "Milan",
+      "startTime": "2026-04-04T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-04",
+      "league": "Serie A",
+      "homeTeam": "Pisa",
+      "awayTeam": "Torino",
+      "startTime": "2026-04-04T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-04",
+      "league": "Serie A",
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Cagliari",
+      "startTime": "2026-04-04T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-04",
+      "league": "Serie A",
+      "homeTeam": "Udinese",
+      "awayTeam": "Como",
+      "startTime": "2026-04-04T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-04",
       "league": "Bundesliga",
       "homeTeam": "1. FC Union Berlin",
       "awayTeam": "FC St. Pauli",
@@ -10990,6 +13363,76 @@
       "homeTeam": "Stade Brestois",
       "awayTeam": "Stade Rennais",
       "startTime": "2026-04-05T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-06",
+      "league": "Serie B",
+      "homeTeam": "Bari",
+      "awayTeam": "Modena",
+      "startTime": "2026-04-06T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-06",
+      "league": "Serie B",
+      "homeTeam": "Carrarese",
+      "awayTeam": "Spezia",
+      "startTime": "2026-04-06T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-06",
+      "league": "Serie B",
+      "homeTeam": "Catanzaro",
+      "awayTeam": "Monza",
+      "startTime": "2026-04-06T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-06",
+      "league": "Serie B",
+      "homeTeam": "Cesena",
+      "awayTeam": "Südtirol",
+      "startTime": "2026-04-06T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-06",
+      "league": "Serie B",
+      "homeTeam": "Frosinone",
+      "awayTeam": "Padova",
+      "startTime": "2026-04-06T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-06",
+      "league": "Serie B",
+      "homeTeam": "Mantova",
+      "awayTeam": "Virtus Entella",
+      "startTime": "2026-04-06T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-06",
+      "league": "Serie B",
+      "homeTeam": "Palermo",
+      "awayTeam": "US Avellino 1912",
+      "startTime": "2026-04-06T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-06",
+      "league": "Serie B",
+      "homeTeam": "Reggiana",
+      "awayTeam": "Pescara",
+      "startTime": "2026-04-06T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-06",
+      "league": "Serie B",
+      "homeTeam": "Sampdoria",
+      "awayTeam": "Empoli",
+      "startTime": "2026-04-06T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-06",
+      "league": "Serie B",
+      "homeTeam": "Venezia",
+      "awayTeam": "Juve Stabia",
+      "startTime": "2026-04-06T18:45:00.000Z"
     },
     {
       "date": "2026-04-07",
@@ -11447,6 +13890,146 @@
       "startTime": "2026-04-12T11:30:00.000Z"
     },
     {
+      "date": "2026-04-11",
+      "league": "Serie B",
+      "homeTeam": "Frosinone",
+      "awayTeam": "Palermo",
+      "startTime": "2026-04-11T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Serie B",
+      "homeTeam": "Juve Stabia",
+      "awayTeam": "Cesena",
+      "startTime": "2026-04-11T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Serie B",
+      "homeTeam": "Monza",
+      "awayTeam": "Bari",
+      "startTime": "2026-04-11T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Serie B",
+      "homeTeam": "Padova",
+      "awayTeam": "Empoli",
+      "startTime": "2026-04-11T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Serie B",
+      "homeTeam": "Pescara",
+      "awayTeam": "Sampdoria",
+      "startTime": "2026-04-11T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Serie B",
+      "homeTeam": "Reggiana",
+      "awayTeam": "Carrarese",
+      "startTime": "2026-04-11T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Serie B",
+      "homeTeam": "Spezia",
+      "awayTeam": "Mantova",
+      "startTime": "2026-04-11T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Serie B",
+      "homeTeam": "Südtirol",
+      "awayTeam": "Modena",
+      "startTime": "2026-04-11T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Serie B",
+      "homeTeam": "US Avellino 1912",
+      "awayTeam": "Catanzaro",
+      "startTime": "2026-04-11T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-11",
+      "league": "Serie B",
+      "homeTeam": "Virtus Entella",
+      "awayTeam": "Venezia",
+      "startTime": "2026-04-11T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Serie A",
+      "homeTeam": "Atalanta",
+      "awayTeam": "Juventus",
+      "startTime": "2026-04-12T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Serie A",
+      "homeTeam": "Bologna",
+      "awayTeam": "Lecce",
+      "startTime": "2026-04-12T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Serie A",
+      "homeTeam": "Cagliari",
+      "awayTeam": "Cremonese",
+      "startTime": "2026-04-12T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Serie A",
+      "homeTeam": "Como",
+      "awayTeam": "Inter",
+      "startTime": "2026-04-12T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Serie A",
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Lazio",
+      "startTime": "2026-04-12T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Serie A",
+      "homeTeam": "Genoa",
+      "awayTeam": "Sassuolo",
+      "startTime": "2026-04-12T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Serie A",
+      "homeTeam": "Milan",
+      "awayTeam": "Udinese",
+      "startTime": "2026-04-12T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Serie A",
+      "homeTeam": "Parma",
+      "awayTeam": "Napoli",
+      "startTime": "2026-04-12T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Serie A",
+      "homeTeam": "Roma",
+      "awayTeam": "Pisa",
+      "startTime": "2026-04-12T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-12",
+      "league": "Serie A",
+      "homeTeam": "Torino",
+      "awayTeam": "Hellas Verona",
+      "startTime": "2026-04-12T13:00:00.000Z"
+    },
+    {
       "date": "2026-04-12",
       "league": "Ligue 1",
       "homeTeam": "Auxerre",
@@ -11830,6 +14413,146 @@
       "homeTeam": "SV 07 Elversberg",
       "awayTeam": "Karlsruher SC",
       "startTime": "2026-04-19T11:30:00.000Z"
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Serie B",
+      "homeTeam": "Bari",
+      "awayTeam": "Venezia",
+      "startTime": "2026-04-18T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Serie B",
+      "homeTeam": "Carrarese",
+      "awayTeam": "Pescara",
+      "startTime": "2026-04-18T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Serie B",
+      "homeTeam": "Empoli",
+      "awayTeam": "Virtus Entella",
+      "startTime": "2026-04-18T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Serie B",
+      "homeTeam": "Juve Stabia",
+      "awayTeam": "Catanzaro",
+      "startTime": "2026-04-18T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Serie B",
+      "homeTeam": "Mantova",
+      "awayTeam": "US Avellino 1912",
+      "startTime": "2026-04-18T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Serie B",
+      "homeTeam": "Modena",
+      "awayTeam": "Frosinone",
+      "startTime": "2026-04-18T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Serie B",
+      "homeTeam": "Padova",
+      "awayTeam": "Reggiana",
+      "startTime": "2026-04-18T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Serie B",
+      "homeTeam": "Palermo",
+      "awayTeam": "Cesena",
+      "startTime": "2026-04-18T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Serie B",
+      "homeTeam": "Sampdoria",
+      "awayTeam": "Monza",
+      "startTime": "2026-04-18T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-18",
+      "league": "Serie B",
+      "homeTeam": "Spezia",
+      "awayTeam": "Südtirol",
+      "startTime": "2026-04-18T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Serie A",
+      "homeTeam": "Cremonese",
+      "awayTeam": "Torino",
+      "startTime": "2026-04-19T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Serie A",
+      "homeTeam": "Hellas Verona",
+      "awayTeam": "Milan",
+      "startTime": "2026-04-19T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Serie A",
+      "homeTeam": "Inter",
+      "awayTeam": "Cagliari",
+      "startTime": "2026-04-19T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Serie A",
+      "homeTeam": "Juventus",
+      "awayTeam": "Bologna",
+      "startTime": "2026-04-19T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Serie A",
+      "homeTeam": "Lecce",
+      "awayTeam": "Fiorentina",
+      "startTime": "2026-04-19T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Serie A",
+      "homeTeam": "Napoli",
+      "awayTeam": "Lazio",
+      "startTime": "2026-04-19T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Serie A",
+      "homeTeam": "Pisa",
+      "awayTeam": "Genoa",
+      "startTime": "2026-04-19T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Serie A",
+      "homeTeam": "Roma",
+      "awayTeam": "Atalanta",
+      "startTime": "2026-04-19T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Serie A",
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Como",
+      "startTime": "2026-04-19T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-19",
+      "league": "Serie A",
+      "homeTeam": "Udinese",
+      "awayTeam": "Parma",
+      "startTime": "2026-04-19T13:00:00.000Z"
     },
     {
       "date": "2026-04-19",
@@ -12280,6 +15003,146 @@
       "startTime": "2026-04-26T11:30:00.000Z"
     },
     {
+      "date": "2026-04-25",
+      "league": "Serie B",
+      "homeTeam": "Catanzaro",
+      "awayTeam": "Spezia",
+      "startTime": "2026-04-25T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Serie B",
+      "homeTeam": "Cesena",
+      "awayTeam": "Sampdoria",
+      "startTime": "2026-04-25T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Serie B",
+      "homeTeam": "Frosinone",
+      "awayTeam": "Carrarese",
+      "startTime": "2026-04-25T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Serie B",
+      "homeTeam": "Monza",
+      "awayTeam": "Modena",
+      "startTime": "2026-04-25T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Serie B",
+      "homeTeam": "Pescara",
+      "awayTeam": "Juve Stabia",
+      "startTime": "2026-04-25T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Serie B",
+      "homeTeam": "Reggiana",
+      "awayTeam": "Palermo",
+      "startTime": "2026-04-25T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Serie B",
+      "homeTeam": "Südtirol",
+      "awayTeam": "Mantova",
+      "startTime": "2026-04-25T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Serie B",
+      "homeTeam": "US Avellino 1912",
+      "awayTeam": "Bari",
+      "startTime": "2026-04-25T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Serie B",
+      "homeTeam": "Venezia",
+      "awayTeam": "Empoli",
+      "startTime": "2026-04-25T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-25",
+      "league": "Serie B",
+      "homeTeam": "Virtus Entella",
+      "awayTeam": "Padova",
+      "startTime": "2026-04-25T18:45:00.000Z"
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Serie A",
+      "homeTeam": "Bologna",
+      "awayTeam": "Roma",
+      "startTime": "2026-04-26T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Serie A",
+      "homeTeam": "Cagliari",
+      "awayTeam": "Atalanta",
+      "startTime": "2026-04-26T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Serie A",
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Sassuolo",
+      "startTime": "2026-04-26T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Serie A",
+      "homeTeam": "Genoa",
+      "awayTeam": "Como",
+      "startTime": "2026-04-26T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Serie A",
+      "homeTeam": "Hellas Verona",
+      "awayTeam": "Lecce",
+      "startTime": "2026-04-26T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Serie A",
+      "homeTeam": "Lazio",
+      "awayTeam": "Udinese",
+      "startTime": "2026-04-26T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Serie A",
+      "homeTeam": "Milan",
+      "awayTeam": "Juventus",
+      "startTime": "2026-04-26T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Serie A",
+      "homeTeam": "Napoli",
+      "awayTeam": "Cremonese",
+      "startTime": "2026-04-26T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Serie A",
+      "homeTeam": "Parma",
+      "awayTeam": "Pisa",
+      "startTime": "2026-04-26T13:00:00.000Z"
+    },
+    {
+      "date": "2026-04-26",
+      "league": "Serie A",
+      "homeTeam": "Torino",
+      "awayTeam": "Inter",
+      "startTime": "2026-04-26T13:00:00.000Z"
+    },
+    {
       "date": "2026-04-26",
       "league": "Ligue 1",
       "homeTeam": "Angers",
@@ -12348,6 +15211,76 @@
       "homeTeam": "Troyes",
       "awayTeam": "Stade Lavallois",
       "startTime": "2026-04-30T22:00:00.000Z"
+    },
+    {
+      "date": "2026-05-01",
+      "league": "Serie B",
+      "homeTeam": "Bari",
+      "awayTeam": "Virtus Entella",
+      "startTime": "2026-05-01T18:45:00.000Z"
+    },
+    {
+      "date": "2026-05-01",
+      "league": "Serie B",
+      "homeTeam": "Carrarese",
+      "awayTeam": "Cesena",
+      "startTime": "2026-05-01T18:45:00.000Z"
+    },
+    {
+      "date": "2026-05-01",
+      "league": "Serie B",
+      "homeTeam": "Empoli",
+      "awayTeam": "US Avellino 1912",
+      "startTime": "2026-05-01T18:45:00.000Z"
+    },
+    {
+      "date": "2026-05-01",
+      "league": "Serie B",
+      "homeTeam": "Juve Stabia",
+      "awayTeam": "Frosinone",
+      "startTime": "2026-05-01T18:45:00.000Z"
+    },
+    {
+      "date": "2026-05-01",
+      "league": "Serie B",
+      "homeTeam": "Mantova",
+      "awayTeam": "Monza",
+      "startTime": "2026-05-01T18:45:00.000Z"
+    },
+    {
+      "date": "2026-05-01",
+      "league": "Serie B",
+      "homeTeam": "Modena",
+      "awayTeam": "Reggiana",
+      "startTime": "2026-05-01T18:45:00.000Z"
+    },
+    {
+      "date": "2026-05-01",
+      "league": "Serie B",
+      "homeTeam": "Padova",
+      "awayTeam": "Pescara",
+      "startTime": "2026-05-01T18:45:00.000Z"
+    },
+    {
+      "date": "2026-05-01",
+      "league": "Serie B",
+      "homeTeam": "Palermo",
+      "awayTeam": "Catanzaro",
+      "startTime": "2026-05-01T18:45:00.000Z"
+    },
+    {
+      "date": "2026-05-01",
+      "league": "Serie B",
+      "homeTeam": "Sampdoria",
+      "awayTeam": "Südtirol",
+      "startTime": "2026-05-01T18:45:00.000Z"
+    },
+    {
+      "date": "2026-05-01",
+      "league": "Serie B",
+      "homeTeam": "Spezia",
+      "awayTeam": "Venezia",
+      "startTime": "2026-05-01T18:45:00.000Z"
     },
     {
       "date": "2026-05-01",
@@ -12726,6 +15659,76 @@
       "homeTeam": "VfB Stuttgart II U21",
       "awayTeam": "Rot-Weiss Essen",
       "startTime": "2026-05-02T12:00:00.000Z"
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Serie A",
+      "homeTeam": "Atalanta",
+      "awayTeam": "Genoa",
+      "startTime": "2026-05-03T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Serie A",
+      "homeTeam": "Bologna",
+      "awayTeam": "Cagliari",
+      "startTime": "2026-05-03T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Serie A",
+      "homeTeam": "Como",
+      "awayTeam": "Napoli",
+      "startTime": "2026-05-03T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Serie A",
+      "homeTeam": "Cremonese",
+      "awayTeam": "Lazio",
+      "startTime": "2026-05-03T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Serie A",
+      "homeTeam": "Inter",
+      "awayTeam": "Parma",
+      "startTime": "2026-05-03T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Serie A",
+      "homeTeam": "Juventus",
+      "awayTeam": "Hellas Verona",
+      "startTime": "2026-05-03T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Serie A",
+      "homeTeam": "Pisa",
+      "awayTeam": "Lecce",
+      "startTime": "2026-05-03T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Serie A",
+      "homeTeam": "Roma",
+      "awayTeam": "Fiorentina",
+      "startTime": "2026-05-03T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Serie A",
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Milan",
+      "startTime": "2026-05-03T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-03",
+      "league": "Serie A",
+      "homeTeam": "Udinese",
+      "awayTeam": "Torino",
+      "startTime": "2026-05-03T13:00:00.000Z"
     },
     {
       "date": "2026-05-03",
@@ -13121,6 +16124,76 @@
     },
     {
       "date": "2026-05-09",
+      "league": "Serie B",
+      "homeTeam": "Catanzaro",
+      "awayTeam": "Bari",
+      "startTime": "2026-05-09T18:45:00.000Z"
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Serie B",
+      "homeTeam": "Cesena",
+      "awayTeam": "Padova",
+      "startTime": "2026-05-09T18:45:00.000Z"
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Serie B",
+      "homeTeam": "Frosinone",
+      "awayTeam": "Mantova",
+      "startTime": "2026-05-09T18:45:00.000Z"
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Serie B",
+      "homeTeam": "Monza",
+      "awayTeam": "Empoli",
+      "startTime": "2026-05-09T18:45:00.000Z"
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Serie B",
+      "homeTeam": "Pescara",
+      "awayTeam": "Spezia",
+      "startTime": "2026-05-09T18:45:00.000Z"
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Serie B",
+      "homeTeam": "Reggiana",
+      "awayTeam": "Sampdoria",
+      "startTime": "2026-05-09T18:45:00.000Z"
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Serie B",
+      "homeTeam": "Südtirol",
+      "awayTeam": "Juve Stabia",
+      "startTime": "2026-05-09T18:45:00.000Z"
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Serie B",
+      "homeTeam": "US Avellino 1912",
+      "awayTeam": "Modena",
+      "startTime": "2026-05-09T18:45:00.000Z"
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Serie B",
+      "homeTeam": "Venezia",
+      "awayTeam": "Palermo",
+      "startTime": "2026-05-09T18:45:00.000Z"
+    },
+    {
+      "date": "2026-05-09",
+      "league": "Serie B",
+      "homeTeam": "Virtus Entella",
+      "awayTeam": "Carrarese",
+      "startTime": "2026-05-09T18:45:00.000Z"
+    },
+    {
+      "date": "2026-05-09",
       "league": "Ligue 2",
       "homeTeam": "Annecy FC",
       "awayTeam": "Rodez AF",
@@ -13174,6 +16247,76 @@
       "homeTeam": "Stade Lavallois",
       "awayTeam": "US Boulogne Côte-d'Opale",
       "startTime": "2026-05-09T15:00:00.000Z"
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Serie A",
+      "homeTeam": "Cagliari",
+      "awayTeam": "Udinese",
+      "startTime": "2026-05-10T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Serie A",
+      "homeTeam": "Cremonese",
+      "awayTeam": "Pisa",
+      "startTime": "2026-05-10T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Serie A",
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Genoa",
+      "startTime": "2026-05-10T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Serie A",
+      "homeTeam": "Hellas Verona",
+      "awayTeam": "Como",
+      "startTime": "2026-05-10T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Serie A",
+      "homeTeam": "Lazio",
+      "awayTeam": "Inter",
+      "startTime": "2026-05-10T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Serie A",
+      "homeTeam": "Lecce",
+      "awayTeam": "Juventus",
+      "startTime": "2026-05-10T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Serie A",
+      "homeTeam": "Milan",
+      "awayTeam": "Atalanta",
+      "startTime": "2026-05-10T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Serie A",
+      "homeTeam": "Napoli",
+      "awayTeam": "Bologna",
+      "startTime": "2026-05-10T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Serie A",
+      "homeTeam": "Parma",
+      "awayTeam": "Roma",
+      "startTime": "2026-05-10T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-10",
+      "league": "Serie A",
+      "homeTeam": "Torino",
+      "awayTeam": "Sassuolo",
+      "startTime": "2026-05-10T13:00:00.000Z"
     },
     {
       "date": "2026-05-10",
@@ -13499,6 +16642,76 @@
     },
     {
       "date": "2026-05-17",
+      "league": "Serie A",
+      "homeTeam": "Atalanta",
+      "awayTeam": "Bologna",
+      "startTime": "2026-05-17T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Serie A",
+      "homeTeam": "Cagliari",
+      "awayTeam": "Torino",
+      "startTime": "2026-05-17T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Serie A",
+      "homeTeam": "Como",
+      "awayTeam": "Parma",
+      "startTime": "2026-05-17T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Serie A",
+      "homeTeam": "Genoa",
+      "awayTeam": "Milan",
+      "startTime": "2026-05-17T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Serie A",
+      "homeTeam": "Inter",
+      "awayTeam": "Hellas Verona",
+      "startTime": "2026-05-17T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Serie A",
+      "homeTeam": "Juventus",
+      "awayTeam": "Fiorentina",
+      "startTime": "2026-05-17T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Serie A",
+      "homeTeam": "Pisa",
+      "awayTeam": "Napoli",
+      "startTime": "2026-05-17T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Serie A",
+      "homeTeam": "Roma",
+      "awayTeam": "Lazio",
+      "startTime": "2026-05-17T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Serie A",
+      "homeTeam": "Sassuolo",
+      "awayTeam": "Lecce",
+      "startTime": "2026-05-17T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-17",
+      "league": "Serie A",
+      "homeTeam": "Udinese",
+      "awayTeam": "Cremonese",
+      "startTime": "2026-05-17T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-17",
       "league": "VriendenLoterij Eredivisie",
       "homeTeam": "AZ Alkmaar",
       "awayTeam": "NAC Breda",
@@ -13622,6 +16835,76 @@
       "homeTeam": "SV 07 Elversberg",
       "awayTeam": "Preußen Münster",
       "startTime": "2026-05-17T13:30:00.000Z"
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Serie A",
+      "homeTeam": "Bologna",
+      "awayTeam": "Inter",
+      "startTime": "2026-05-24T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Serie A",
+      "homeTeam": "Cremonese",
+      "awayTeam": "Como",
+      "startTime": "2026-05-24T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Serie A",
+      "homeTeam": "Fiorentina",
+      "awayTeam": "Atalanta",
+      "startTime": "2026-05-24T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Serie A",
+      "homeTeam": "Hellas Verona",
+      "awayTeam": "Roma",
+      "startTime": "2026-05-24T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Serie A",
+      "homeTeam": "Lazio",
+      "awayTeam": "Pisa",
+      "startTime": "2026-05-24T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Serie A",
+      "homeTeam": "Lecce",
+      "awayTeam": "Genoa",
+      "startTime": "2026-05-24T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Serie A",
+      "homeTeam": "Milan",
+      "awayTeam": "Cagliari",
+      "startTime": "2026-05-24T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Serie A",
+      "homeTeam": "Napoli",
+      "awayTeam": "Udinese",
+      "startTime": "2026-05-24T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Serie A",
+      "homeTeam": "Parma",
+      "awayTeam": "Sassuolo",
+      "startTime": "2026-05-24T13:00:00.000Z"
+    },
+    {
+      "date": "2026-05-24",
+      "league": "Serie A",
+      "homeTeam": "Torino",
+      "awayTeam": "Juventus",
+      "startTime": "2026-05-24T13:00:00.000Z"
     }
   ]
 }
