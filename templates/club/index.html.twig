@@ -1,183 +1,64 @@
 {% extends 'base.html.twig' %}
 
 {% block title %}Carte des clubs{% endblock %}
-
 {% block body_id %}homepage{% endblock %}
 
 {% block body %}
 <section class="container text-center py-3">
   <div class="row justify-content-center">
     <div class="col-lg-8">
-
-      <h1 class="fw-bold mb-4 display-5 text-dark">
-        Groundhoptools
-      </h1>
-
+      <h1 class="fw-bold mb-4 display-5 text-dark">Groundhoptools</h1>
       <p class="fs-5 mb-4 text-secondary">
         <strong>Groundhoptools</strong> est un outil de <em>Groundhopping</em> conçu pour faciliter la recherche de matchs se trouvant autour de vous.
       </p>
-
       <p class="fs-5 mb-4 text-secondary">
-        Pour l’utiliser, il suffit de sélectionner deux dates dans le calendrier ci-dessous : la date de début et la date de fin de votre séjour.
+        Pour l'utiliser, il suffit de sélectionner deux dates dans le calendrier ci-dessous : la date de début et la date de fin de votre séjour.
         Si vous souhaitez voir les matchs sur une seule journée, sélectionnez simplement ce jour comme date de début <strong>et</strong> de fin.
       </p>
-
       <p class="fs-5 mb-4 text-secondary">
         Une fois la période choisie, cliquez sur le bouton <strong>« Voir les clubs à domicile »</strong>.
-        Tous les clubs jouant à domicile s’affichent alors. En cliquant sur un club, vous pouvez voir le nom de son stade
+        Tous les clubs jouant à domicile s'affichent alors. En cliquant sur un club, vous pouvez voir le nom de son stade
         ainsi que la liste de ses adversaires pendant la période sélectionnée.
       </p>
-
       <p class="fs-5 text-secondary">
-        Créer un compte vous permet d’enregistrer les clubs déjà visités afin de les masquer dans vos prochains résultats de recherche pour rendre votre expérience de Groundhopping encore plus fluide et personnalisée.
+        Créer un compte vous permet d'enregistrer les clubs déjà visités afin de les masquer dans vos prochains résultats de recherche.
       </p>
-
     </div>
   </div>
 </section>
 
 <div class="container mb-4 text-center">
-    <div class="d-flex justify-content-center gap-3 flex-wrap align-items-center mb-2">
-        <input type="text" id="daterange" class="form-control text-center" 
-               placeholder="Choisis une période" style="max-width: 250px;">
-        <button id="load-matches" class="btn btn-dark">Voir les clubs à domicile</button>
-    </div>
+  <div class="d-flex justify-content-center gap-3 flex-wrap align-items-center mb-2">
+    <input type="text" id="daterange" class="form-control text-center"
+           placeholder="Choisis une période" style="max-width: 250px;">
+    <button id="load-matches" class="btn btn-dark">Voir les clubs à domicile</button>
+  </div>
 
-   {% if app.user %}
-    <div class="form-check form-switch d-flex justify-content-center align-items-center mt-2">
-        <input class="form-check-input me-2" type="checkbox" id="hide-visited">
-        <label class="form-check-label" for="hide-visited">Masquer les clubs déjà visités</label>
-    </div>
-    {% endif %}
-
+  {% if app.user %}
+  <div class="form-check form-switch d-flex justify-content-center align-items-center mt-2">
+    <input class="form-check-input me-2" type="checkbox" id="hide-visited">
+    <label class="form-check-label" for="hide-visited">Masquer les clubs déjà visités</label>
+  </div>
+  {% endif %}
 </div>
 
-<div id="map" style="height: 800px; width: 80%; margin: 0 auto 50px auto;"></div>
+{# Pont Twig → JS via data-attributes #}
+<div id="map"
+     style="height: 800px; width: 80%; margin: 0 auto 50px auto;"
+     data-clubs="{{ clubs|json_encode() }}"
+     data-api-url="{{ path('api_matchs') }}"
+     data-logos-url="{{ asset('images/logos/') }}">
+</div>
 
-<!-- Leaflet CSS et JS -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-
-<!-- DateRangePicker dependencies -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
 {% endblock %}
 
 {% block javascripts %}
-<script>
-window.clubs = {{ clubs|json_encode()|raw }};
-
-document.addEventListener('DOMContentLoaded', () => {
-    if (document.body.id !== 'homepage') return;
-
-    const mapDiv = document.getElementById('map');
-    if (!mapDiv) return;
-
-    const map = L.map('map').setView([46.8, 2.3], 6);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
-
-    const clubs = window.clubs;
-    let markers = [];
-
-    function afficherClubs(liste, matchs = []) {
-        markers.forEach(m => map.removeLayer(m));
-        markers = [];
-
-        liste.forEach(club => {
-            const iconUrl = "{{ asset('images/logos/') }}" + club.logo;
-            const clubIcon = L.icon({
-                iconUrl: iconUrl,
-                iconSize: [40, 40],
-                iconAnchor: [20, 40],
-                popupAnchor: [0, -40]
-            });
-
-            const matchsClub = matchs.filter(m => m.homeTeam.toLowerCase() === club.name.toLowerCase());
-            let popupContent = `<b>${club.name}</b><br>${club.stadium ?? ''}`;
-            if (matchsClub.length > 0) {
-                popupContent += `<br><br><b>Matchs à domicile :</b><br>`;
-                matchsClub.forEach(m => {
-                    const dateObj = new Date(m.startTime);
-                    const heure = dateObj.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
-                    const jour = dateObj.toLocaleDateString('fr-FR');
-                    popupContent += `${jour} - ${heure} 🆚 ${m.awayTeam}<br>`;
-                });
-            }
-
-            const marker = L.marker([club.latitude, club.longitude], { icon: clubIcon })
-                .addTo(map)
-                .bindPopup(popupContent);
-
-            markers.push(marker);
-        });
-    }
-
-    // Affiche tous les clubs au chargement
-    afficherClubs(clubs);
-
-    // DateRangePicker
-    let startDate = moment();
-    let endDate = moment();
-
-    $('#daterange').daterangepicker({
-        startDate: startDate,
-        endDate: endDate,
-        autoUpdateInput: true,
-        locale: {
-            format: 'DD/MM/YYYY',
-            applyLabel: 'Appliquer',
-            cancelLabel: 'Annuler',
-            fromLabel: 'De',
-            toLabel: 'À',
-            customRangeLabel: 'Personnalisé',
-            daysOfWeek: ['Di', 'Lu', 'Ma', 'Me', 'Je', 'Ve', 'Sa'],
-            monthNames: [
-                'Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin',
-                'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'
-            ],
-            firstDay: 1
-        }
-    }, function(start, end) {
-        startDate = start;
-        endDate = end;
-    });
-
-    const hideVisitedCheckbox = document.getElementById('hide-visited');
-
-    async function chargerMatchs(startDate, endDate, hideVisited = 0) {
-        try {
-            const response = await fetch(`{{ path('api_matchs') }}?start=${startDate.format('YYYY-MM-DD')}&end=${endDate.format('YYYY-MM-DD')}&hideVisited=${hideVisited}`);
-            const data = await response.json();
-
-            if (!data.events || data.events.length === 0) {
-                afficherClubs([]);
-                return;
-            }
-
-            const clubsDomicile = data.events.map(e => e.homeTeam.toLowerCase());
-            const clubsAffiches = clubs.filter(c => clubsDomicile.includes(c.name.toLowerCase()));
-            afficherClubs(clubsAffiches, data.events);
-        } catch (err) {
-            console.error("Erreur chargement matchs:", err);
-            alert("Impossible de charger les données.");
-        }
-    }
-
-    // Bouton manuel
-    document.getElementById('load-matches').addEventListener('click', () => {
-        const hideVisited = hideVisitedCheckbox ? (hideVisitedCheckbox.checked ? 1 : 0) : 0;
-        chargerMatchs(startDate, endDate, hideVisited);
-    });
-
-    // Filtrage automatique avec checkbox (si elle existe)
-    if (hideVisitedCheckbox) {
-        hideVisitedCheckbox.addEventListener('change', () => {
-            const hideVisited = hideVisitedCheckbox.checked ? 1 : 0;
-            chargerMatchs(startDate, endDate, hideVisited);
-        });
-    }
-});
-</script>
+{{ parent() }}
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<script src="{{ asset('js/map.js') }}"></script>
 {% endblock %}
