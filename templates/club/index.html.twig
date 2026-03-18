@@ -21,7 +21,7 @@
         ainsi que la liste de ses adversaires pendant la période sélectionnée.
       </p>
       <p class="fs-5 text-secondary">
-        Créer un compte vous permet d'enregistrer les clubs déjà visités afin de les masquer dans vos prochains résultats de recherche.
+        Créer un compte vous permet d'enregistrer les clubs déjà visités afin de les masquer dans vos prochains résultats de recherche pour rendre votre expérience de Groundhopping encore plus fluide et personnalisée.
       </p>
     </div>
   </div>
@@ -50,6 +50,15 @@
      data-logos-url="{{ asset('images/logos/') }}">
 </div>
 
+<div id="user-schedule" class="container text-center mb-4">
+  <h4>Mon programme de Groundhopping</h4>
+  <ul id="schedule-list" class="list-group mb-3"></ul>
+  <div id="schedule-total" class="fs-5 text-secondary mb-2"></div>
+  <div class="d-flex justify-content-center gap-2 mb-2">
+    <button id="reset-schedule" class="btn btn-warning">Réinitialiser le programme</button>
+  </div>
+</div>
+
 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
 {% endblock %}
@@ -57,6 +66,7 @@
 {% block javascripts %}
 {{ parent() }}
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://unpkg.com/@mapbox/polyline"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
