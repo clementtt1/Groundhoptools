@@ -147,7 +147,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Programme de groundhopping ---
     window.ajouterMatchProgramme = async function(lat, lng, clubName, homeTeam, awayTeam, startTime, logo) {
         if (userSchedule.some(m => m.startTime === startTime && m.clubName === clubName)) {
-            alert('Déjà ajouté.'); return;
+            alert("Ce match est déjà ajouté. \n Si rien ne s'affiche, autorisez l'utilisation de la position pour ce site."); return;
         }
         userSchedule.push({ lat, lng, clubName, homeTeam, awayTeam, startTime, logo });
         userSchedule.sort((a, b) => new Date(a.startTime) - new Date(b.startTime));
