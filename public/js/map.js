@@ -151,6 +151,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         userSchedule.push({ lat, lng, clubName, homeTeam, awayTeam, startTime, logo });
         userSchedule.sort((a, b) => new Date(a.startTime) - new Date(b.startTime));
+
+        if (!userPos) {
+            alert('En attente de votre position GPS. Veuillez autoriser la géolocalisation et réessayer.');
+            return;
+        }
+
         await afficherProgramme();
     };
 
